@@ -1,0 +1,39 @@
+{
+  "name": "putinisland_frontend",
+  "version": "1.0.0",
+  "description": "PutinIsland data visualization dashboard.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently -n api,web -c cyan,green \"npm:dev:api\" \"npm:dev:web\"",
+    "dev:api": "NODE_OPTIONS=--no-warnings=ExperimentalWarning tsx server/index.ts",
+    "dev:web": "vite --host 127.0.0.1",
+    "export:public": "NODE_OPTIONS=--no-warnings=ExperimentalWarning tsx scripts/export-public-data.ts",
+    "build": "tsc --noEmit && vite build",
+    "build:public": "npm run export:public && tsc --noEmit && VITE_PUBLIC_MODE=true vite build",
+    "build:public:static": "tsc --noEmit && VITE_PUBLIC_MODE=true vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@tabler/core": "^1.4.0",
+    "@tabler/icons-react": "^3.44.0",
+    "express": "^5.2.1",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "recharts": "^3.8.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.6.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "concurrently": "^9.2.1",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.11"
+  }
+}

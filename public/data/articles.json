@@ -1,0 +1,42 @@
+[
+  {
+    "articleId": "article-e1404c7b1c6f010957cf5bec",
+    "title": "",
+    "titleZh": "中國科技與安全控管分析",
+    "titleEn": "How China Protects National Security Facilities",
+    "canonicalUrl": "https://chinatechnosphere.substack.com/p/how-china-protects-national-security",
+    "publishedAt": "2026-04-29T05:04:44+00:00",
+    "capturedAt": "2026-05-09T10:46:00+00:00",
+    "status": "analyzed",
+    "sourceCode": "china_technosphere",
+    "sourceName": "China Technosphere",
+    "hasRawContent": false,
+    "summary": "The captured article discusses Chinese technology, security controls, or state-linked systems within the fixed East Asia scope.",
+    "summaryZh": "本文討論中國科技、安全控管或國家相關系統，符合東亞固定主題範圍。",
+    "summaryEn": "The article discusses Chinese technology, security controls, or state-linked systems within the fixed East Asia scope.",
+    "description": null,
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "TECHNOLOGY",
+        "zh": "科技",
+        "en": "Technology",
+        "confidence": 0.84
+      },
+      {
+        "code": "SECURITY_DEFENSE",
+        "zh": "安全防務",
+        "en": "Security & Defense",
+        "confidence": 0.72
+      }
+    ],
+    "keywordTerms": [
+      "China",
+      "security technology"
+    ]
+  }
+]

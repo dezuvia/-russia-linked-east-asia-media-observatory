@@ -1,0 +1,306 @@
+{
+  "checkedDate": "2026-05-07",
+  "path": "sources/media_candidates.md",
+  "rows": [
+    {
+      "targetRegion": "俄國/歐亞",
+      "name": "EADaily",
+      "englishName": "Eurasia Daily",
+      "chineseName": "歐亞每日",
+      "homepageUrl": "https://eadaily.com/",
+      "attributionSource": "ANCOM（羅馬尼亞通訊監管機關），依 EU Council Regulation 833/2014 Annex XV",
+      "evidenceSummary": "ANCOM 將 EADaily/Eurasia Daily列為 EU 禁止傳播內容的俄國相關媒體名單之一。Evidence: https://www.ancom.ro/en/about-us/media-en/press-releases/the-broadcasting-of-content-produced-by-certain-media-channels-is-prohibited-in-the-european-union/",
+      "urlCheck": "HTTP 200 -> https://eadaily.com/ru/"
+    },
+    {
+      "targetRegion": "俄國/歐美",
+      "name": "Fondsk / Фонд стратегической культуры",
+      "englishName": "Strategic Culture Foundation",
+      "chineseName": "戰略文化基金會",
+      "homepageUrl": "https://fondsk.ru/",
+      "attributionSource": "ANCOM；U.S. Treasury/OFAC",
+      "evidenceSummary": "ANCOM 依 EU Annex XV 列名 Fondsk；OFAC 指 Strategic Culture Foundation 為 SVR-directed/controlled online journal。Evidence: https://www.ancom.ro/en/about-us/media-en/press-releases/the-broadcasting-of-content-produced-by-certain-media-channels-is-prohibited-in-the-european-union/ ; https://home.treasury.gov/news/press-releases/jy0126",
+      "urlCheck": "HTTP 200"
+    },
+    {
+      "targetRegion": "俄國",
+      "name": "Izvestia / Известия",
+      "englishName": "Izvestia / The News",
+      "chineseName": "消息報",
+      "homepageUrl": "https://iz.ru/",
+      "attributionSource": "ANCOM，依 EU Council Regulation 833/2014 Annex XV",
+      "evidenceSummary": "ANCOM 將 Izvestija 列為 EU 禁止傳播內容的俄國相關媒體名單之一。Evidence: https://www.ancom.ro/en/about-us/media-en/press-releases/the-broadcasting-of-content-produced-by-certain-media-channels-is-prohibited-in-the-european-union/",
+      "urlCheck": "HTTP 403（站方拒絕自動化請求；URL 解析有效）"
+    },
+    {
+      "targetRegion": "俄國/歐美",
+      "name": "Katehon",
+      "englishName": "Katehon",
+      "chineseName": "Katehon（卡捷洪）",
+      "homepageUrl": "https://katehon.com/ru",
+      "attributionSource": "ANCOM，依 EU Council Regulation 833/2014 Annex XV",
+      "evidenceSummary": "ANCOM 將 Katehon 列為 EU 禁止傳播內容的俄國相關媒體名單之一。Evidence: https://www.ancom.ro/en/about-us/media-en/press-releases/the-broadcasting-of-content-produced-by-certain-media-channels-is-prohibited-in-the-european-union/",
+      "urlCheck": "HTTP 307（反機器/重新導向；URL 解析有效）"
+    },
+    {
+      "targetRegion": "俄國",
+      "name": "Lenta.ru",
+      "englishName": "Lenta.ru",
+      "chineseName": "Lenta.ru",
+      "homepageUrl": "https://lenta.ru/",
+      "attributionSource": "ANCOM；Moldova SIS",
+      "evidenceSummary": "ANCOM 依 EU Annex XV 列名 Lenta；Moldova SIS 將 lenta.ru 列入會改變資訊空間、應封鎖的線上來源清單。Evidence: https://www.ancom.ro/en/about-us/media-en/press-releases/the-broadcasting-of-content-produced-by-certain-media-channels-is-prohibited-in-the-european-union/ ; https://sis.md/ro/content/31-de-site-uri-care-altereaz%C4%83-spa%C8%9Biul-informa%C8%9Bional-urmeaz%C4%83-fi-blocate",
+      "urlCheck": "HTTP 200"
+    },
+    {
+      "targetRegion": "俄國/國際",
+      "name": "New Eastern Outlook",
+      "englishName": "New Eastern Outlook",
+      "chineseName": "新東方展望",
+      "homepageUrl": "https://journal-neo.su/",
+      "attributionSource": "U.S. Treasury/OFAC；ANCOM",
+      "evidenceSummary": "OFAC 指 New Eastern Outlook 為 SVR-directed disinformation outlet；ANCOM 亦依 EU Annex XV 列名。Evidence: https://home.treasury.gov/news/press-releases/jy0628 ; https://www.ancom.ro/en/about-us/media-en/press-releases/the-broadcasting-of-content-produced-by-certain-media-channels-is-prohibited-in-the-european-union/",
+      "urlCheck": "HTTP 200"
+    },
+    {
+      "targetRegion": "克里米亞/俄國",
+      "name": "NewsFront",
+      "englishName": "NewsFront",
+      "chineseName": "新聞前線",
+      "homepageUrl": "https://news-front.su/",
+      "attributionSource": "U.S. Treasury/OFAC；ANCOM",
+      "evidenceSummary": "OFAC 指 NewsFront 為 Crimea-based disinformation and propaganda outlet，並稱其為 FSB behalf/controlled；ANCOM 亦依 EU Annex XV 列名。Evidence: https://home.treasury.gov/news/press-releases/jy0126 ; https://home.treasury.gov/news/press-releases/jy0628 ; https://www.ancom.ro/en/about-us/media-en/press-releases/the-broadcasting-of-content-produced-by-certain-media-channels-is-prohibited-in-the-european-union/",
+      "urlCheck": "HTTP 200"
+    },
+    {
+      "targetRegion": "俄國/國際",
+      "name": "Oriental Review",
+      "englishName": "Oriental Review",
+      "chineseName": "東方評論",
+      "homepageUrl": "https://orientalreview.su/",
+      "attributionSource": "U.S. Treasury/OFAC；ANCOM",
+      "evidenceSummary": "OFAC 指 Oriental Review 為 SVR-directed disinformation outlet；ANCOM 亦依 EU Annex XV 列名。Evidence: https://home.treasury.gov/news/press-releases/jy0628 ; https://www.ancom.ro/en/about-us/media-en/press-releases/the-broadcasting-of-content-produced-by-certain-media-channels-is-prohibited-in-the-european-union/",
+      "urlCheck": "HTTP 200"
+    },
+    {
+      "targetRegion": "俄國",
+      "name": "RIA Novosti / РИА Новости",
+      "englishName": "RIA Novosti / Russian News Agency Novosti",
+      "chineseName": "俄羅斯新聞社／俄新社",
+      "homepageUrl": "https://ria.ru/",
+      "attributionSource": "ANCOM，依 EU Council Regulation 833/2014 Annex XV",
+      "evidenceSummary": "ANCOM 將 RIA Novosti 列為 EU 禁止傳播內容的俄國相關媒體名單之一。Evidence: https://www.ancom.ro/en/about-us/media-en/press-releases/the-broadcasting-of-content-produced-by-certain-media-channels-is-prohibited-in-the-european-union/",
+      "urlCheck": "HTTP 200"
+    },
+    {
+      "targetRegion": "俄國/波羅的海",
+      "name": "RuBaltic",
+      "englishName": "RuBaltic",
+      "chineseName": "RuBaltic（俄語波羅的海）",
+      "homepageUrl": "https://www.rubaltic.ru/",
+      "attributionSource": "ANCOM，依 EU Council Regulation 833/2014 Annex XV",
+      "evidenceSummary": "ANCOM 將 RuBaltic 列為 EU 禁止傳播內容的俄國相關媒體名單之一。Evidence: https://www.ancom.ro/en/about-us/media-en/press-releases/the-broadcasting-of-content-produced-by-certain-media-channels-is-prohibited-in-the-european-union/",
+      "urlCheck": "HTTP 200"
+    },
+    {
+      "targetRegion": "俄國",
+      "name": "Rossiyskaya Gazeta / Российская газета",
+      "englishName": "Russian Gazette",
+      "chineseName": "俄羅斯報",
+      "homepageUrl": "https://rg.ru/",
+      "attributionSource": "ANCOM；Moldova SIS",
+      "evidenceSummary": "ANCOM 依 EU Annex XV 列名 Rossiiskaja Gazeta；Moldova SIS 也將 rg.ru 列入封鎖清單。Evidence: https://www.ancom.ro/en/about-us/media-en/press-releases/the-broadcasting-of-content-produced-by-certain-media-channels-is-prohibited-in-the-european-union/ ; https://sis.md/ro/content/31-de-site-uri-care-altereaz%C4%83-spa%C8%9Biul-informa%C8%9Bional-urmeaz%C4%83-fi-blocate",
+      "urlCheck": "HTTP 401（站方拒絕自動化請求；URL 解析有效）"
+    },
+    {
+      "targetRegion": "俄國/國際",
+      "name": "SouthFront",
+      "englishName": "SouthFront",
+      "chineseName": "南方陣線",
+      "homepageUrl": "https://southfront.press/",
+      "attributionSource": "U.S. Treasury/OFAC；ANCOM",
+      "evidenceSummary": "OFAC 指 SouthFront 是 receiving taskings from the FSB 的 online disinformation site；ANCOM 亦依 EU Annex XV 列名。Evidence: https://home.treasury.gov/news/press-releases/jy0126 ; https://home.treasury.gov/news/press-releases/jy0628 ; https://www.ancom.ro/en/about-us/media-en/press-releases/the-broadcasting-of-content-produced-by-certain-media-channels-is-prohibited-in-the-european-union/",
+      "urlCheck": "HTTP 200"
+    },
+    {
+      "targetRegion": "俄國/多區域（含中亞語言版）",
+      "name": "Sputnik / Спутник",
+      "englishName": "Sputnik",
+      "chineseName": "衛星通訊社",
+      "homepageUrl": "https://sputniknews.ru/",
+      "attributionSource": "ANCOM；Moldova SIS；Latvia VDD",
+      "evidenceSummary": "ANCOM 依 EU Annex XV 列名 Sputnik and subsidiaries；Moldova SIS 將多個 Sputnik 網域列入發布影響國家安全之虛假資訊來源；Latvia VDD 稱 Sputnik/Baltnews 為俄國國有 Rossiya Segodnya 的資訊資源。Evidence: https://www.ancom.ro/en/about-us/media-en/press-releases/the-broadcasting-of-content-produced-by-certain-media-channels-is-prohibited-in-the-european-union/ ; https://sis.md/ro/content/5-site-uri-care-public%C4%83-informa%C5%A3ii-false-%C3%AEn-domeniul-ce-afecteaz%C4%83-securitatea-na%C8%9Bional%C4%83 ; https://vdd.gov.lv/en/news/press-releases/vdd-detains-latvian-citizen-for-cooperation-with-kremlin-propaganda-resource-subjected-to-sanctions",
+      "urlCheck": "HTTP 200；KZ/KG/TJ/UZ 等地區版未另列"
+    },
+    {
+      "targetRegion": "俄國",
+      "name": "InfoRos",
+      "englishName": "InfoRos News Agency",
+      "chineseName": "InfoRos 資訊社",
+      "homepageUrl": "https://inforos.com/",
+      "attributionSource": "U.S. Treasury/OFAC",
+      "evidenceSummary": "OFAC 指 InfoRos 主要由 GRU 72nd Main Intelligence Information Center 運作，並用網站網路散布 GRU promoted disinformation。Evidence: https://home.treasury.gov/news/press-releases/jy0126 ; https://home.treasury.gov/news/press-releases/jy0628",
+      "urlCheck": "HTTP 200"
+    },
+    {
+      "targetRegion": "俄國/歐亞",
+      "name": "Rhythm of Eurasia",
+      "englishName": "Rhythm of Eurasia",
+      "chineseName": "歐亞節奏",
+      "homepageUrl": "https://www.ritmeurasia.ru/",
+      "attributionSource": "U.S. Treasury/OFAC",
+      "evidenceSummary": "OFAC 指 Rhythm of Eurasia 為 Strategic Culture Foundation affiliate，並因代表/支援 SCF 被指定。Evidence: https://home.treasury.gov/news/press-releases/jy0628",
+      "urlCheck": "HTTP 200"
+    },
+    {
+      "targetRegion": "俄國/國際",
+      "name": "Journal Kamerton",
+      "englishName": "Journal Kamerton",
+      "chineseName": "Kamerton 雜誌",
+      "homepageUrl": "https://webkamerton.ru/",
+      "attributionSource": "U.S. Treasury/OFAC",
+      "evidenceSummary": "OFAC 指 SVR 與 SCF 推動 Journal Kamerton，並稱其刊載貶低烏克蘭的文章。Evidence: https://home.treasury.gov/news/press-releases/jy0628",
+      "urlCheck": "HTTP 200"
+    },
+    {
+      "targetRegion": "俄國/國際",
+      "name": "United World International",
+      "englishName": "United World International",
+      "chineseName": "聯合世界國際",
+      "homepageUrl": "https://uwidata.com/",
+      "attributionSource": "U.S. Treasury/OFAC",
+      "evidenceSummary": "OFAC 指 UWI 由 Prigozhin 所屬 Project Lakhta 建立，並因代表/受其控制被指定。Evidence: https://home.treasury.gov/news/press-releases/jy0628",
+      "urlCheck": "HTTP 200"
+    },
+    {
+      "targetRegion": "俄國/歐美",
+      "name": "Geopolitica",
+      "englishName": "Geopolitica",
+      "chineseName": "地緣政治",
+      "homepageUrl": "https://www.geopolitika.ru/en",
+      "attributionSource": "U.S. Treasury/OFAC",
+      "evidenceSummary": "OFAC 指 Geopolitica 由 Alexander Dugin 控制，作為俄國極端民族主義者向西方及其他受眾散布 disinformation and propaganda 的平台。Evidence: https://home.treasury.gov/news/press-releases/jy0628",
+      "urlCheck": "HTTP 403（站方拒絕自動化請求；URL 解析有效）"
+    },
+    {
+      "targetRegion": "俄國",
+      "name": "Komsomolskaya Pravda / Комсомольская правда",
+      "englishName": "Komsomolskaya Pravda",
+      "chineseName": "共青團真理報",
+      "homepageUrl": "https://www.kp.ru/",
+      "attributionSource": "Moldova SIS",
+      "evidenceSummary": "Moldova SIS 將 kp.md 與 kp.ru 列入會改變資訊空間、應封鎖的線上來源清單；本列依去重規則只保留主站 kp.ru。Evidence: https://sis.md/ro/content/31-de-site-uri-care-altereaz%C4%83-spa%C8%9Biul-informa%C8%9Bional-urmeaz%C4%83-fi-blocate",
+      "urlCheck": "HTTP 200；kp.md 地區版未另列"
+    },
+    {
+      "targetRegion": "捷克/歐洲",
+      "name": "Voice of Europe",
+      "englishName": "Voice of Europe",
+      "chineseName": "歐洲之聲",
+      "homepageUrl": "https://www.voiceofeurope.eu/",
+      "attributionSource": "Czech MFA；ANCOM/EU Annex XV",
+      "evidenceSummary": "Czech MFA 稱 Viktor Medvedchuk 使用 Voice of Europe media platform 執行 Russian influence operation；ANCOM 亦依 EU Annex XV 列名。Evidence: https://mzv.gov.cz/jnp/en/issues_and_press/press_releases/eu_puts_voice_of_europe_and_two_other.html ; https://www.ancom.ro/en/about-us/media-en/press-releases/the-broadcasting-of-content-produced-by-certain-media-channels-is-prohibited-in-the-european-union/",
+      "urlCheck": "HTTP 200"
+    },
+    {
+      "targetRegion": "西歐/多語網路",
+      "name": "News-Pravda / Portal Kombat network",
+      "englishName": "News-Pravda / Portal Kombat",
+      "chineseName": "News-Pravda／Portal Kombat 親俄宣傳網路",
+      "homepageUrl": "https://news-pravda.com/",
+      "attributionSource": "France SGDSN/VIGINUM",
+      "evidenceSummary": "VIGINUM 將 Portal Kombat 描述為結構化、協調的親俄宣傳網路，至少 193 個入口站；本列只保留主站，pravda-fr/de/pl/es/en 等語言版未另列。Evidence: https://www.sgdsn.gouv.fr/publications/portal-kombat-un-reseau-structure-et-coordonne-de-propagande-prorusse",
+      "urlCheck": "HTTP 200"
+    },
+    {
+      "targetRegion": "波羅的海/俄國",
+      "name": "Baltnews",
+      "englishName": "Baltnews",
+      "chineseName": "Baltnews／波羅的新聞",
+      "homepageUrl": "https://baltnews.com/",
+      "attributionSource": "Latvia VDD",
+      "evidenceSummary": "Latvia VDD 稱 Baltnews/Sputnik 為俄國國有 Rossiya Segodnya 的資訊資源，受 Kremlin control 並 disseminates narratives in line with Kremlin interests。Evidence: https://vdd.gov.lv/en/news/press-releases/vdd-detains-latvian-citizen-for-cooperation-with-kremlin-propaganda-resource-subjected-to-sanctions",
+      "urlCheck": "HTTP 200"
+    },
+    {
+      "targetRegion": "捷克",
+      "name": "Aeronet / AE News",
+      "englishName": "Aeronet / AE News",
+      "chineseName": "Aeronet／AE 新聞",
+      "homepageUrl": "https://aeronet.news/",
+      "attributionSource": "Czech Ministry of Interior, Centre Against Hybrid Threats (CTHH)",
+      "evidenceSummary": "Czech MoI/CTHH 在監測俄國侵烏後的捷克 quasi-media/pro-Kremlin scene 時，以 Aeronet 文章作為散布相關敘事的例子。Evidence: https://mv.gov.cz/volby/clanek/jak-kvazi-medialni-scena-reflektovala-invazi-vojsk-ruske-federace-na-ukrajinu-a-sirila-propagandu-kremlu-v-monitorovanem-obdobi-od-24-unora-do-23-dubna.aspx",
+      "urlCheck": "HTTP 307（站方反機器/重新導向；URL 解析有效）"
+    },
+    {
+      "targetRegion": "捷克",
+      "name": "Nová republika",
+      "englishName": "New Republic",
+      "chineseName": "新共和國",
+      "homepageUrl": "https://www.novarepublika.cz/",
+      "attributionSource": "Czech Ministry of Interior, CTHH",
+      "evidenceSummary": "Czech MoI/CTHH 指 Nová republika 在監測期間出現大量使用/轉載 Kremlin rhetoric 的文字內容。Evidence: https://mv.gov.cz/volby/clanek/jak-kvazi-medialni-scena-reflektovala-invazi-vojsk-ruske-federace-na-ukrajinu-a-sirila-propagandu-kremlu-v-monitorovanem-obdobi-od-24-unora-do-23-dubna.aspx",
+      "urlCheck": "HTTP 200"
+    },
+    {
+      "targetRegion": "捷克",
+      "name": "AC24",
+      "englishName": "AC24",
+      "chineseName": "AC24",
+      "homepageUrl": "https://www.ac24.cz/",
+      "attributionSource": "Czech Ministry of Interior, CTHH",
+      "evidenceSummary": "Czech MoI/CTHH 指 AC24 在監測期間出現使用/轉載 Kremlin rhetoric 的文字內容，並列入捷克 quasi-media/pro-Kremlin scene 觀察。Evidence: https://mv.gov.cz/volby/clanek/jak-kvazi-medialni-scena-reflektovala-invazi-vojsk-ruske-federace-na-ukrajinu-a-sirila-propagandu-kremlu-v-monitorovanem-obdobi-od-24-unora-do-23-dubna.aspx",
+      "urlCheck": "HTTP 200"
+    },
+    {
+      "targetRegion": "斯洛伐克",
+      "name": "Hlavné správy",
+      "englishName": "Main News",
+      "chineseName": "主要新聞",
+      "homepageUrl": "https://www.hlavnespravy.sk/",
+      "attributionSource": "iSANS；Slovak NBÚ/Defense Minister references in iSANS report",
+      "evidenceSummary": "iSANS 稱 Hlavné správy 是被 NBÚ 封鎖的 local online distributors of pro-Russian content 之一；並記載 Slovak Defense Minister 指其員工散布支持侵略國的宣傳，且涉俄使館付款。Evidence: https://isans.org/publications/how-they-shut-down-pro-russian-media-rubbish-in-slovakia.html",
+      "urlCheck": "HTTP 200"
+    },
+    {
+      "targetRegion": "斯洛伐克",
+      "name": "Hlavný denník",
+      "englishName": "Main Daily",
+      "chineseName": "主要日報",
+      "homepageUrl": "https://www.hlavnydennik.sk/",
+      "attributionSource": "iSANS",
+      "evidenceSummary": "iSANS 稱 Hlavný denník 是 NBÚ 封鎖的四個主要 local online distributors of pro-Russian content 之一，並稱這些平台是 pro-Russian propaganda mouthpieces。Evidence: https://isans.org/publications/how-they-shut-down-pro-russian-media-rubbish-in-slovakia.html",
+      "urlCheck": "HTTP 200"
+    },
+    {
+      "targetRegion": "斯洛伐克",
+      "name": "InfoVojna",
+      "englishName": "InfoWar",
+      "chineseName": "資訊戰",
+      "homepageUrl": "https://www.infovojna.com/",
+      "attributionSource": "iSANS",
+      "evidenceSummary": "iSANS 稱 InfoVojna 是 NBÚ 封鎖的四個主要 local online distributors of pro-Russian content 之一，並稱這些平台是 pro-Russian propaganda mouthpieces。Evidence: https://isans.org/publications/how-they-shut-down-pro-russian-media-rubbish-in-slovakia.html",
+      "urlCheck": "HTTP 200"
+    },
+    {
+      "targetRegion": "斯洛伐克",
+      "name": "Armádny magazín",
+      "englishName": "Army Magazine",
+      "chineseName": "軍事雜誌",
+      "homepageUrl": "https://www.armadnymagazin.sk/",
+      "attributionSource": "iSANS",
+      "evidenceSummary": "iSANS 稱 Armádny magazín 是 NBÚ 封鎖的四個主要 local online distributors of pro-Russian content 之一，並稱這些平台是 pro-Russian propaganda mouthpieces。Evidence: https://isans.org/publications/how-they-shut-down-pro-russian-media-rubbish-in-slovakia.html",
+      "urlCheck": "HTTP 200"
+    },
+    {
+      "targetRegion": "波蘭",
+      "name": "Niezależny Dziennik Polityczny",
+      "englishName": "Independent Political Journal",
+      "chineseName": "獨立政治日報",
+      "homepageUrl": "https://dziennik-polityczny.com/",
+      "attributionSource": "Ukrinform Fact Check（烏克蘭國家通訊社查核欄）",
+      "evidenceSummary": "Ukrinform 指 Niezależny Dziennik Polityczny 是 fake Polish-language website，至少自 2020 年散布 Russian propaganda。Evidence: https://www.ukrinform.net/rubric-factcheck/3906252-polish-fake-with-russian-roots-ukraine-creating-dirty-bomb-under-guise-of-building-nuclear-plant-in-cherkasy-region.html",
+      "urlCheck": "HTTP 200"
+    }
+  ]
+}

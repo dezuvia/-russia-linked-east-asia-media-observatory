@@ -1,0 +1,463 @@
+{
+  "stableLabels": [
+    {
+      "code": "UNLABELED",
+      "zh": "未標記",
+      "en": "Unlabeled"
+    },
+    {
+      "code": "SECURITY_DEFENSE",
+      "zh": "安全防務",
+      "en": "Security & Defense"
+    },
+    {
+      "code": "DIPLOMACY",
+      "zh": "外交",
+      "en": "Diplomacy"
+    },
+    {
+      "code": "ECONOMY_TRADE",
+      "zh": "經濟貿易",
+      "en": "Economy & Trade"
+    },
+    {
+      "code": "TECHNOLOGY",
+      "zh": "科技",
+      "en": "Technology"
+    },
+    {
+      "code": "ENERGY_RESOURCES",
+      "zh": "能源資源",
+      "en": "Energy & Resources"
+    },
+    {
+      "code": "DOMESTIC_POLITICS",
+      "zh": "內政",
+      "en": "Domestic Politics"
+    },
+    {
+      "code": "LAW_GOVERNANCE",
+      "zh": "法治治理",
+      "en": "Law & Governance"
+    },
+    {
+      "code": "PUBLIC_HEALTH",
+      "zh": "公共衛生",
+      "en": "Public Health"
+    },
+    {
+      "code": "SOCIETY_CULTURE",
+      "zh": "社會文化",
+      "en": "Society & Culture"
+    },
+    {
+      "code": "ENVIRONMENT_DISASTER",
+      "zh": "環境災害",
+      "en": "Environment & Disaster"
+    }
+  ],
+  "countryLabels": [
+    {
+      "code": "UNLABELED",
+      "zh": "未標記",
+      "en": "Unlabeled"
+    },
+    {
+      "code": "TAIWAN",
+      "zh": "台灣",
+      "en": "Taiwan"
+    },
+    {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    {
+      "code": "JAPAN",
+      "zh": "日本",
+      "en": "Japan"
+    },
+    {
+      "code": "SOUTH_KOREA",
+      "zh": "南韓",
+      "en": "South Korea"
+    },
+    {
+      "code": "TAIWAN_CHINA",
+      "zh": "中台",
+      "en": "Taiwan-China"
+    },
+    {
+      "code": "CHINA_JAPAN",
+      "zh": "中日",
+      "en": "China-Japan"
+    },
+    {
+      "code": "CHINA_SOUTH_KOREA",
+      "zh": "中韓",
+      "en": "China-South Korea"
+    },
+    {
+      "code": "TAIWAN_JAPAN",
+      "zh": "台日",
+      "en": "Taiwan-Japan"
+    },
+    {
+      "code": "TAIWAN_SOUTH_KOREA",
+      "zh": "台韓",
+      "en": "Taiwan-South Korea"
+    },
+    {
+      "code": "JAPAN_SOUTH_KOREA",
+      "zh": "日韓",
+      "en": "Japan-South Korea"
+    },
+    {
+      "code": "REGIONAL",
+      "zh": "區域",
+      "en": "Regional"
+    }
+  ],
+  "sources": [
+    {
+      "sourceCode": "ac24",
+      "displayName": "AC24",
+      "country": "CZ",
+      "language": "cs",
+      "homepageUrl": "https://www.ac24.cz/",
+      "feedUrl": "https://www.ac24.cz/feed/",
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "aeronet",
+      "displayName": "Aeronet / AE News",
+      "country": "CZ",
+      "language": "cs",
+      "homepageUrl": "https://aeronet.news/",
+      "feedUrl": "https://aeronet.news/feed/",
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "armadny_magazin",
+      "displayName": "Armádny magazín",
+      "country": "SK",
+      "language": "sk",
+      "homepageUrl": "https://www.armadnymagazin.sk/",
+      "feedUrl": null,
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "baltnews",
+      "displayName": "Baltnews",
+      "country": "RU",
+      "language": "ru",
+      "homepageUrl": "https://baltnews.com/",
+      "feedUrl": null,
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "china_technosphere",
+      "displayName": "China Technosphere",
+      "country": "CN",
+      "language": "en",
+      "homepageUrl": "https://chinatechnosphere.substack.com",
+      "feedUrl": "https://chinatechnosphere.substack.com/feed",
+      "isMonitored": true,
+      "articleCount": 1
+    },
+    {
+      "sourceCode": "eadaily",
+      "displayName": "EADaily",
+      "country": "RU",
+      "language": "ru",
+      "homepageUrl": "https://eadaily.com/",
+      "feedUrl": "https://eadaily.com/ru/rss/index.xml",
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "fondsk",
+      "displayName": "Fondsk / Strategic Culture Foundation",
+      "country": "RU",
+      "language": "ru",
+      "homepageUrl": "https://fondsk.ru/",
+      "feedUrl": "https://fondsk.ru/rss.xml",
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "geopolitica",
+      "displayName": "Geopolitica",
+      "country": "RU",
+      "language": "en",
+      "homepageUrl": "https://www.geopolitika.ru/en",
+      "feedUrl": null,
+      "isMonitored": false,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "hlavne_spravy",
+      "displayName": "Hlavné správy",
+      "country": "SK",
+      "language": "sk",
+      "homepageUrl": "https://www.hlavnespravy.sk/",
+      "feedUrl": "https://www.hlavnespravy.sk/feed/",
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "hlavny_dennik",
+      "displayName": "Hlavný denník",
+      "country": "SK",
+      "language": "sk",
+      "homepageUrl": "https://www.hlavnydennik.sk/",
+      "feedUrl": null,
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "inforos",
+      "displayName": "InfoRos News Agency",
+      "country": "RU",
+      "language": "ru",
+      "homepageUrl": "https://inforos.com/",
+      "feedUrl": "https://inforos.com/?module=rss",
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "infovojna",
+      "displayName": "InfoVojna",
+      "country": "SK",
+      "language": "sk",
+      "homepageUrl": "https://www.infovojna.com/",
+      "feedUrl": null,
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "izvestia",
+      "displayName": "Izvestia",
+      "country": "RU",
+      "language": "ru",
+      "homepageUrl": "https://iz.ru/",
+      "feedUrl": "https://iz.ru/xml/rss/all.xml",
+      "isMonitored": false,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "webkamerton",
+      "displayName": "Journal Kamerton",
+      "country": "RU",
+      "language": "ru",
+      "homepageUrl": "https://webkamerton.ru/",
+      "feedUrl": "https://webkamerton.ru/rss.xml",
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "katehon",
+      "displayName": "Katehon",
+      "country": "RU",
+      "language": "ru",
+      "homepageUrl": "https://katehon.com/ru",
+      "feedUrl": null,
+      "isMonitored": false,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "komsomolskaya_pravda",
+      "displayName": "Komsomolskaya Pravda",
+      "country": "RU",
+      "language": "ru",
+      "homepageUrl": "https://www.kp.ru/",
+      "feedUrl": "https://www.kp.ru/rss/allsections.xml",
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "lenta_ru",
+      "displayName": "Lenta.ru",
+      "country": "RU",
+      "language": "ru",
+      "homepageUrl": "https://lenta.ru/",
+      "feedUrl": "https://lenta.ru/rss",
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "journal_neo",
+      "displayName": "New Eastern Outlook",
+      "country": "RU",
+      "language": "en",
+      "homepageUrl": "https://journal-neo.su/",
+      "feedUrl": "https://journal-neo.su/feed/",
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "news_pravda",
+      "displayName": "News-Pravda / Portal Kombat",
+      "country": "FR",
+      "language": "en",
+      "homepageUrl": "https://news-pravda.com/",
+      "feedUrl": null,
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "news_front",
+      "displayName": "NewsFront",
+      "country": "RU",
+      "language": "ru",
+      "homepageUrl": "https://news-front.su/",
+      "feedUrl": "https://news-front.su/feed/",
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "dziennik_polityczny",
+      "displayName": "Niezależny Dziennik Polityczny",
+      "country": "PL",
+      "language": "pl",
+      "homepageUrl": "https://dziennik-polityczny.com/",
+      "feedUrl": null,
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "novarepublika",
+      "displayName": "Nová republika",
+      "country": "CZ",
+      "language": "cs",
+      "homepageUrl": "https://www.novarepublika.cz/",
+      "feedUrl": "https://www.novarepublika.cz/feed",
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "oriental_review",
+      "displayName": "Oriental Review",
+      "country": "RU",
+      "language": "en",
+      "homepageUrl": "https://orientalreview.su/",
+      "feedUrl": "https://orientalreview.su/feed/",
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "reuters",
+      "displayName": "Reuters",
+      "country": "GB",
+      "language": "en",
+      "homepageUrl": "https://www.reuters.com/",
+      "feedUrl": null,
+      "isMonitored": false,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "rhythm_of_eurasia",
+      "displayName": "Rhythm of Eurasia",
+      "country": "RU",
+      "language": "ru",
+      "homepageUrl": "https://www.ritmeurasia.ru/",
+      "feedUrl": null,
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "ria_novosti",
+      "displayName": "RIA Novosti",
+      "country": "RU",
+      "language": "ru",
+      "homepageUrl": "https://ria.ru/",
+      "feedUrl": null,
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "rossiyskaya_gazeta",
+      "displayName": "Rossiyskaya Gazeta",
+      "country": "RU",
+      "language": "ru",
+      "homepageUrl": "https://rg.ru/",
+      "feedUrl": "https://rg.ru/xml/index.xml",
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "rubaltic",
+      "displayName": "RuBaltic",
+      "country": "RU",
+      "language": "ru",
+      "homepageUrl": "https://www.rubaltic.ru/",
+      "feedUrl": null,
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "southfront",
+      "displayName": "SouthFront",
+      "country": "RU",
+      "language": "en",
+      "homepageUrl": "https://southfront.press/",
+      "feedUrl": "https://southfront.press/feed/",
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "sputnik",
+      "displayName": "Sputnik",
+      "country": "RU",
+      "language": "ru",
+      "homepageUrl": "https://sputniknews.ru/",
+      "feedUrl": null,
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "tech_policy_press",
+      "displayName": "Tech Policy Press",
+      "country": "US",
+      "language": "en",
+      "homepageUrl": "https://www.techpolicy.press",
+      "feedUrl": "https://techpolicy.press/rss/feed.xml",
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "citizen_lab_dtr",
+      "displayName": "The Citizen Lab Digital Transnational Repression",
+      "country": "CA",
+      "language": "en",
+      "homepageUrl": "https://citizenlab.ca/focus-area/digital-transnational-repression",
+      "feedUrl": "https://citizenlab.ca/focus-area/digital-transnational-repression/feed",
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "uwidata",
+      "displayName": "United World International",
+      "country": "TR",
+      "language": "en",
+      "homepageUrl": "https://uwidata.com/",
+      "feedUrl": "https://uwidata.com/feed/",
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "voice_of_europe",
+      "displayName": "Voice of Europe",
+      "country": "CZ",
+      "language": "en",
+      "homepageUrl": "https://www.voiceofeurope.eu/",
+      "feedUrl": null,
+      "isMonitored": false,
+      "articleCount": 0
+    }
+  ]
+}
