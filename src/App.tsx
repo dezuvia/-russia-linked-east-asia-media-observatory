@@ -42,7 +42,7 @@ export default function App() {
               <IconDatabase size={20} stroke={1.8} />
             </span>
               <span>
-                <span className="d-block">PutinIsland</span>
+                <span className="d-block">{t("俄羅斯關聯東亞媒體觀測站", "Russia-Linked East Asia Media Observatory")}</span>
               <small className="text-secondary">{t("資料視覺化儀表板", "Data Visualization Dashboard")}</small>
               </span>
             </div>

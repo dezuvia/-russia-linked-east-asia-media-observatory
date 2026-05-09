@@ -255,7 +255,7 @@ app.get("/api/sources/candidates", (_req, res) => {
 });
 
 app.listen(PORT, "127.0.0.1", () => {
-  console.log(`PutinIsland dashboard API listening on http://127.0.0.1:${PORT}`);
+  console.log(`Media observatory dashboard API listening on http://127.0.0.1:${PORT}`);
 });
 
 function openDb(): DatabaseSync {

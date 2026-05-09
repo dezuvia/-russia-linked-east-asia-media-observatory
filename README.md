@@ -1,22 +1,20 @@
-# PutinIsland Frontend
+# Russia-Linked East Asia Media Observatory
 
-Dashboard frontend for the local PutinIsland SQLite dataset.
+Static and local dashboard for monitoring Russia-linked media narratives about
+East Asia.
+
+中文名稱：俄羅斯關聯東亞媒體觀測站
 
 ## Local Dashboard
 
-Runs the React app plus the local read-only API that reads SQLite.
+Runs the React app plus a local read-only API that reads SQLite.
 
 ```bash
 npm install
 npm run dev
 ```
 
-Default data paths:
-
-- SQLite: `/Users/chia-shuotang/Documents/PutinIsland/data/putinisland.sqlite`
-- Source candidate markdown: `/Users/chia-shuotang/Documents/PutinIsland/sources/media_candidates.md`
-
-Override with:
+The local API reads dataset paths from environment variables:
 
 ```bash
 PUTINISLAND_DB_PATH=/path/to/putinisland.sqlite \
@@ -26,9 +24,9 @@ npm run dev
 
 ## Public Static Mode
 
-Public mode exports a safe JSON snapshot under `public/data/` and builds a static
-site for GitHub Pages. It does not publish SQLite, raw captured article text, or
-local `content_path` values.
+Public mode exports a safe JSON snapshot under `public/data/` and builds a
+static site for GitHub Pages. It does not publish SQLite, raw captured article
+text, or local `content_path` values.
 
 ```bash
 npm run build:public
@@ -37,5 +35,5 @@ npm run build:public
 For GitHub Pages project URLs, set the repository base path:
 
 ```bash
-VITE_BASE_PATH=/PutinIsland_frontend/ npm run build:public
+VITE_BASE_PATH=/russia-linked-east-asia-media-observatory/ npm run build:public
 ```

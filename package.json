@@ -1,7 +1,7 @@
 {
-  "name": "putinisland_frontend",
+  "name": "russia-linked-east-asia-media-observatory",
   "version": "1.0.0",
-  "description": "PutinIsland data visualization dashboard.",
+  "description": "Russia-linked East Asia media observatory dashboard.",
   "main": "index.js",
   "scripts": {
     "dev": "concurrently -n api,web -c cyan,green \"npm:dev:api\" \"npm:dev:web\"",

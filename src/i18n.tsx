@@ -12,12 +12,12 @@ const I18nContext = createContext<I18nContextValue | null>(null);
 
 export function I18nProvider({ children }: { children: ReactNode }) {
   const [language, setLanguage] = useState<Language>(() => {
-    const saved = window.localStorage.getItem("putinisland-language");
+    const saved = window.localStorage.getItem("rleamo-language");
     return saved === "en" ? "en" : "zh";
   });
 
   useEffect(() => {
-    window.localStorage.setItem("putinisland-language", language);
+    window.localStorage.setItem("rleamo-language", language);
     document.documentElement.lang = language === "zh" ? "zh-Hant" : "en";
   }, [language]);
   const value = useMemo<I18nContextValue>(
