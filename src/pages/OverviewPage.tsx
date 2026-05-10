@@ -9,6 +9,8 @@ import LabelSelector from "../components/LabelSelector";
 import { MultiLabelLineChart, TotalLineChart } from "../components/Charts";
 import { useI18n } from "../i18n";
 
+const UNLABELED_CODE = "UNLABELED";
+
 export default function OverviewPage() {
   const { language, t } = useI18n();
   const [range, setRange] = useState<"month" | "history">("month");
@@ -27,12 +29,8 @@ export default function OverviewPage() {
           return;
         }
         setData(payload);
-        setStableSelected((current) =>
-          current.length > 0 ? current : defaultSelected(payload.totals.stableLabels)
-        );
-        setCountrySelected((current) =>
-          current.length > 0 ? current : defaultSelected(payload.totals.countryLabels)
-        );
+        setStableSelected((current) => syncSelected(current, visibleLabels(payload.totals.stableLabels)));
+        setCountrySelected((current) => syncSelected(current, visibleLabels(payload.totals.countryLabels)));
       })
       .catch((err: Error) => {
         if (!cancelled) {
@@ -106,14 +104,14 @@ export default function OverviewPage() {
               <div className="col-lg-6">
                 <LabelCountCard
                   title={t("各穩定標籤文章數", "Articles by Stable Label")}
-                  labels={data.totals.stableLabels}
+                  labels={visibleLabels(data.totals.stableLabels)}
                   language={language}
                 />
               </div>
               <div className="col-lg-6">
                 <LabelCountCard
                   title={t("各國家標籤文章數", "Articles by Country Label")}
-                  labels={data.totals.countryLabels}
+                  labels={visibleLabels(data.totals.countryLabels)}
                   language={language}
                 />
               </div>
@@ -125,28 +123,28 @@ export default function OverviewPage() {
 
             <ChartCard key={`stable-${data.range}`} title={t("每日各穩定標籤文章數（依發布日期）", "Daily Articles by Stable Label by Published Date")}>
               <LabelSelector
-                labels={data.options.stableLabels}
+                labels={visibleLabels(data.options.stableLabels)}
                 selected={stableSelected}
                 onChange={setStableSelected}
                 compact
               />
               <MultiLabelLineChart
                 data={data.daily.stableLabels}
-                labels={data.options.stableLabels}
+                labels={visibleLabels(data.options.stableLabels)}
                 selected={stableSelected}
               />
             </ChartCard>
 
             <ChartCard key={`country-${data.range}`} title={t("每日各國家標籤文章數（依發布日期）", "Daily Articles by Country Label by Published Date")}>
               <LabelSelector
-                labels={data.options.countryLabels}
+                labels={visibleLabels(data.options.countryLabels)}
                 selected={countrySelected}
                 onChange={setCountrySelected}
                 compact
               />
               <MultiLabelLineChart
                 data={data.daily.countryLabels}
-                labels={data.options.countryLabels}
+                labels={visibleLabels(data.options.countryLabels)}
                 selected={countrySelected}
               />
             </ChartCard>
@@ -206,4 +204,14 @@ function ChartCard({ title, children }: { title: string; children: React.ReactNo
 function defaultSelected(labels: Array<{ code: string; count: number }>) {
   const nonZero = labels.filter((label) => label.count > 0).map((label) => label.code);
   return nonZero.length > 0 ? nonZero.slice(0, 6) : labels.slice(0, 4).map((label) => label.code);
+}
+
+function visibleLabels<T extends { code: string }>(labels: T[]) {
+  return labels.filter((label) => label.code !== UNLABELED_CODE);
+}
+
+function syncSelected(current: string[], labels: Array<{ code: string; count: number }>) {
+  const visibleCodes = new Set(labels.map((label) => label.code));
+  const synced = current.filter((code) => visibleCodes.has(code));
+  return synced.length > 0 ? synced : defaultSelected(labels);
 }
