@@ -18,9 +18,14 @@ export default function OverviewPage() {
   const [countrySelected, setCountrySelected] = useState<string[]>([]);
 
   useEffect(() => {
+    let cancelled = false;
     setError(null);
+    setData(null);
     getOverview(range)
       .then((payload) => {
+        if (cancelled) {
+          return;
+        }
         setData(payload);
         setStableSelected((current) =>
           current.length > 0 ? current : defaultSelected(payload.totals.stableLabels)
@@ -29,7 +34,14 @@ export default function OverviewPage() {
           current.length > 0 ? current : defaultSelected(payload.totals.countryLabels)
         );
       })
-      .catch((err: Error) => setError(err.message));
+      .catch((err: Error) => {
+        if (!cancelled) {
+          setError(err.message);
+        }
+      });
+    return () => {
+      cancelled = true;
+    };
   }, [range]);
 
   return (
@@ -107,11 +119,11 @@ export default function OverviewPage() {
               </div>
             </div>
 
-            <ChartCard title={t("每日總文章數（依發布日期）", "Daily Total Articles by Published Date")}>
+            <ChartCard key={`total-${data.range}`} title={t("每日總文章數（依發布日期）", "Daily Total Articles by Published Date")}>
               <TotalLineChart data={data.daily.totalArticles} />
             </ChartCard>
 
-            <ChartCard title={t("每日各穩定標籤文章數（依發布日期）", "Daily Articles by Stable Label by Published Date")}>
+            <ChartCard key={`stable-${data.range}`} title={t("每日各穩定標籤文章數（依發布日期）", "Daily Articles by Stable Label by Published Date")}>
               <LabelSelector
                 labels={data.options.stableLabels}
                 selected={stableSelected}
@@ -125,7 +137,7 @@ export default function OverviewPage() {
               />
             </ChartCard>
 
-            <ChartCard title={t("每日各國家標籤文章數（依發布日期）", "Daily Articles by Country Label by Published Date")}>
+            <ChartCard key={`country-${data.range}`} title={t("每日各國家標籤文章數（依發布日期）", "Daily Articles by Country Label by Published Date")}>
               <LabelSelector
                 labels={data.options.countryLabels}
                 selected={countrySelected}
