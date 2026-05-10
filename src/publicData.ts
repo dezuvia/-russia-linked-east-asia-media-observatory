@@ -100,7 +100,13 @@ export async function getPublicArticles(filters: ArticleFilters): Promise<Articl
   if (filters.keywords?.trim()) {
     const needle = filters.keywords.trim().toLocaleLowerCase();
     articles = articles.filter((article) =>
-      [...article.keywordTerms, article.titleZh, article.titleEn]
+      [
+        ...article.keywordTerms,
+        ...(article.keywordTermsZh ?? []),
+        ...(article.keywordTermsEn ?? []),
+        article.titleZh,
+        article.titleEn
+      ]
         .filter(Boolean)
         .some((value) => value!.toLocaleLowerCase().includes(needle))
     );

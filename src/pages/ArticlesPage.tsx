@@ -1,7 +1,7 @@
 import { FormEvent, useEffect, useState } from "react";
 import { IconAdjustmentsHorizontal, IconExternalLink, IconFileText, IconSearch, IconX } from "@tabler/icons-react";
 import { getArticles, getOptions, getRawArticle, PUBLIC_MODE, type ArticleFilters } from "../api";
-import { articleSummary, articleTitle, dateTime, hasAnalysisSummary, labelText } from "../format";
+import { articleKeywords, articleSummary, articleTitle, dateTime, hasAnalysisSummary, labelText } from "../format";
 import type { ArticleRecord, ArticlesResponse, OptionsResponse, RawArticleResponse } from "../types";
 import { ErrorBlock, LoadingBlock } from "../components/StateBlocks";
 import LabelSelector from "../components/LabelSelector";
@@ -236,6 +236,7 @@ function ArticleItem({
   isRawLoading: boolean;
 }) {
   const { language, t } = useI18n();
+  const keywords = articleKeywords(article, language);
   return (
     <article className="card article-card">
       <div className="card-body">
@@ -297,7 +298,7 @@ function ArticleItem({
               <MetaBlock label={t("來源媒體", "Source Media")} value={article.sourceName} />
               <MetaBlock
                 label={t("關鍵字", "Keywords")}
-                value={article.keywordTerms.length > 0 ? article.keywordTerms.join(", ") : t("無", "None")}
+                value={keywords.length > 0 ? keywords.join(", ") : t("無", "None")}
               />
             </div>
           </div>

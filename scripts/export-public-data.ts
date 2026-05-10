@@ -1,6 +1,7 @@
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 import { DatabaseSync } from "node:sqlite";
+import { bilingualKeywordTerms, loadKeywordTranslationCache, type KeywordTranslationCache } from "./keyword-translation-cache";
 
 const DB_PATH =
   process.env.PUTINISLAND_DB_PATH ??
@@ -35,6 +36,8 @@ type ArticleRecord = {
   countryLabel: Label | null;
   issueLabels: Array<Label & { confidence?: number }>;
   keywordTerms: string[];
+  keywordTermsZh: string[];
+  keywordTermsEn: string[];
 };
 
 const ISSUE_LABELS: Label[] = [
@@ -70,7 +73,8 @@ mkdirSync(OUT_DIR, { recursive: true });
 
 const db = new DatabaseSync(DB_PATH, { readOnly: true });
 try {
-  const articles = loadArticles(db);
+  const keywordTranslationCache = loadKeywordTranslationCache();
+  const articles = loadArticles(db, keywordTranslationCache);
   const sources = loadSources(db, articles);
   const scannedArticleCount = loadScannedArticleCount(db);
   writeJson(`${OUT_DIR}/manifest.json`, {
@@ -92,7 +96,7 @@ try {
   db.close();
 }
 
-function loadArticles(db: DatabaseSync): ArticleRecord[] {
+function loadArticles(db: DatabaseSync, keywordTranslationCache: KeywordTranslationCache): ArticleRecord[] {
   const rows = db.prepare(`
     SELECT
       a.article_id AS articleId,
@@ -118,26 +122,30 @@ function loadArticles(db: DatabaseSync): ArticleRecord[] {
     ORDER BY datetime(a.published_at) DESC, datetime(a.created_at) DESC
   `).all() as Record<string, unknown>[];
 
-  return rows.map((row) => ({
-    articleId: value(row.articleId),
-    title: "",
-    titleZh: nullable(row.titleZh),
-    titleEn: nullable(row.titleEn),
-    canonicalUrl: value(row.canonicalUrl),
-    publishedAt: nullable(row.publishedAt),
-    capturedAt: nullable(row.capturedAt),
-    status: value(row.status),
-    sourceCode: value(row.sourceCode),
-    sourceName: value(row.sourceName) || value(row.sourceCode),
-    hasRawContent: false,
-    summary: nullable(row.summary),
-    summaryZh: nullable(row.summaryZh),
-    summaryEn: nullable(row.summaryEn),
-    description: null,
-    countryLabel: parseCountryLabel(row),
-    issueLabels: parseIssueLabels(nullable(row.issueLabelsJson)),
-    keywordTerms: parseKeywordTerms(nullable(row.keywordsJson))
-  }));
+  return rows.map((row) => {
+    const keywordTerms = parseKeywordTerms(nullable(row.keywordsJson));
+    return {
+      articleId: value(row.articleId),
+      title: "",
+      titleZh: nullable(row.titleZh),
+      titleEn: nullable(row.titleEn),
+      canonicalUrl: value(row.canonicalUrl),
+      publishedAt: nullable(row.publishedAt),
+      capturedAt: nullable(row.capturedAt),
+      status: value(row.status),
+      sourceCode: value(row.sourceCode),
+      sourceName: value(row.sourceName) || value(row.sourceCode),
+      hasRawContent: false,
+      summary: nullable(row.summary),
+      summaryZh: nullable(row.summaryZh),
+      summaryEn: nullable(row.summaryEn),
+      description: null,
+      countryLabel: parseCountryLabel(row),
+      issueLabels: parseIssueLabels(nullable(row.issueLabelsJson)),
+      keywordTerms,
+      ...bilingualKeywordTerms(keywordTerms, keywordTranslationCache)
+    };
+  });
 }
 
 function loadSources(db: DatabaseSync, articles: ArticleRecord[]) {

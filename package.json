@@ -7,6 +7,7 @@
     "dev": "concurrently -n api,web -c cyan,green \"npm:dev:api\" \"npm:dev:web\"",
     "dev:api": "NODE_OPTIONS=--no-warnings=ExperimentalWarning tsx server/index.ts",
     "dev:web": "vite --host 127.0.0.1",
+    "keywords:enrich": "NODE_OPTIONS=--no-warnings=ExperimentalWarning tsx scripts/enrich-keyword-translations.ts",
     "export:public": "NODE_OPTIONS=--no-warnings=ExperimentalWarning tsx scripts/export-public-data.ts",
     "build": "tsc --noEmit && vite build",
     "build:public": "npm run export:public && tsc --noEmit && VITE_PUBLIC_MODE=true vite build",

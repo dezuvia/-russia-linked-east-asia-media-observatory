@@ -1,5 +1,5 @@
 {
-  "checkedDate": "2026-05-07",
+  "checkedDate": "2026-05-10",
   "path": "sources/media_candidates.md",
   "rows": [
     {
@@ -193,6 +193,66 @@
       "urlCheck": "HTTP 200；kp.md 地區版未另列"
     },
     {
+      "targetRegion": "俄國",
+      "name": "TASS / ТАСС",
+      "englishName": "TASS Russian News Agency",
+      "chineseName": "塔斯社",
+      "homepageUrl": "https://tass.ru/",
+      "attributionSource": "Atlantic Council/DFRLab；EANA",
+      "evidenceSummary": "DFRLab 將 TASS 納入俄語親克里姆林媒體生態的代表來源並分析其戰爭敘事；EANA 指 TASS 因俄國媒體監管環境而無法提供 unbiased news，暫停其會員資格。Evidence: https://www.atlanticcouncil.org/wp-content/uploads/2023/02/Narrative-Warfare-Final.pdf ; https://newsalliance.org/news/the-european-alliance-of-news-agencies-eana-suspends-tass-from-alliance-pending-exclusion-decision",
+      "urlCheck": "HTTP 403（主站反機器）；RSS HTTP 200，最舊列 2026-05-09，需另建 historical profile"
+    },
+    {
+      "targetRegion": "俄國",
+      "name": "REGNUM / ИА REGNUM",
+      "englishName": "REGNUM News Agency",
+      "chineseName": "REGNUM 通訊社",
+      "homepageUrl": "https://regnum.ru/",
+      "attributionSource": "Atlantic Council/DFRLab",
+      "evidenceSummary": "DFRLab 將 REGNUM 納入俄語親克里姆林媒體生態的代表來源，並記錄其高頻發布克里姆林戰爭敘事。Evidence: https://www.atlanticcouncil.org/wp-content/uploads/2023/02/Narrative-Warfare-Final.pdf",
+      "urlCheck": "HTTP 200；RSS HTTP 200，最舊列 2026-05-08，需另建 historical profile"
+    },
+    {
+      "targetRegion": "俄國",
+      "name": "Gazeta.ru / Газета.Ru",
+      "englishName": "Gazeta.ru",
+      "chineseName": "Gazeta.ru",
+      "homepageUrl": "https://www.gazeta.ru/",
+      "attributionSource": "Atlantic Council/DFRLab；Eurotopics",
+      "evidenceSummary": "DFRLab 將 Gazeta.ru 納入俄語親克里姆林媒體生態代表來源；Eurotopics 指 Gazeta.ru 現已 aligned with the Kremlin，政治取向為 pro-government。Evidence: https://www.atlanticcouncil.org/wp-content/uploads/2023/02/Narrative-Warfare-Final.pdf ; https://www.eurotopics.net/en/169480/gazeta-ru",
+      "urlCheck": "HTTP 200 -> SSO gate；可見 RSS 已停在 2024-03，未作監測"
+    },
+    {
+      "targetRegion": "俄國",
+      "name": "Vzglyad / Взгляд",
+      "englishName": "Vzglyad",
+      "chineseName": "觀點報／Vzglyad",
+      "homepageUrl": "https://vz.ru/",
+      "attributionSource": "Atlantic Council/DFRLab；Eurotopics",
+      "evidenceSummary": "DFRLab 將 Vzglyad 納入俄語親克里姆林媒體生態代表來源；Eurotopics 指其由與 Kremlin 關係密切的機構出版，政治取向為 pro-government。Evidence: https://www.atlanticcouncil.org/wp-content/uploads/2023/02/Narrative-Warfare-Final.pdf ; https://www.eurotopics.net/en/186483/vzglyad",
+      "urlCheck": "HTTP 200；RSS HTTP 200，最舊列 2026-05-09，需另建 historical profile"
+    },
+    {
+      "targetRegion": "白俄羅斯",
+      "name": "BelTA / БелТА",
+      "englishName": "Belarusian Telegraph Agency",
+      "chineseName": "白俄羅斯通訊社",
+      "homepageUrl": "https://belta.by/",
+      "attributionSource": "AidData；State Media Monitor；iSANS",
+      "evidenceSummary": "AidData 將 BelTA 列為白俄國家媒體所有權與外國影響渠道的一部分；State Media Monitor 指 BelTA 為政府控制的國家通訊社；iSANS 將 BelTA 納入白俄宣傳媒體景觀。Evidence: https://www.aiddata.org/publications/belarus-profile-of-media-ownership-and-potential-foreign-influence-channels ; https://statemediamonitor.com/2025/08/belta/ ; https://isans.org/wp-content/uploads/2023/01/from-fortress-2-rhetoric-to-the-rhetoric-of-war_changes-in-by-propaganda_isans-report_nov2022_eng-1.pdf",
+      "urlCheck": "HTTP 200；RSS 可用性不穩，另建 all_news profile"
+    },
+    {
+      "targetRegion": "白俄羅斯",
+      "name": "Belarus Segodnya / СБ. Беларусь сегодня",
+      "englishName": "Belarus Today / Sovetskaya Belorussiya",
+      "chineseName": "白俄羅斯今日／蘇維埃白俄羅斯",
+      "homepageUrl": "https://www.sb.by/",
+      "attributionSource": "AidData；iSANS",
+      "evidenceSummary": "AidData 記錄 Belarus Segodnya/SB.by 為白俄大型國家媒體；iSANS 將 Belarus Segodnya 納入白俄宣傳媒體景觀。Evidence: https://www.aiddata.org/publications/belarus-profile-of-media-ownership-and-potential-foreign-influence-channels ; https://isans.org/wp-content/uploads/2023/01/from-fortress-2-rhetoric-to-the-rhetoric-of-war_changes-in-by-propaganda_isans-report_nov2022_eng-1.pdf",
+      "urlCheck": "HTTP 200；profile HTTP 200，分頁對自動化回傳 403，需保留 incomplete backlog state"
+    },
+    {
       "targetRegion": "捷克/歐洲",
       "name": "Voice of Europe",
       "englishName": "Voice of Europe",
@@ -251,6 +311,76 @@
       "attributionSource": "Czech Ministry of Interior, CTHH",
       "evidenceSummary": "Czech MoI/CTHH 指 AC24 在監測期間出現使用/轉載 Kremlin rhetoric 的文字內容，並列入捷克 quasi-media/pro-Kremlin scene 觀察。Evidence: https://mv.gov.cz/volby/clanek/jak-kvazi-medialni-scena-reflektovala-invazi-vojsk-ruske-federace-na-ukrajinu-a-sirila-propagandu-kremlu-v-monitorovanem-obdobi-od-24-unora-do-23-dubna.aspx",
       "urlCheck": "HTTP 200"
+    },
+    {
+      "targetRegion": "捷克",
+      "name": "CZ24.news",
+      "englishName": "CZ24.news",
+      "chineseName": "CZ24 新聞",
+      "homepageUrl": "https://cz24.news/",
+      "attributionSource": "Atlantic Council/DFRLab；Insight News",
+      "evidenceSummary": "DFRLab 指 CZ24.news 為散播受制裁克里姆林媒體內容的 disinformation aggregator；Insight News 指 CZ24 為捷克 pro-Kremlin disinformation portal。Evidence: https://dfrlab.org/2026/04/03/how-sputnik-czechias-successor-adapted-to-circumvent-sanctions/ ; https://insightnews.media/the-pro-kremlin-network-behind-czech-disinformation-portal-cz24/amp/",
+      "urlCheck": "HTTP 403（站方拒絕自動化請求；URL 解析有效）"
+    },
+    {
+      "targetRegion": "捷克",
+      "name": "Parlamentní listy",
+      "englishName": "Parliament News",
+      "chineseName": "議會報／Parlamentní listy",
+      "homepageUrl": "https://www.parlamentnilisty.cz/",
+      "attributionSource": "Masaryk University；Visegrad Insight",
+      "evidenceSummary": "Masaryk University 研究將 Parlamentní listy 列為 disseminate pro-Kremlin propaganda 的捷克網站；Visegrad Insight 引用研究指出其在外交議題上的操弄技巧甚至比 Sputnik 更強。Evidence: https://www.em.muni.cz/en/science/7860-research-pro-kremlin-propaganda-in-the-czech-republic-employs-dishonest-journalistic-practices ; https://visegradinsight.eu/correction-on-czech-media-outlet-expanding-to-poland/",
+      "urlCheck": "HTTP 200；profile 已建立，backlog 仍需日期可靠性驗證"
+    },
+    {
+      "targetRegion": "匈牙利",
+      "name": "Origo",
+      "englishName": "Origo",
+      "chineseName": "Origo",
+      "homepageUrl": "https://www.origo.hu/",
+      "attributionSource": "Political Capital；Insight News",
+      "evidenceSummary": "Political Capital 指 Origo 在 Putin/Zelensky 報導中 parrots debunked claims of Russian propaganda machinery；Insight News 將 Origo 列為匈牙利發布 pro-Russian messaging 的 prominent KESMA website。Evidence: https://politicalcapital.hu/news.php?article_id=3192&article_read=1 ; https://insightnews.media/hungarian-news-websites-that-disseminate-russian-narratives-and-their-impact/",
+      "urlCheck": "HTTP 200；無可用 RSS，profile/backlog 分頁另建"
+    },
+    {
+      "targetRegion": "匈牙利",
+      "name": "Magyar Nemzet",
+      "englishName": "Hungarian Nation",
+      "chineseName": "匈牙利民族報",
+      "homepageUrl": "https://magyarnemzet.hu/",
+      "attributionSource": "Insight News；Political Capital",
+      "evidenceSummary": "Insight News 指 Magyar Nemzet 為 Orbán 政府 mouthpiece，系統性放大 pro-Kremlin narratives；Political Capital 亦記錄匈牙利親政府媒體傳遞 pro-Kremlin、反烏敘事。Evidence: https://insightnews.media/hungarian-news-websites-that-disseminate-russian-narratives-and-their-impact/ ; https://politicalcapital.hu/news.php?article_id=3004&article_read=1",
+      "urlCheck": "HTTP 200；RSS HTTP 200，最舊列 2026-05-09，需另建 historical profile"
+    },
+    {
+      "targetRegion": "保加利亞",
+      "name": "Pogled.info",
+      "englishName": "Pogled Info",
+      "chineseName": "觀點資訊",
+      "homepageUrl": "https://pogled.info/",
+      "attributionSource": "Center for the Study of Democracy；Factcheck.bg",
+      "evidenceSummary": "CSD 指 Pogled.info 是 Bulgaria pro-Kremlin online outlets 中的重要節點；Factcheck.bg 指 Pogled.info 轉譯/發布 Strategic Culture Foundation 等克里姆林資訊操作內容。Evidence: https://csd.eu/fileadmin/user_upload/publications_library/NED_Report_WEB.pdf ; https://factcheck.bg/en/this-is-the-kremlin-speaking-how-bulgarian-media-turn-into-megaphones-for-kremlin-propaganda/",
+      "urlCheck": "HTTP 200 但讀取逾時；保留 blocked/incomplete fetch state"
+    },
+    {
+      "targetRegion": "保加利亞",
+      "name": "Blitz.bg",
+      "englishName": "Blitz News Agency",
+      "chineseName": "Blitz 新聞社",
+      "homepageUrl": "https://blitz.bg/",
+      "attributionSource": "Center for the Study of Democracy；CRTA/BFMI",
+      "evidenceSummary": "CSD 指 Blitz.bg 例行發布源自 Kremlin 的敘事與文章；CRTA/BFMI 報告將 Blitz 列為保加利亞 consistently publish pro-Kremlin disinformation 的 problem outlet。Evidence: https://csd.eu/fileadmin/user_upload/publications_library/files/2025_01/Webs_of_Deceit_Report.pdf ; https://crta.rs/wp-content/uploads/2023/12/CRTA_BFMI_Defunding_Disinformation_in_the_Balkans_Report.pdf",
+      "urlCheck": "HTTP 403（站方拒絕自動化請求；URL 解析有效）"
+    },
+    {
+      "targetRegion": "塞爾維亞",
+      "name": "Večernje novosti / Novosti.rs",
+      "englishName": "Evening News / Novosti.rs",
+      "chineseName": "晚間新聞／Novosti.rs",
+      "homepageUrl": "https://www.novosti.rs/",
+      "attributionSource": "Center for the Study of Democracy",
+      "evidenceSummary": "CSD 在東南歐 pro-Kremlin online outlets 統計中列出 novosti.rs，作為塞爾維亞高流量親克里姆林內容來源之一。Evidence: https://csd.eu/fileadmin/user_upload/publications_library/NED_Report_WEB.pdf",
+      "urlCheck": "HTTP 200；profile 已建立，backlog 仍需日期可靠性驗證"
     },
     {
       "targetRegion": "斯洛伐克",

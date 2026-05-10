@@ -73,6 +73,15 @@ export function articleSummary(article: {
   return article.summaryEn ?? article.summary ?? "Analysis summary not generated yet";
 }
 
+export function articleKeywords(article: {
+  keywordTerms: string[];
+  keywordTermsZh?: string[];
+  keywordTermsEn?: string[];
+}, language: Language) {
+  const localized = language === "zh" ? article.keywordTermsZh : article.keywordTermsEn;
+  return localized && localized.length > 0 ? localized : article.keywordTerms;
+}
+
 export function hasAnalysisSummary(article: {
   summary: string | null;
   summaryZh: string | null;

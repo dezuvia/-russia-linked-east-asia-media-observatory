@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "keyword-translations-v1",
+  "updatedAt": "2026-05-10T03:54:40.364Z",
+  "entries": {
+    "AESA radar": {
+      "termZh": "主動電子掃描陣列雷達",
+      "termEn": "AESA radar",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "ASEAN": {
+      "termZh": "東協",
+      "termEn": "ASEAN",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "Belt and Road Initiative": {
+      "termZh": "一帶一路倡議",
+      "termEn": "Belt and Road Initiative",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "Block 1": {
+      "termZh": "Block 1",
+      "termEn": "Block 1",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "Chongqing": {
+      "termZh": "重慶",
+      "termEn": "Chongqing",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "Community of Shared Future": {
+      "termZh": "命運共同體",
+      "termEn": "Community of Shared Future",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "export potential": {
+      "termZh": "出口潛力",
+      "termEn": "export potential",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "KF-21 Boramae": {
+      "termZh": "KF-21 Boramae",
+      "termEn": "KF-21 Boramae",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "krasowy lej": {
+      "termZh": "喀斯特天坑",
+      "termEn": "karst sinkhole",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "regional multilateralism": {
+      "termZh": "區域多邊主義",
+      "termEn": "regional multilateralism",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "serial production": {
+      "termZh": "量產",
+      "termEn": "serial production",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "South China Sea": {
+      "termZh": "南海",
+      "termEn": "South China Sea",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "subtropikalny las": {
+      "termZh": "亞熱帶森林",
+      "termEn": "subtropical forest",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "tiankeng": {
+      "termZh": "天坑",
+      "termEn": "tiankeng",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "Xiaozhai Tiankeng": {
+      "termZh": "小寨天坑",
+      "termEn": "Xiaozhai Tiankeng",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "中國-烏茲別克": {
+      "termZh": "中國-烏茲別克",
+      "termEn": "China-Uzbekistan",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "伊朗外长": {
+      "termZh": "伊朗外長",
+      "termEn": "Iranian Foreign Minister",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "北京": {
+      "termZh": "北京",
+      "termEn": "Beijing",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "合作深化": {
+      "termZh": "合作深化",
+      "termEn": "Deepening cooperation",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "能源合作": {
+      "termZh": "能源合作",
+      "termEn": "Energy cooperation",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "访问": {
+      "termZh": "訪問",
+      "termEn": "visit",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "資源": {
+      "termZh": "資源",
+      "termEn": "resources",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T03:54:40.363Z"
+    }
+  }
+}

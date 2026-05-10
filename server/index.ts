@@ -1,6 +1,7 @@
 import express from "express";
 import { DatabaseSync } from "node:sqlite";
 import { existsSync, readFileSync } from "node:fs";
+import { bilingualKeywordTerms, loadKeywordTranslationCache } from "../scripts/keyword-translation-cache";
 
 const PORT = Number(process.env.PORT ?? 5174);
 const ARTICLE_PAGE_SIZE = 15;
@@ -40,6 +41,8 @@ type ArticleRecord = {
   countryLabel: Label | null;
   issueLabels: IssueLabel[];
   keywordTerms: string[];
+  keywordTermsZh: string[];
+  keywordTermsEn: string[];
 };
 
 const ISSUE_LABELS: Label[] = [
@@ -169,7 +172,14 @@ app.get("/api/articles", (req, res) => {
     if (filters.keywords) {
       const needle = filters.keywords.toLocaleLowerCase();
       articles = articles.filter((article) =>
-        [...article.keywordTerms, article.title, article.titleZh, article.titleEn]
+        [
+          ...article.keywordTerms,
+          ...article.keywordTermsZh,
+          ...article.keywordTermsEn,
+          article.title,
+          article.titleZh,
+          article.titleEn
+        ]
           .filter(Boolean)
           .some((value) => value!.toLocaleLowerCase().includes(needle))
       );
@@ -269,6 +279,7 @@ function openDb(): DatabaseSync {
 function loadArticles(): ArticleRecord[] {
   const db = openDb();
   try {
+    const keywordTranslationCache = loadKeywordTranslationCache();
     const rows = db.prepare(`
       SELECT
         a.article_id AS articleId,
@@ -298,26 +309,30 @@ function loadArticles(): ArticleRecord[] {
       ORDER BY datetime(a.published_at) DESC, datetime(a.created_at) DESC
     `).all() as Record<string, unknown>[];
 
-    return rows.map((row) => ({
-      articleId: value(row.articleId),
-      title: value(row.title),
-      titleZh: nullable(row.titleZh),
-      titleEn: nullable(row.titleEn),
-      canonicalUrl: value(row.canonicalUrl),
-      publishedAt: nullable(row.publishedAt),
-      capturedAt: nullable(row.capturedAt),
-      status: value(row.status),
-      sourceCode: value(row.sourceCode),
-      sourceName: value(row.sourceName) || value(row.sourceCode),
-      hasRawContent: Boolean(nullable(row.contentPath)),
-      summary: nullable(row.summary),
-      summaryZh: nullable(row.summaryZh),
-      summaryEn: nullable(row.summaryEn),
-      description: nullable(row.description),
-      countryLabel: parseCountryLabel(row),
-      issueLabels: parseIssueLabels(nullable(row.issueLabelsJson)),
-      keywordTerms: parseKeywordTerms(nullable(row.keywordsJson))
-    }));
+    return rows.map((row) => {
+      const keywordTerms = parseKeywordTerms(nullable(row.keywordsJson));
+      return {
+        articleId: value(row.articleId),
+        title: value(row.title),
+        titleZh: nullable(row.titleZh),
+        titleEn: nullable(row.titleEn),
+        canonicalUrl: value(row.canonicalUrl),
+        publishedAt: nullable(row.publishedAt),
+        capturedAt: nullable(row.capturedAt),
+        status: value(row.status),
+        sourceCode: value(row.sourceCode),
+        sourceName: value(row.sourceName) || value(row.sourceCode),
+        hasRawContent: Boolean(nullable(row.contentPath)),
+        summary: nullable(row.summary),
+        summaryZh: nullable(row.summaryZh),
+        summaryEn: nullable(row.summaryEn),
+        description: nullable(row.description),
+        countryLabel: parseCountryLabel(row),
+        issueLabels: parseIssueLabels(nullable(row.issueLabelsJson)),
+        keywordTerms,
+        ...bilingualKeywordTerms(keywordTerms, keywordTranslationCache)
+      };
+    });
   } finally {
     db.close();
   }

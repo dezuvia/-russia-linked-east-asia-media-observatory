@@ -47,6 +47,8 @@ export type ArticleRecord = {
   countryLabel: Label | null;
   issueLabels: Array<Label & { confidence?: number }>;
   keywordTerms: string[];
+  keywordTermsZh: string[];
+  keywordTermsEn: string[];
 };
 
 export type RawArticleResponse = {
