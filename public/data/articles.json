@@ -287,7 +287,7 @@
   {
     "articleId": "article-18badae92b860165eadf0bf3",
     "title": "",
-    "titleZh": "伊朗外長訪問北京",
+    "titleZh": "伊朗外交部長訪問北京",
     "titleEn": "Iranian Foreign Minister Visits Beijing",
     "canonicalUrl": "https://www.ritmeurasia.ru/news--2026-05-09--glava-mid-irana-sovershil-vizit-v-pekin-87625",
     "publishedAt": "2026-05-09T00:00:00+00:00",
@@ -296,9 +296,9 @@
     "sourceCode": "rhythm_of_eurasia",
     "sourceName": "Rhythm of Eurasia",
     "hasRawContent": false,
-    "summary": "这篇文章仅明确提到伊朗外长访问北京，属于发生在中国的外交行程，但正文未提供更多关于会谈内容或东亚其他国家的实质信息。",
-    "summaryZh": "這篇文章僅明確提到伊朗外長訪問北京，屬於發生在中國的外交行程，但正文未提供更多會談內容或東亞其他國家的實質資訊。",
-    "summaryEn": "The article only states that Iran’s foreign minister visited Beijing, indicating a China-based diplomatic trip, with no substantive details on talks or any broader East Asian implications.",
+    "summary": "本文僅顯示伊朗外交部長訪問北京的標題與版權／免責資訊，未提供會談細節或實質內容。就可見內容而言，重點是中國北京作為外交活動場域。",
+    "summaryZh": "本文僅顯示伊朗外交部長訪問北京的標題與版權／免責資訊，未提供會談細節或實質內容。就可見內容而言，重點是中國北京作為外交活動場域。",
+    "summaryEn": "The captured page only shows the headline and site boilerplate. It reports that Iran's foreign minister visited Beijing, with no further meeting details or substantive reporting visible.",
     "description": null,
     "countryLabel": {
       "code": "CHINA",
@@ -310,13 +310,13 @@
         "code": "DIPLOMACY",
         "zh": "外交",
         "en": "Diplomacy",
-        "confidence": 0.99
+        "confidence": 0.98
       }
     ],
     "keywordTerms": [
       "北京",
-      "伊朗外长",
-      "访问"
+      "伊朗外長",
+      "訪問"
     ],
     "keywordTermsZh": [
       "北京",
@@ -623,8 +623,8 @@
   {
     "articleId": "article-d51419c1fcc6c6c7c7316526",
     "title": "",
-    "titleZh": "美媒稱若特朗普訪中後仍無美伊協議　戰爭選項恐再度浮上檯面",
-    "titleEn": "Israeli Media: If No Deal After Trump’s China Visit, War Option Returns",
+    "titleZh": "美媒：若特朗普訪華後仍無協議，對伊朗動武選項恐再度浮現",
+    "titleEn": "Israeli Media: If No Deal Emerges After Trump’s China Visit, War Becomes an Option Again",
     "canonicalUrl": "https://www.novosti.rs/planeta/svet/1604999/kina-amerika-donald-tramp-rat-iranu-djinping-izrael",
     "publishedAt": "2026-05-07T19:45:00+00:00",
     "capturedAt": "2026-05-10T08:35:40+00:00",
@@ -632,9 +632,9 @@
     "sourceCode": "vecernje_novosti",
     "sourceName": "Večernje novosti",
     "hasRawContent": false,
-    "summary": "文章稱，美國與伊朗若在特朗普訪問中國前未能達成結束衝突的協議，軍事選項可能重新被提上桌面。白宮預計很快收到伊朗對美方新提案的回應，而特朗普計劃於5月14日至15日訪中。",
-    "summaryZh": "文章稱，美國與伊朗若在特朗普訪問中國前未能達成結束衝突的協議，軍事選項可能重新被提上桌面。白宮預計很快收到伊朗對美方新提案的回應，而特朗普計劃於5月14日至15日訪中。",
-    "summaryEn": "The article says that if the U.S. and Iran do not reach a deal before President Trump returns from his planned visit to China, the military option could come back onto the table. The White House expects Iran’s response soon, and Trump is scheduled to visit China on May 14-15.",
+    "summary": "報導稱，美國與伊朗若未能在特朗普結束訪華前達成協議，軍事選項將重新被擺上檯面。白宮預計很快收到伊朗對最新提案的回應，內塔尼亞胡也將與特朗普通話。",
+    "summaryZh": "報導指稱，美國與伊朗若未能在特朗普訪華前後就結束衝突達成協議，軍事選項可能再度被考慮。白宮正等待伊朗回應最新提案，特朗普預計5月14日至15日訪問中國。",
+    "summaryEn": "The report says that if the United States and Iran fail to reach a deal before or after Trump’s planned China trip, military action could return as an option. The White House is awaiting Iran’s response, while Trump is scheduled to visit China on May 14-15.",
     "description": null,
     "countryLabel": {
       "code": "CHINA",
@@ -646,32 +646,26 @@
         "code": "DIPLOMACY",
         "zh": "外交",
         "en": "Diplomacy",
-        "confidence": 0.95
-      },
-      {
-        "code": "SECURITY_DEFENSE",
-        "zh": "安全防務",
-        "en": "Security & Defense",
-        "confidence": 0.9
+        "confidence": 0.88
       }
     ],
     "keywordTerms": [
-      "特朗普訪中",
-      "美伊談判",
-      "軍事選項",
-      "中國訪問"
+      "特朗普訪華",
+      "中美談判",
+      "伊朗",
+      "停戰協議"
     ],
     "keywordTermsZh": [
-      "特朗普訪中",
-      "美伊談判",
-      "軍事選項",
-      "訪華"
+      "特朗普訪華",
+      "中美談判",
+      "伊朗",
+      "停戰協議"
     ],
     "keywordTermsEn": [
-      "Trump's Visit to China",
-      "U.S.-Iran negotiations",
-      "Military option",
-      "China visit"
+      "Trump’s visit to China",
+      "China-US talks",
+      "Iran",
+      "armistice agreement"
     ]
   },
   {
@@ -1862,8 +1856,8 @@
   {
     "articleId": "article-2e8fe828c491dd28fe201c47",
     "title": "",
-    "titleZh": "中國接任聯合國安理會輪值主席　五月聚焦中東、烏克蘭、非洲與波黑議題",
-    "titleEn": "China Takes UN Security Council Chair in May, with Debates on the Middle East, Ukraine, Africa and Bosnia",
+    "titleZh": "中國5月主掌聯合國安理會　將舉行多場全球安全辯論",
+    "titleEn": "China to Lead UN Security Council in May with Debates on Global Security",
     "canonicalUrl": "https://www.novosti.rs/planeta/svet/1602923/kina-preuzima-glavnu-rec-najavljene-debate-bliskom-istoku-ukrajini-africi-bih",
     "publishedAt": "2026-05-01T19:27:00+00:00",
     "capturedAt": "2026-05-10T08:29:40+00:00",
@@ -1871,9 +1865,9 @@
     "sourceCode": "vecernje_novosti",
     "sourceName": "Večernje novosti",
     "hasRawContent": false,
-    "summary": "China will chair the UN Security Council in May and lead several debates on global security, including the Middle East, Ukraine, Africa, Bosnia and Herzegovina, and North Korea. The agenda also includes meetings on civilian protection, sanctions, Libya, Syria, Lebanon, and other crises.",
-    "summaryZh": "中國將在五月擔任聯合國安理會輪值主席，主導多場涉及全球安全的辯論，議題涵蓋中東、烏克蘭、非洲、波黑與北韓等。會期內也將討論平民保護、利比亞制裁、敘利亞、人道議題與黎巴嫩情勢。",
-    "summaryEn": "China will chair the UN Security Council in May and oversee multiple debates on global security, covering the Middle East, Ukraine, Africa, Bosnia and Herzegovina, and North Korea. The month also includes sessions on civilian protection, Libya sanctions, Syria, Lebanon, and humanitarian issues.",
+    "summary": "Kina će u maju predsedavati Savetom bezbednosti UN i organizovati niz debata o globalnoj bezbednosti, uključujući teme Bliskog istoka, Ukrajine, Afrike, BiH i Severne Koreje. Sastankom će predsedavati šef kineske diplomatije Vang Ji, uz moguće dodatne sednice tokom meseca.",
+    "summaryZh": "中國將在5月擔任聯合國安理會輪值主席，安排多場涉及全球安全的辯論，議題涵蓋中東、烏克蘭、非洲、波赫與北韓。會議將由中國外長王毅主持。",
+    "summaryEn": "China will chair the UN Security Council in May and organize multiple debates on global security, covering the Middle East, Ukraine, Africa, Bosnia and Herzegovina, and North Korea. Chinese Foreign Minister Wang Yi will preside over the main meeting.",
     "description": null,
     "countryLabel": {
       "code": "CHINA",
@@ -1885,35 +1879,26 @@
         "code": "DIPLOMACY",
         "zh": "外交",
         "en": "Diplomacy",
-        "confidence": 0.98
-      },
-      {
-        "code": "SECURITY_DEFENSE",
-        "zh": "安全防務",
-        "en": "Security & Defense",
-        "confidence": 0.9
+        "confidence": 0.96
       }
     ],
     "keywordTerms": [
       "UN Security Council",
+      "presidency",
       "Wang Yi",
-      "May chairmanship",
-      "global security debates",
-      "UN Charter"
+      "global security debates"
     ],
     "keywordTermsZh": [
       "聯合國安全理事會",
+      "主席任期",
       "王毅",
-      "五月輪值主席",
-      "全球安全辯論",
-      "聯合國憲章"
+      "全球安全辯論"
     ],
     "keywordTermsEn": [
       "UN Security Council",
+      "presidency",
       "Wang Yi",
-      "May chairmanship",
-      "global security debates",
-      "UN Charter"
+      "global security debates"
     ]
   },
   {
@@ -2069,8 +2054,8 @@
   {
     "articleId": "article-d9adb6ae36494948af0b25ad",
     "title": "",
-    "titleZh": "分析稱美軍 F-22 對華威懾效果受限，南海與呂宋海峽部署引關注",
-    "titleEn": "Analysis: U.S. F-22 Effectiveness Against China Questioned as South China Sea Patrols Draw Attention",
+    "titleZh": "美軍F-22對中分析：為何難以對北京形成有效威懾",
+    "titleEn": "U.S. F-22 vs China: Why They May Be Ineffective Against Beijing",
     "canonicalUrl": "https://www.novosti.rs/planeta/svet/1602581/americki-f22-stelt-problemi-kina-analiza",
     "publishedAt": "2026-04-30T20:33:00+00:00",
     "capturedAt": "2026-05-10T08:27:52+00:00",
@@ -2078,9 +2063,9 @@
     "sourceCode": "vecernje_novosti",
     "sourceName": "Večernje novosti",
     "hasRawContent": false,
-    "summary": "文章分析美军F-22在菲律宾巴萨基地周边与南海、吕宋海峡的行动，指出这类部署延伸了对中国的军事施压。文中也提到“Cope Thunder 26-1”演习展示了美菲联合作战与前沿基地起降能力，但对轻型战机在高强度冲突中的适用性提出质疑。",
-    "summaryZh": "文章指出，美軍F-22自菲律賓巴薩基地出動，靠近南海與呂宋海峽，藉此把軍事壓力延伸到第一島鏈。文中援引“Cope Thunder 26-1”演習，稱美菲可提升聯合作戰與前沿部署能力，但也質疑相關戰機在高強度衝突中的效能。",
-    "summaryEn": "The article says U.S. F-22s operating from Basa Air Base in the Philippines flew near the South China Sea and Luzon Strait, extending military pressure across the first island chain. It cites Cope Thunder 26-1 as proof of U.S.-Philippine integration, while questioning whether such fighters are effective in a high-intensity conflict with China.",
+    "summary": "The article analyzes U.S. F-22 deployments in the South China Sea and Luzon Strait during Cope Thunder 26-1, arguing that the exercise demonstrates U.S.-Philippine interoperability while raising doubts about the aircraft’s effectiveness in a high-intensity conflict with China.",
+    "summaryZh": "文章分析美軍F-22在南海與呂宋海峽附近的部署，以及「Cope Thunder 26-1」演訓，指出美菲可提升聯合作戰能力，但也質疑這些戰機在與中國的高強度衝突中是否真能發揮效果。",
+    "summaryEn": "The article examines U.S. F-22 activity near the South China Sea and Luzon Strait during Cope Thunder 26-1. It says the drills strengthen U.S.-Philippine joint operations, but also question whether the aircraft can be effective in a high-intensity confrontation with China.",
     "description": null,
     "countryLabel": {
       "code": "CHINA",
@@ -2093,12 +2078,6 @@
         "zh": "安全防務",
         "en": "Security & Defense",
         "confidence": 0.99
-      },
-      {
-        "code": "DIPLOMACY",
-        "zh": "外交",
-        "en": "Diplomacy",
-        "confidence": 0.55
       }
     ],
     "keywordTerms": [

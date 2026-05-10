@@ -1,6 +1,6 @@
 {
   "schemaVersion": "keyword-translations-v1",
-  "updatedAt": "2026-05-10T11:45:18.627Z",
+  "updatedAt": "2026-05-10T11:49:53.309Z",
   "entries": {
     "1,330公里射程": {
       "termZh": "1,330公里射程",
@@ -770,6 +770,12 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:45:08.922Z"
     },
+    "presidency": {
+      "termZh": "主席任期",
+      "termEn": "presidency",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:49:53.308Z"
+    },
     "promotion": {
       "termZh": "晉級",
       "termEn": "promotion",
@@ -1328,6 +1334,12 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:14.718Z"
     },
+    "中美談判": {
+      "termZh": "中美談判",
+      "termEn": "China-US talks",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:49:53.308Z"
+    },
     "中美關係": {
       "termZh": "中美關係",
       "termEn": "China-U.S. relations",
@@ -1352,11 +1364,23 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:27.412Z"
     },
+    "伊朗": {
+      "termZh": "伊朗",
+      "termEn": "Iran",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:49:53.308Z"
+    },
     "伊朗原油": {
       "termZh": "伊朗原油",
       "termEn": "Iranian crude oil",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:45:18.627Z"
+    },
+    "伊朗外長": {
+      "termZh": "伊朗外長",
+      "termEn": "Iranian Foreign Minister",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:49:53.308Z"
     },
     "伊朗外长": {
       "termZh": "伊朗外長",
@@ -1375,6 +1399,12 @@
       "termEn": "Casualty Accident",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:27.412Z"
+    },
+    "停戰協議": {
+      "termZh": "停戰協議",
+      "termEn": "armistice agreement",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:49:53.308Z"
     },
     "內部穩定": {
       "termZh": "內部穩定",
@@ -1706,6 +1736,12 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:27.412Z"
     },
+    "特朗普訪華": {
+      "termZh": "特朗普訪華",
+      "termEn": "Trump’s visit to China",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:49:53.308Z"
+    },
     "特朗普访华": {
       "termZh": "特朗普訪華",
       "termEn": "Trump's visit to China",
@@ -1777,6 +1813,12 @@
       "termEn": "pay cut",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:45:18.627Z"
+    },
+    "訪問": {
+      "termZh": "訪問",
+      "termEn": "visit",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:49:53.308Z"
     },
     "访问": {
       "termZh": "訪問",
