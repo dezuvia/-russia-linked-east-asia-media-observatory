@@ -2,68 +2,179 @@
   {
     "articleId": "article-541fb7eee1bc210c22b52314",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "英國外交部因間諜案召見中國大使",
+    "titleEn": "UK Foreign Office summons Chinese ambassador over espionage case",
     "canonicalUrl": "https://vz.ru/news/2026/5/10/1417750.html",
     "publishedAt": "2026-05-10T01:56:26+00:00",
     "capturedAt": "2026-05-10T08:24:14+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "vzglyad",
     "sourceName": "Vzglyad",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "文章主題是英國外交部因間諜案件召見中國駐英大使，焦點在英中之間的外交緊張與安全疑慮。全文未提供案件細節，但標題明確指向中國相關的間諜爭議。",
+    "summaryZh": "文章聚焦英國外交部因間諜案件召見中國駐英大使，反映英中外交緊張與安全疑慮。",
+    "summaryEn": "The article focuses on the UK Foreign Office summoning the Chinese ambassador over an espionage case, highlighting diplomatic tension and security concerns.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "DIPLOMACY",
+        "zh": "外交",
+        "en": "Diplomacy",
+        "confidence": 0.96
+      },
+      {
+        "code": "SECURITY_DEFENSE",
+        "zh": "安全防務",
+        "en": "Security & Defense",
+        "confidence": 0.89
+      },
+      {
+        "code": "LAW_GOVERNANCE",
+        "zh": "法治治理",
+        "en": "Law & Governance",
+        "confidence": 0.72
+      }
+    ],
+    "keywordTerms": [
+      "Китай",
+      "шпионаж",
+      "посол",
+      "МИД Британии"
+    ],
+    "keywordTermsZh": [
+      "Китай",
+      "шпионаж",
+      "посол",
+      "МИД Британии"
+    ],
+    "keywordTermsEn": [
+      "Китай",
+      "шпионаж",
+      "посол",
+      "МИД Британии"
+    ]
   },
   {
     "articleId": "article-e64f2ba31a9d836cbcc2532c",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "北約欲拉攏日本參與太空計畫",
+    "titleEn": "NATO Seeks to Bring Japan into Space Project",
     "canonicalUrl": "https://vz.ru/news/2026/5/10/1417739.html",
     "publishedAt": "2026-05-09T22:57:30+00:00",
     "capturedAt": "2026-05-10T08:24:02+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "vzglyad",
     "sourceName": "Vzglyad",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "文章主題是北約試圖拉攏日本參與其太空相關計畫，並提到北約與影視界人士接觸、希望將其納入宣傳合作。全文以對北約外交與宣傳操作的批評為主。",
+    "summaryZh": "本文指出北約正試圖吸引日本參與一項太空計畫，並透過與全球影視人士接觸來擴大宣傳影響力。文章整體帶有批評語氣，認為這是北約的宣傳操作。",
+    "summaryEn": "The article says NATO is trying to involve Japan in a space project and is also meeting with filmmakers worldwide to broaden its propaganda efforts. The tone is critical of NATO's outreach and messaging strategy.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "JAPAN",
+      "zh": "日本",
+      "en": "Japan"
+    },
+    "issueLabels": [
+      {
+        "code": "SECURITY_DEFENSE",
+        "zh": "安全防務",
+        "en": "Security & Defense",
+        "confidence": 0.92
+      },
+      {
+        "code": "TECHNOLOGY",
+        "zh": "科技",
+        "en": "Technology",
+        "confidence": 0.84
+      },
+      {
+        "code": "DIPLOMACY",
+        "zh": "外交",
+        "en": "Diplomacy",
+        "confidence": 0.67
+      }
+    ],
+    "keywordTerms": [
+      "NATO",
+      "Japan",
+      "space project",
+      "propaganda"
+    ],
+    "keywordTermsZh": [
+      "NATO",
+      "Japan",
+      "space project",
+      "propaganda"
+    ],
+    "keywordTermsEn": [
+      "NATO",
+      "Japan",
+      "space project",
+      "propaganda"
+    ]
   },
   {
     "articleId": "article-5c92c297b53b26f168a9871e",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "美國NTSB新資料：中國東方航空MU5735空難疑點再起",
+    "titleEn": "New NTSB Data Revives Questions Over China Eastern Flight MU5735 Crash",
     "canonicalUrl": "https://www.origo.hu/nagyvilag/2026/05/china-eastern-repulogep-szerencsetlenseg-nyomozas",
     "publishedAt": "2026-05-09T14:17:49+00:00",
     "capturedAt": "2026-05-10T08:48:50+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "origo_hu",
     "sourceName": "Origo",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "A report citing newly released NTSB data says both fuel switches on the China Eastern Boeing 737 may have been moved to cut-off during flight MU5735, renewing questions about whether the 2022 crash was deliberate. China has not issued a final report on the disaster that killed all 132 aboard.",
+    "summaryZh": "美國NTSB新公開資料顯示，中國東方航空MU5735班機兩具發動機的燃油開關疑似被切至關閉位置，讓這起2022年墜機事故是否屬於人為造成再度引發關注。中國方面迄今尚未公布最終調查報告，空難共造成132人罹難。",
+    "summaryEn": "Fresh NTSB data suggests both fuel switches on China Eastern flight MU5735 may have been moved to cut-off, renewing speculation that the 2022 crash was intentional. China has still not released a final report on the disaster, which killed all 132 people on board.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "SECURITY_DEFENSE",
+        "zh": "安全防務",
+        "en": "Security & Defense",
+        "confidence": 0.72
+      },
+      {
+        "code": "LAW_GOVERNANCE",
+        "zh": "法治治理",
+        "en": "Law & Governance",
+        "confidence": 0.81
+      }
+    ],
+    "keywordTerms": [
+      "China Eastern",
+      "MU5735",
+      "Boeing 737",
+      "fuel switch",
+      "NTSB"
+    ],
+    "keywordTermsZh": [
+      "China Eastern",
+      "MU5735",
+      "Boeing 737",
+      "fuel switch",
+      "NTSB"
+    ],
+    "keywordTermsEn": [
+      "China Eastern",
+      "MU5735",
+      "Boeing 737",
+      "fuel switch",
+      "NTSB"
+    ]
   },
   {
     "articleId": "article-ab408b64042e26f5c06c8554",
@@ -383,24 +494,50 @@
   {
     "articleId": "article-7b95b8d054814376fc97f1a5",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "白俄羅斯手球隊將赴中國參加國際賽",
+    "titleEn": "Belarus Handball Team to Compete in International Tournament in China",
     "canonicalUrl": "https://belta.by/sport/view/belorusskie-gandbolisty-sygrajut-na-turnire-v-kitae-779521-2026/",
     "publishedAt": "2026-05-08T11:55:50+00:00",
     "capturedAt": "2026-05-10T08:25:20+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "belta",
     "sourceName": "BelTA",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "白俄羅斯男子手球國家隊將於下週赴中國甘州參加國際賽，並與中國國家隊、中國青年隊、俄羅斯與香港隊交手。",
+    "summaryZh": "白俄羅斯男子手球國家隊下週將前往中國甘州參加國際邀請賽，賽程包含對陣中國國家隊與中國青年隊，並將對戰俄羅斯及香港隊。",
+    "summaryEn": "Belarus's men's national handball team will travel to China next week for an international tournament in Ganzhou. The schedule includes matches against China's senior and youth teams, plus Russia and Hong Kong.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "SOCIETY_CULTURE",
+        "zh": "社會文化",
+        "en": "Society & Culture",
+        "confidence": 0.74
+      }
+    ],
+    "keywordTerms": [
+      "handball tournament",
+      "Guangzhou",
+      "China",
+      "Belarus national team"
+    ],
+    "keywordTermsZh": [
+      "handball tournament",
+      "Guangzhou",
+      "China",
+      "Belarus national team"
+    ],
+    "keywordTermsEn": [
+      "handball tournament",
+      "Guangzhou",
+      "China",
+      "Belarus national team"
+    ]
   },
   {
     "articleId": "article-fd7e68e81405add1bc0aef56",
@@ -456,24 +593,56 @@
   {
     "articleId": "article-2354dc3c2888dd565a0f11ec",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "中國湖南煙花廠爆炸死亡增至37人",
+    "titleEn": "Death Toll in Hunan Fireworks Plant Explosion Rises to 37",
     "canonicalUrl": "https://belta.by/world/view/chislo-pogibshih-v-rezultate-vzryva-na-zavode-fejerverkov-v-kitae-vozroslo-do-37-779482-2026/",
     "publishedAt": "2026-05-08T09:18:30+00:00",
     "capturedAt": "2026-05-10T08:25:25+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "belta",
     "sourceName": "BelTA",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "中国湖南浏阳一家烟花制造厂4日发生爆炸，死亡人数升至37人，另有1人失踪、51人受伤。救援工作已基本结束，习近平要求强化全国生产场所安全管理并追责。",
+    "summaryZh": "中國湖南省浏陽一家煙花製造廠4日發生爆炸，死亡人數升至37人，另有1人失蹤、51人受傷。搜救工作已基本完成，習近平要求加強全國生產場所安全管理並追究責任。",
+    "summaryEn": "An explosion at a fireworks factory in Liuyang, Hunan, China on May 4 has killed 37 people, left one missing, and injured 51. Rescue operations are mostly complete, and Xi Jinping has called for tighter safety oversight and accountability.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "LAW_GOVERNANCE",
+        "zh": "法治治理",
+        "en": "Law & Governance",
+        "confidence": 0.91
+      },
+      {
+        "code": "ENVIRONMENT_DISASTER",
+        "zh": "環境災害",
+        "en": "Environment & Disaster",
+        "confidence": 0.82
+      }
+    ],
+    "keywordTerms": [
+      "烟花厂爆炸",
+      "湖南浏阳",
+      "安全生产",
+      "人员伤亡"
+    ],
+    "keywordTermsZh": [
+      "烟花厂爆炸",
+      "湖南浏阳",
+      "安全生产",
+      "人员伤亡"
+    ],
+    "keywordTermsEn": [
+      "烟花厂爆炸",
+      "湖南浏阳",
+      "安全生产",
+      "人员伤亡"
+    ]
   },
   {
     "articleId": "article-9334dfb1274fb9df43946709",
@@ -538,156 +707,401 @@
   {
     "articleId": "article-d51419c1fcc6c6c7c7316526",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "美媒稱若特朗普訪中後仍無美伊協議　戰爭選項恐再度浮上檯面",
+    "titleEn": "Israeli Media: If No Deal After Trump’s China Visit, War Option Returns",
     "canonicalUrl": "https://www.novosti.rs/planeta/svet/1604999/kina-amerika-donald-tramp-rat-iranu-djinping-izrael",
     "publishedAt": "2026-05-07T19:45:00+00:00",
     "capturedAt": "2026-05-10T08:35:40+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "vecernje_novosti",
     "sourceName": "Večernje novosti",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "文章稱，美國與伊朗若在特朗普訪問中國前未能達成結束衝突的協議，軍事選項可能重新被提上桌面。白宮預計很快收到伊朗對美方新提案的回應，而特朗普計劃於5月14日至15日訪中。",
+    "summaryZh": "文章稱，美國與伊朗若在特朗普訪問中國前未能達成結束衝突的協議，軍事選項可能重新被提上桌面。白宮預計很快收到伊朗對美方新提案的回應，而特朗普計劃於5月14日至15日訪中。",
+    "summaryEn": "The article says that if the U.S. and Iran do not reach a deal before President Trump returns from his planned visit to China, the military option could come back onto the table. The White House expects Iran’s response soon, and Trump is scheduled to visit China on May 14-15.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "DIPLOMACY",
+        "zh": "外交",
+        "en": "Diplomacy",
+        "confidence": 0.95
+      },
+      {
+        "code": "SECURITY_DEFENSE",
+        "zh": "安全防務",
+        "en": "Security & Defense",
+        "confidence": 0.9
+      }
+    ],
+    "keywordTerms": [
+      "特朗普訪中",
+      "美伊談判",
+      "軍事選項",
+      "中國訪問"
+    ],
+    "keywordTermsZh": [
+      "特朗普訪中",
+      "美伊談判",
+      "軍事選項",
+      "中國訪問"
+    ],
+    "keywordTermsEn": [
+      "特朗普訪中",
+      "美伊談判",
+      "軍事選項",
+      "中國訪問"
+    ]
   },
   {
     "articleId": "article-6fc41ee608ac673c2b6d9983",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "白俄羅斯與中國啟動旗艦及科研技術合作項目競賽",
+    "titleEn": "Belarus and China launch flagship and science-technology project competitions",
     "canonicalUrl": "https://belta.by/society/view/objjavleny-konkursy-belorussko-kitajskih-flagmanskih-i-nauchno-tehnicheskih-proektov-779399-2026/",
     "publishedAt": "2026-05-07T17:28:17+00:00",
     "capturedAt": "2026-05-10T08:25:17+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "belta",
     "sourceName": "BelTA",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "白俄羅斯國家科學與技術委員會與中國科技部啟動2027至2030年的旗艦科研技術項目競賽，以及2027至2029年的一般科研技術項目競賽，涵蓋人工智慧、數位經濟、先進材料、醫藥、生物技術與航太等領域。",
+    "summaryZh": "白俄羅斯國家科學與技術委員會與中國科技部共同舉辦兩項科研技術項目競賽，面向2027至2030年與2027至2029年，重點涵蓋人工智慧、工業創新、先進材料、醫藥與農工技術等。入選項目將推動前沿技術、合資企業或工業技術中心建設。",
+    "summaryEn": "Belarus and China are running two joint science and technology project competitions for 2027-2030 and 2027-2029, covering AI, digital economy, advanced materials, biotech, medicine, agriculture and industrial innovation. Selected flagship projects aim to produce advanced technologies and joint ventures or industrial technology centers.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "TECHNOLOGY",
+        "zh": "科技",
+        "en": "Technology",
+        "confidence": 0.99
+      },
+      {
+        "code": "DIPLOMACY",
+        "zh": "外交",
+        "en": "Diplomacy",
+        "confidence": 0.82
+      },
+      {
+        "code": "ECONOMY_TRADE",
+        "zh": "經濟貿易",
+        "en": "Economy & Trade",
+        "confidence": 0.6
+      }
+    ],
+    "keywordTerms": [
+      "Беларусь-Китай",
+      "научно-технические проекты",
+      "инновации",
+      "совместные предприятия",
+      "ИИ"
+    ],
+    "keywordTermsZh": [
+      "Беларусь-Китай",
+      "научно-технические проекты",
+      "инновации",
+      "совместные предприятия",
+      "ИИ"
+    ],
+    "keywordTermsEn": [
+      "Беларусь-Китай",
+      "научно-технические проекты",
+      "инновации",
+      "совместные предприятия",
+      "ИИ"
+    ]
   },
   {
     "articleId": "article-047929fc9f57a3a7c791e420",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "中國以貪腐罪判處兩名前國防部長死緩",
+    "titleEn": "China Hands Former Defense Ministers Death Sentences Suspended for Corruption",
     "canonicalUrl": "https://www.novosti.rs/planeta/svet/1604950/smrtna-kazna-funkcionere-kina-osudila-bivse-ministre-odbrane-zbog-korupcije",
     "publishedAt": "2026-05-07T16:28:00+00:00",
     "capturedAt": "2026-05-10T08:34:15+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "vecernje_novosti",
     "sourceName": "Večernje novosti",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "中國軍事法院以貪腐罪名判處前國防部長魏鳳和與李尚福死刑，緩期兩年執行，並沒收全部個人財產、終身剝奪政治權利。",
+    "summaryZh": "中國軍事法院以貪腐罪名判處前國防部長魏鳳和與李尚福死刑，緩期兩年執行，並沒收全部個人財產、終身剝奪政治權利。",
+    "summaryEn": "A Chinese military court sentenced former defense ministers Wei Fenghe and Li Shangfu to death with a two-year reprieve over corruption charges, also stripping political rights for life and confiscating their assets.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "LAW_GOVERNANCE",
+        "zh": "法治治理",
+        "en": "Law & Governance",
+        "confidence": 0.96
+      },
+      {
+        "code": "DOMESTIC_POLITICS",
+        "zh": "內政",
+        "en": "Domestic Politics",
+        "confidence": 0.9
+      }
+    ],
+    "keywordTerms": [
+      "魏鳳和",
+      "李尚福",
+      "反腐",
+      "軍事法庭",
+      "死緩"
+    ],
+    "keywordTermsZh": [
+      "魏鳳和",
+      "李尚福",
+      "反腐",
+      "軍事法庭",
+      "死緩"
+    ],
+    "keywordTermsEn": [
+      "魏鳳和",
+      "李尚福",
+      "反腐",
+      "軍事法庭",
+      "死緩"
+    ]
   },
   {
     "articleId": "article-c1ece4eb8a1845d7ef542cd3",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "伊朗否認捲入霍爾木茲海峽南韓船隻事故",
+    "titleEn": "Iran Denies Involvement in Strait of Hormuz Incident Involving South Korean Ship",
     "canonicalUrl": "https://www.novosti.rs/planeta/svet/1604726/teheran-odbacuje-optuzbe-iran-negira-umesanost-incident-juznokorejskim-brodom-ormuskom-moreuzu",
     "publishedAt": "2026-05-07T09:16:00+00:00",
     "capturedAt": "2026-05-10T08:33:39+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "vecernje_novosti",
     "sourceName": "Večernje novosti",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "Iran denied involvement in damage to a South Korean-operated ship in the Strait of Hormuz, while South Korean authorities said the cause will be confirmed only after the vessel is towed to port and inspected. The incident remains under investigation amid U.S. accusations against Iran.",
+    "summaryZh": "伊朗駐首爾大使館否認伊朗武裝力量與霍爾木茲海峽一艘南韓公司營運船隻受損事件有關。南韓方面表示，需待船隻拖回港口並詳細檢查後，才能確認起火原因，調查仍在進行中。",
+    "summaryEn": "Iran's embassy in Seoul denied any role by Iranian forces in damage to a ship operated by a South Korean company in the Strait of Hormuz. South Korean officials said the cause can only be confirmed after the vessel is towed to port and inspected, and the investigation is ongoing.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "SOUTH_KOREA",
+      "zh": "南韓",
+      "en": "South Korea"
+    },
+    "issueLabels": [
+      {
+        "code": "SECURITY_DEFENSE",
+        "zh": "安全防務",
+        "en": "Security & Defense",
+        "confidence": 0.86
+      },
+      {
+        "code": "DIPLOMACY",
+        "zh": "外交",
+        "en": "Diplomacy",
+        "confidence": 0.72
+      }
+    ],
+    "keywordTerms": [
+      "Ormus Strait",
+      "South Korean ship",
+      "Iran denial",
+      "investigation"
+    ],
+    "keywordTermsZh": [
+      "Ormus Strait",
+      "South Korean ship",
+      "Iran denial",
+      "investigation"
+    ],
+    "keywordTermsEn": [
+      "Ormus Strait",
+      "South Korean ship",
+      "Iran denial",
+      "investigation"
+    ]
   },
   {
     "articleId": "article-e4fcc3533b224a878895a755",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "白俄國科學院與中國企業敲定創新合作前景",
+    "titleEn": "Belarus Academy of Sciences and Chinese Firms Outline Innovation Cooperation Prospects",
     "canonicalUrl": "https://belta.by/economics/view/nan-belarusi-i-kitajskie-kompanii-opredelili-perspektivy-sotrudnichestva-v-sfere-innovatsij-779141-2026/",
     "publishedAt": "2026-05-06T16:53:48+00:00",
     "capturedAt": "2026-05-10T08:24:32+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "belta",
     "sourceName": "BelTA",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "白俄羅斯國家科學院與中國企業代表會面，討論在創新、高科技研發及多項科研領域的合作前景，涵蓋機械工程、無人運輸、機器人系統、雷射、光學與資訊通信技術等方向。",
+    "summaryZh": "白俄羅斯國家科學院與中國企業代表會談，重點討論創新合作前景。雙方關注機械工程、無人運輸、高自動化與機器人系統、雷射、光學及ICT等領域，並強調合作需有清晰計畫與機制。",
+    "summaryEn": "The Belarusian National Academy of Sciences met with Chinese company representatives to discuss prospects for cooperation in innovation. The sides focused on machinery, unmanned transport, highly automated and robotic systems, laser technology, optics, and ICT, stressing the need for clear plans and mechanisms.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "TECHNOLOGY",
+        "zh": "科技",
+        "en": "Technology",
+        "confidence": 0.98
+      },
+      {
+        "code": "ECONOMY_TRADE",
+        "zh": "經濟貿易",
+        "en": "Economy & Trade",
+        "confidence": 0.72
+      },
+      {
+        "code": "DIPLOMACY",
+        "zh": "外交",
+        "en": "Diplomacy",
+        "confidence": 0.55
+      }
+    ],
+    "keywordTerms": [
+      "中白科研合作",
+      "創新",
+      "高科技研發",
+      "無人運輸",
+      "機器人系統"
+    ],
+    "keywordTermsZh": [
+      "中白科研合作",
+      "創新",
+      "高科技研發",
+      "無人運輸",
+      "機器人系統"
+    ],
+    "keywordTermsEn": [
+      "中白科研合作",
+      "創新",
+      "高科技研發",
+      "無人運輸",
+      "機器人系統"
+    ]
   },
   {
     "articleId": "article-efead773a015f83a6823812e",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "韓國首見類人機器人參與佛教受戒儀式",
+    "titleEn": "Humanoid Robot Takes Part in Buddhist Ordination Ceremony in South Korea",
     "canonicalUrl": "https://belta.by/kaleidoscope/view/v-respublike-koreja-robota-posvjatili-779138-2026/",
     "publishedAt": "2026-05-06T16:48:02+00:00",
     "capturedAt": "2026-05-10T08:24:38+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "belta",
     "sourceName": "BelTA",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "韓國首度有類人機器人參與佛教受戒儀式，地點在首爾曹溪宗寺院。機器人名為Gabi，穿僧袍、回答誓願問題，並依其特性接受調整後的五戒，之後還獲賜佛教法名，未來也預計參與佛誕燈節活動。",
+    "summaryZh": "韓國首度有類人機器人參與佛教受戒儀式，儀式在首爾曹溪宗寺院舉行。這台名為Gabi的機器人穿上僧袍、回答誓願問題，並接受為其特性調整的五戒，最後獲賜佛教法名，未來還將參與佛誕燈節。",
+    "summaryEn": "A humanoid robot took part for the first time in a Buddhist vow-taking ceremony in South Korea, held at a Jogye Order temple in Seoul. The robot, named Gabi, wore a monk's robe, answered ritual questions, received adapted precepts, and was given a Buddhist name before an expected appearance at a Buddha's Birthday lantern festival.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "SOUTH_KOREA",
+      "zh": "南韓",
+      "en": "South Korea"
+    },
+    "issueLabels": [
+      {
+        "code": "SOCIETY_CULTURE",
+        "zh": "社會文化",
+        "en": "Society & Culture",
+        "confidence": 0.95
+      },
+      {
+        "code": "TECHNOLOGY",
+        "zh": "科技",
+        "en": "Technology",
+        "confidence": 0.93
+      }
+    ],
+    "keywordTerms": [
+      "humanoid robot",
+      "Buddhist ceremony",
+      "Seoul",
+      "Jogye Order"
+    ],
+    "keywordTermsZh": [
+      "humanoid robot",
+      "Buddhist ceremony",
+      "Seoul",
+      "Jogye Order"
+    ],
+    "keywordTermsEn": [
+      "humanoid robot",
+      "Buddhist ceremony",
+      "Seoul",
+      "Jogye Order"
+    ]
   },
   {
     "articleId": "article-2d7f711081746c5646545dbe",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "中國表示願斡旋伊朗與美國和平談判",
+    "titleEn": "China Says It Is Ready to Mediate Iran-U.S. Peace Talks",
     "canonicalUrl": "https://www.novosti.rs/planeta/svet/1604475/kina-nudi-posredovanje-peking-spreman-pomogne-mirovne-pregovore-irana-sad",
     "publishedAt": "2026-05-06T14:18:00+00:00",
     "capturedAt": "2026-05-10T08:33:21+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "vecernje_novosti",
     "sourceName": "Večernje novosti",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "中國表示願意協助推動伊朗與美國的和平談判。中國外長王毅在北京會見伊朗外長阿拉格齊時，批評美國和以色列對伊朗的軍事行動不合法，並呼籲停火、緩和中東緊張局勢，同時希望霍爾木茲海峽航運儘快恢復正常。",
+    "summaryZh": "中國外長王毅會見伊朗外長阿拉格齊時表示，中國願協助推動伊朗與美國的和平談判，並主張停火以緩和中東局勢。中方也希望霍爾木茲海峽航運盡快恢復正常。",
+    "summaryEn": "Chinese Foreign Minister Wang Yi said China is ready to help launch and advance peace talks between Iran and the United States. During talks with Iran's foreign minister in Beijing, he called for a ceasefire, criticized U.S. and Israeli military actions, and said normal shipping through the Strait of Hormuz should resume soon.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "DIPLOMACY",
+        "zh": "外交",
+        "en": "Diplomacy",
+        "confidence": 0.98
+      },
+      {
+        "code": "SECURITY_DEFENSE",
+        "zh": "安全防務",
+        "en": "Security & Defense",
+        "confidence": 0.69
+      }
+    ],
+    "keywordTerms": [
+      "中美伊朗斡旋",
+      "和平談判",
+      "霍爾木茲海峽",
+      "中東局勢"
+    ],
+    "keywordTermsZh": [
+      "中美伊朗斡旋",
+      "和平談判",
+      "霍爾木茲海峽",
+      "中東局勢"
+    ],
+    "keywordTermsEn": [
+      "中美伊朗斡旋",
+      "和平談判",
+      "霍爾木茲海峽",
+      "中東局勢"
+    ]
   },
   {
     "articleId": "article-00c5cfb47d95c6a448cb3e15",
@@ -740,46 +1154,116 @@
   {
     "articleId": "article-65d3bfaab5db1f1d01b6788a",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "中國外長王毅在北京與伊朗外長阿拉格齊舉行會談",
+    "titleEn": "China's FM Wang Yi holds talks with Iran's foreign minister Araghchi in Beijing",
     "canonicalUrl": "https://belta.by/world/view/glavy-mid-knr-i-irana-proveli-peregovory-v-pekine-779029-2026/",
     "publishedAt": "2026-05-06T10:55:47+00:00",
     "capturedAt": "2026-05-10T08:25:28+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "belta",
     "sourceName": "BelTA",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "中國外長王毅在北京會見伊朗外長阿巴斯·阿拉格齊，雙方就雙邊合作及伊朗與美國談判交換意見。報導還提到，會晤背景包括霍爾木茲海峽緊張局勢升溫，以及美方對相關局勢與聯合國行動的表態。",
+    "summaryZh": "中國外長王毅在北京會見伊朗外長阿巴斯·阿拉格齊，討論雙邊合作及伊朗與美國談判。報導指出，會談背景是霍爾木茲海峽緊張升溫，以及美方與聯合國相關動向。",
+    "summaryEn": "Chinese Foreign Minister Wang Yi met Iran's Abbas Araghchi in Beijing to discuss bilateral cooperation and Iran-U.S. talks. The meeting took place amid rising tension over the Strait of Hormuz and related U.S. and UN moves.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "DIPLOMACY",
+        "zh": "外交",
+        "en": "Diplomacy",
+        "confidence": 0.99
+      },
+      {
+        "code": "SECURITY_DEFENSE",
+        "zh": "安全防務",
+        "en": "Security & Defense",
+        "confidence": 0.74
+      }
+    ],
+    "keywordTerms": [
+      "王毅",
+      "阿拉格齊",
+      "北京會談",
+      "伊中合作",
+      "霍爾木茲海峽"
+    ],
+    "keywordTermsZh": [
+      "王毅",
+      "阿拉格齊",
+      "北京會談",
+      "伊中合作",
+      "霍爾木茲海峽"
+    ],
+    "keywordTermsEn": [
+      "王毅",
+      "阿拉格齊",
+      "北京會談",
+      "伊中合作",
+      "霍爾木茲海峽"
+    ]
   },
   {
     "articleId": "article-aece33e9811e74a7efbc4e4a",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "上海將興建全球最高無輻條摩天輪 高228公尺",
+    "titleEn": "Shanghai to Build World's Tallest Spokeless Ferris Wheel at 228 Meters",
     "canonicalUrl": "https://belta.by/kaleidoscope/view/v-shanhae-postrojat-samoe-bolshoe-v-779020-2026/",
     "publishedAt": "2026-05-06T10:35:31+00:00",
     "capturedAt": "2026-05-10T08:24:40+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "belta",
     "sourceName": "BelTA",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "上海北部宝山区将兴建一座高228米、号称全球最高的无辐条摩天轮「上海之弧」。项目预计于2026年底开工，投资约20亿元人民币，建成后将刷新目前由山东「渤海之眼」保持的同类世界纪录。",
+    "summaryZh": "上海北部寶山區將建設一座高228公尺的無輻條摩天輪「上海之弧」，預計2026年底開工，總投資約20億元人民幣。建成後將成為全球最高的同類設施，超越目前位於山東的「渤海之眼」。",
+    "summaryEn": "Shanghai's Baoshan district will build a 228-meter spokeless Ferris wheel called the \"Shanghai Arc.\" Construction is scheduled to start at the end of 2026, with an estimated cost of 2 billion yuan. It will become the world's tallest wheel of its kind, surpassing Shandong's \"Bohai Eye.\"",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "ECONOMY_TRADE",
+        "zh": "經濟貿易",
+        "en": "Economy & Trade",
+        "confidence": 0.79
+      },
+      {
+        "code": "TECHNOLOGY",
+        "zh": "科技",
+        "en": "Technology",
+        "confidence": 0.69
+      }
+    ],
+    "keywordTerms": [
+      "上海摩天轮",
+      "无辐条设计",
+      "宝山区",
+      "228米",
+      "文旅建设"
+    ],
+    "keywordTermsZh": [
+      "上海摩天轮",
+      "无辐条设计",
+      "宝山区",
+      "228米",
+      "文旅建设"
+    ],
+    "keywordTermsEn": [
+      "上海摩天轮",
+      "无辐条设计",
+      "宝山区",
+      "228米",
+      "文旅建设"
+    ]
   },
   {
     "articleId": "article-e06cd07c71c182b756b46f07",
@@ -832,24 +1316,50 @@
   {
     "articleId": "article-9dde9d74910aeae616b73d6d",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "明斯克植物園櫻花綻放　展現日本春日文化意象",
+    "titleEn": "Sakura blooms in Minsk botanical garden, highlighting Japanese spring culture",
     "canonicalUrl": "https://belta.by/regions/view/japonskaja-vesna-v-minske-v-botanicheskom-sadu-zatsvela-sakura-778967-2026/",
     "publishedAt": "2026-05-05T19:28:37+00:00",
     "capturedAt": "2026-05-10T08:24:58+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "belta",
     "sourceName": "BelTA",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "明斯克中央植物園的櫻花開放，園方介紹櫻花在日本文化中的象徵意義與相關知識，並邀請民眾前往賞花。",
+    "summaryZh": "白俄羅斯國家科學院中央植物園的櫻花近日綻放。園方介紹櫻花在日本文化中的象徵，並表示花期通常不超過一週，邀請民眾前來欣賞。",
+    "summaryEn": "Cherry blossoms have bloomed at the Central Botanical Garden of the National Academy of Sciences of Belarus. The article explains sakura’s cultural symbolism in Japan and notes the bloom lasts no more than a week.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "JAPAN",
+      "zh": "日本",
+      "en": "Japan"
+    },
+    "issueLabels": [
+      {
+        "code": "SOCIETY_CULTURE",
+        "zh": "社會文化",
+        "en": "Society & Culture",
+        "confidence": 0.98
+      }
+    ],
+    "keywordTerms": [
+      "櫻花",
+      "日本文化",
+      "明斯克",
+      "中央植物園"
+    ],
+    "keywordTermsZh": [
+      "櫻花",
+      "日本文化",
+      "明斯克",
+      "中央植物園"
+    ],
+    "keywordTermsEn": [
+      "櫻花",
+      "日本文化",
+      "明斯克",
+      "中央植物園"
+    ]
   },
   {
     "articleId": "article-4f0237509ef0943dd1bb92b0",
@@ -1064,112 +1574,311 @@
   {
     "articleId": "article-5c9a9df4dabf272fa3d62c05",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "中國湖南煙花廠爆炸釀20餘死、60餘傷",
+    "titleEn": "Explosion at fireworks factory in China’s Hunan kills more than 20, injures over 60",
     "canonicalUrl": "https://belta.by/world/view/bolee-20-chelovek-pogibli-pri-vzryve-na-zavode-fejerverkov-v-kitae-778794-2026/",
     "publishedAt": "2026-05-05T08:37:36+00:00",
     "capturedAt": "2026-05-10T08:25:23+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "belta",
     "sourceName": "BelTA",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "中國湖南省瀏陽一家煙花製造廠發生爆炸，已造成20多人死亡、60多人受傷。現場仍在搜救與消防處置，兩處火藥倉庫持續構成風險。習近平要求全力救援、查明原因，並在全國加強工業安全措施。",
+    "summaryZh": "中國湖南省瀏陽一座煙花廠發生爆炸，造成20多人死亡、60多人受傷。現場持續進行搜救與消防處置，當局已劃定警戒區並疏散周邊居民。習近平要求全力救援、儘速查明原因，並強化全國生產安全管理。",
+    "summaryEn": "An explosion at a fireworks factory in Liuyang, Hunan, China, killed more than 20 people and injured over 60. Rescue and firefighting efforts are ongoing, with residents evacuated from the danger zone. Xi Jinping ordered a full rescue response, a swift investigation, and tighter industrial safety measures nationwide.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "ENVIRONMENT_DISASTER",
+        "zh": "環境災害",
+        "en": "Environment & Disaster",
+        "confidence": 0.95
+      },
+      {
+        "code": "LAW_GOVERNANCE",
+        "zh": "法治治理",
+        "en": "Law & Governance",
+        "confidence": 0.72
+      },
+      {
+        "code": "DOMESTIC_POLITICS",
+        "zh": "內政",
+        "en": "Domestic Politics",
+        "confidence": 0.55
+      }
+    ],
+    "keywordTerms": [
+      "烟花厂爆炸",
+      "湖南浏阳",
+      "安全生产",
+      "伤亡事故",
+      "习近平"
+    ],
+    "keywordTermsZh": [
+      "烟花厂爆炸",
+      "湖南浏阳",
+      "安全生产",
+      "伤亡事故",
+      "习近平"
+    ],
+    "keywordTermsEn": [
+      "烟花厂爆炸",
+      "湖南浏阳",
+      "安全生产",
+      "伤亡事故",
+      "习近平"
+    ]
   },
   {
     "articleId": "article-edcce732740a7b23517e7255",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "中國湖南煙火工廠發生嚴重爆炸　至少26死61傷",
+    "titleEn": "Deadly fireworks factory explosion in China's Hunan leaves at least 26 dead and 61 injured",
     "canonicalUrl": "https://www.novosti.rs/planeta/svet/1603889/stravicna-eksplozija-kini-poginulo-vise-20-osoba-broje-povredjeni-foto",
     "publishedAt": "2026-05-05T07:45:00+00:00",
     "capturedAt": "2026-05-10T08:31:57+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "vecernje_novosti",
     "sourceName": "Večernje novosti",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "中國湖南省瀏陽市一間煙火工廠發生爆炸，造成至少26人死亡、61人受傷。救援與搜救大致完成，當局已疏散附近居民並調查事故原因，警方也已拘留涉事公司相關責任人。",
+    "summaryZh": "中國湖南省一間煙火工廠發生嚴重爆炸，死亡人數升至26人、61人受傷。救援人員大規模投入搜救，周邊居民已被疏散，當局正調查事故原因並已拘留公司相關負責人。",
+    "summaryEn": "A fireworks factory explosion in central China's Hunan province has killed 26 people and injured 61. Authorities said rescue work is largely complete, nearby residents were evacuated, and officials are investigating the cause while company leaders have been detained.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "ENVIRONMENT_DISASTER",
+        "zh": "環境災害",
+        "en": "Environment & Disaster",
+        "confidence": 0.84
+      },
+      {
+        "code": "LAW_GOVERNANCE",
+        "zh": "法治治理",
+        "en": "Law & Governance",
+        "confidence": 0.71
+      }
+    ],
+    "keywordTerms": [
+      "Hunan",
+      "explosion",
+      "fireworks factory",
+      "casualties",
+      "rescue operation"
+    ],
+    "keywordTermsZh": [
+      "Hunan",
+      "explosion",
+      "fireworks factory",
+      "casualties",
+      "rescue operation"
+    ],
+    "keywordTermsEn": [
+      "Hunan",
+      "explosion",
+      "fireworks factory",
+      "casualties",
+      "rescue operation"
+    ]
   },
   {
     "articleId": "article-fecd54d765fd620d43d0e787",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "梅朗雄稱：特朗普想藉封鎖霍爾木茲海峽切斷對華石油，計畫已失敗",
+    "titleEn": "Mélenchon: Trump Tried to Cut Off Oil to China by Blocking the Strait of Hormuz, but the Plan Failed",
     "canonicalUrl": "https://www.novosti.rs/planeta/svet/1603788/francuski-opozicionar-objasnio-tramp-mislio-blokirajuci-ormuski-moreuz-preseci-naftu-koja-ide-kini-propalo",
     "publishedAt": "2026-05-04T15:45:00+00:00",
     "capturedAt": "2026-05-10T08:31:34+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "vecernje_novosti",
     "sourceName": "Večernje novosti",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "法國反對派領袖梅朗雄表示，特朗普對伊朗施壓、意在封鎖霍爾木茲海峽，原本是想切斷流向中國的石油供應，但這一計畫已經失敗。他並批評美國低估了全球貿易與美元體系的反作用。",
+    "summaryZh": "法國反對派領袖梅朗雄稱，特朗普對伊朗施壓並考慮封鎖霍爾木茲海峽，目的是切斷流向中國的石油，但該策略最終失敗。他還認為，美國的關稅與貿易施壓難以達到預期效果。",
+    "summaryEn": "French opposition leader Jean-Luc Mélenchon said Trump’s confrontation with Iran was meant to block the Strait of Hormuz and cut off oil flowing to China, but the plan failed. He also argued that tariff pressure and trade coercion would not deliver the desired results.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "ENERGY_RESOURCES",
+        "zh": "能源資源",
+        "en": "Energy & Resources",
+        "confidence": 0.97
+      },
+      {
+        "code": "SECURITY_DEFENSE",
+        "zh": "安全防務",
+        "en": "Security & Defense",
+        "confidence": 0.85
+      },
+      {
+        "code": "ECONOMY_TRADE",
+        "zh": "經濟貿易",
+        "en": "Economy & Trade",
+        "confidence": 0.78
+      }
+    ],
+    "keywordTerms": [
+      "霍爾木茲海峽",
+      "中國石油供應",
+      "特朗普",
+      "伊朗衝突",
+      "關稅壓力"
+    ],
+    "keywordTermsZh": [
+      "霍爾木茲海峽",
+      "中國石油供應",
+      "特朗普",
+      "伊朗衝突",
+      "關稅壓力"
+    ],
+    "keywordTermsEn": [
+      "霍爾木茲海峽",
+      "中國石油供應",
+      "特朗普",
+      "伊朗衝突",
+      "關稅壓力"
+    ]
   },
   {
     "articleId": "article-f6c27ef45f00db7a7e94309f",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "「大石頭」園區新駐企將設立慢性病治療中心",
+    "titleEn": "New resident of Great Stone park to establish chronic disease treatment center",
     "canonicalUrl": "https://belta.by/economics/view/novyj-rezident-velikogo-kamnja-sozdast-tsentr-lechenija-hronicheskih-zabolevanij-778626-2026/",
     "publishedAt": "2026-05-04T10:58:35+00:00",
     "capturedAt": "2026-05-10T08:24:35+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "belta",
     "sourceName": "BelTA",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "БЕЛТА сообщает о регистрации нового резидента в индустриальном парке «Великий камень». Компания из Китая и Беларуси создаст центр профилактики и лечения хронических заболеваний, а в рамках роуд-шоу в Шэньчжэне и Гонконге были подписаны новые стратегические соглашения.",
+    "summaryZh": "白俄羅斯《Belta》報導，「大石頭」工業園區新登記一家公司，將設立中白慢性病綜合預防與治療中心。相關推介活動在深圳與香港舉行，並促成多項戰略合作與意向協議簽署。",
+    "summaryEn": "Belta reports that a new resident has registered in Belarus's Great Stone industrial park and will build a China-Belarus center for comprehensive prevention and treatment of chronic diseases. The Shenzhen and Hong Kong roadshow also led to several strategic cooperation agreements.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "ECONOMY_TRADE",
+        "zh": "經濟貿易",
+        "en": "Economy & Trade",
+        "confidence": 0.88
+      },
+      {
+        "code": "PUBLIC_HEALTH",
+        "zh": "公共衛生",
+        "en": "Public Health",
+        "confidence": 0.94
+      },
+      {
+        "code": "DIPLOMACY",
+        "zh": "外交",
+        "en": "Diplomacy",
+        "confidence": 0.62
+      }
+    ],
+    "keywordTerms": [
+      "Великий камень",
+      "Шэньчжэнь",
+      "Гонконг",
+      "хронические заболевания",
+      "меморандум о сотрудничестве"
+    ],
+    "keywordTermsZh": [
+      "Великий камень",
+      "Шэньчжэнь",
+      "Гонконг",
+      "хронические заболевания",
+      "меморандум о сотрудничестве"
+    ],
+    "keywordTermsEn": [
+      "Великий камень",
+      "Шэньчжэнь",
+      "Гонконг",
+      "хронические заболевания",
+      "меморандум о сотрудничестве"
+    ]
   },
   {
     "articleId": "article-73c96362409eebe33f19294a",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "中國在荷姆茲海峽的策略：為何航母與潛艦不是關鍵？",
+    "titleEn": "China’s Hormuz Strait Strategy: Why Are Carriers and Submarines Not the Key?",
     "canonicalUrl": "https://www.novosti.rs/planeta/svet/1603357/kineska-strategija-ormuski-moreuz-nosaci-aviona-podmornice",
     "publishedAt": "2026-05-03T15:22:00+00:00",
     "capturedAt": "2026-05-10T08:31:16+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "vecernje_novosti",
     "sourceName": "Večernje novosti",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "文章分析中國在荷姆茲海峽危機中的做法，指出北京並未派遣軍艦，而是透過與伊朗的能源與經濟關係維持自身利益。作者認為，中國展現的是不依賴航母或潛艦的區域影響力，也凸顯美國海軍手段的限制。",
+    "summaryZh": "本文認為，中國在荷姆茲海峽危機中沒有靠軍艦介入，而是依賴與伊朗的能源貿易與雙邊安排來維持影響力。作者把這視為北京在不承擔海上護航義務下，保護核心利益的示範。",
+    "summaryEn": "The article argues that China did not respond to the Hormuz crisis with warships, but instead relied on energy trade and bilateral ties with Iran to preserve its interests. It presents this as evidence of Beijing’s regional leverage without direct naval deployment.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "ENERGY_RESOURCES",
+        "zh": "能源資源",
+        "en": "Energy & Resources",
+        "confidence": 0.97
+      },
+      {
+        "code": "SECURITY_DEFENSE",
+        "zh": "安全防務",
+        "en": "Security & Defense",
+        "confidence": 0.91
+      },
+      {
+        "code": "ECONOMY_TRADE",
+        "zh": "經濟貿易",
+        "en": "Economy & Trade",
+        "confidence": 0.86
+      }
+    ],
+    "keywordTerms": [
+      "Hormuz Strait",
+      "Iran oil",
+      "PLA Navy",
+      "sea lane security",
+      "US naval blockade"
+    ],
+    "keywordTermsZh": [
+      "Hormuz Strait",
+      "Iran oil",
+      "PLA Navy",
+      "sea lane security",
+      "US naval blockade"
+    ],
+    "keywordTermsEn": [
+      "Hormuz Strait",
+      "Iran oil",
+      "PLA Navy",
+      "sea lane security",
+      "US naval blockade"
+    ]
   },
   {
     "articleId": "article-30a7689262afd267f9b4b066",
@@ -1240,112 +1949,302 @@
   {
     "articleId": "article-797533c618de97d56dba1e05",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "中國法院裁定：企業不能因導入 AI 就解僱員工",
+    "titleEn": "Chinese Court Rules Workers Cannot Be Fired Solely for AI Adoption",
     "canonicalUrl": "https://www.novosti.rs/planeta/svet/1603158/kineski-sud-radnici-mogu-budu-otpusteni-zbog-uvodjenja",
     "publishedAt": "2026-05-02T20:22:00+00:00",
     "capturedAt": "2026-05-10T08:30:34+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "vecernje_novosti",
     "sourceName": "Večernje novosti",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "杭州法院裁定，企業不能僅因導入人工智慧就解僱員工。涉案技術公司在以 AI 取代質檢職務後，要求員工降職並減薪 40%，遭拒後將其解雇，最終法院判員工勝訴並建議企業以培訓與轉崗替代裁撤。",
+    "summaryZh": "杭州法院裁定，企業不能僅因人工智慧取代工作而單方面解僱或降薪。案件中，一名品質檢查員工在 AI 接手後遭降薪 40%，拒絕轉崗後被解雇，法院判決公司違法並建議以培訓與再就業安排取代裁員。",
+    "summaryEn": "A Hangzhou court ruled that companies cannot unilaterally fire or cut pay simply because AI replaces a worker’s job. In the case, a quality-control employee was offered a 40% pay cut after AI took over his role, then dismissed after رفضing the transfer. The court sided with the worker and urged retraining instead of layoffs.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "LAW_GOVERNANCE",
+        "zh": "法治治理",
+        "en": "Law & Governance",
+        "confidence": 0.98
+      },
+      {
+        "code": "TECHNOLOGY",
+        "zh": "科技",
+        "en": "Technology",
+        "confidence": 0.96
+      },
+      {
+        "code": "DOMESTIC_POLITICS",
+        "zh": "內政",
+        "en": "Domestic Politics",
+        "confidence": 0.52
+      }
+    ],
+    "keywordTerms": [
+      "AI otkaz",
+      "Hangzhou court",
+      "automation",
+      "labor dispute",
+      "retraining"
+    ],
+    "keywordTermsZh": [
+      "AI otkaz",
+      "Hangzhou court",
+      "automation",
+      "labor dispute",
+      "retraining"
+    ],
+    "keywordTermsEn": [
+      "AI otkaz",
+      "Hangzhou court",
+      "automation",
+      "labor dispute",
+      "retraining"
+    ]
   },
   {
     "articleId": "article-4c092973563b9232ede32db6",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "賴清德出訪史瓦帝尼惹怒北京　中方怒斥違反一中原則",
+    "titleEn": "Lai Ching-te's Eswatini Visit Draws Beijing's Anger Over One-China Principle",
     "canonicalUrl": "https://www.novosti.rs/planeta/svet/1603117/tajvanski-lider-putuje-esvatini-kina-besna-skandalozno-usunjao-avion",
     "publishedAt": "2026-05-02T16:57:00+00:00",
     "capturedAt": "2026-05-10T08:30:15+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "vecernje_novosti",
     "sourceName": "Večernje novosti",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "中國強烈批評台灣領導人賴清德出訪史瓦帝尼，指責其宣揚台獨並違背一中原則。賴清德則表示此行是為確認雙邊長期友誼，強調台灣不會因外部壓力而退縮。",
+    "summaryZh": "中國譴責台灣領導人賴清德出訪史瓦帝尼，稱其為分裂主義行徑並重申一中原則。賴清德則表示此行旨在維繫台史長期友誼，並強調台灣將持續與世界合作。",
+    "summaryEn": "China condemned Taiwanese leader Lai Ching-te’s visit to Eswatini, calling it separatist behavior and reiterating the one-China principle. Lai said the trip was meant to reinforce long-standing ties and vowed Taiwan would keep engaging with the world.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "TAIWAN_CHINA",
+      "zh": "中台",
+      "en": "Taiwan-China"
+    },
+    "issueLabels": [
+      {
+        "code": "DIPLOMACY",
+        "zh": "外交",
+        "en": "Diplomacy",
+        "confidence": 0.98
+      },
+      {
+        "code": "DOMESTIC_POLITICS",
+        "zh": "內政",
+        "en": "Domestic Politics",
+        "confidence": 0.62
+      }
+    ],
+    "keywordTerms": [
+      "賴清德",
+      "史瓦帝尼",
+      "一中原則",
+      "台灣獨立",
+      "外交過境"
+    ],
+    "keywordTermsZh": [
+      "賴清德",
+      "史瓦帝尼",
+      "一中原則",
+      "台灣獨立",
+      "外交過境"
+    ],
+    "keywordTermsEn": [
+      "賴清德",
+      "史瓦帝尼",
+      "一中原則",
+      "台灣獨立",
+      "外交過境"
+    ]
   },
   {
     "articleId": "article-d5a561d5d2ca6beaefb3d16f",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "無聲的超級大國競爭：中國避免與美國正面衝突，但代價可能巨大",
+    "titleEn": "The Quiet Superpower Rivalry: China Avoids Direct Conflict with the U.S., but the Cost Could Be Huge",
     "canonicalUrl": "https://www.novosti.rs/planeta/svet/1602970/kina-sad-sukob-nece-borba-moguca-cena",
     "publishedAt": "2026-05-02T05:33:00+00:00",
     "capturedAt": "2026-05-10T08:30:01+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "vecernje_novosti",
     "sourceName": "Večernje novosti",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "文章分析中國在2026年面對美國與其他危機時的克制姿態，認為北京傾向避免直接對抗，改以長期競爭、維持對話與鞏固內部穩定來累積優勢，同時也指出中國對外部能源與市場的依賴帶來地緣脆弱性。",
+    "summaryZh": "文章分析中國在面對美國時採取克制與長期競爭策略，強調北京優先維持國內穩定與經濟成長，但其能源與外部供應依賴也使這一策略存在脆弱性。",
+    "summaryEn": "The article argues that China is avoiding direct confrontation with the United States and instead pursuing a long-term strategy built on domestic stability and economic growth. It also warns that China's reliance on external energy and supply lines leaves it geopolitically vulnerable.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "DIPLOMACY",
+        "zh": "外交",
+        "en": "Diplomacy",
+        "confidence": 0.92
+      },
+      {
+        "code": "ECONOMY_TRADE",
+        "zh": "經濟貿易",
+        "en": "Economy & Trade",
+        "confidence": 0.88
+      },
+      {
+        "code": "SECURITY_DEFENSE",
+        "zh": "安全防務",
+        "en": "Security & Defense",
+        "confidence": 0.84
+      },
+      {
+        "code": "ENERGY_RESOURCES",
+        "zh": "能源資源",
+        "en": "Energy & Resources",
+        "confidence": 0.79
+      },
+      {
+        "code": "DOMESTIC_POLITICS",
+        "zh": "內政",
+        "en": "Domestic Politics",
+        "confidence": 0.72
+      }
+    ],
+    "keywordTerms": [
+      "中美競爭",
+      "一帶一路",
+      "地緣戰略",
+      "能源依賴",
+      "內部穩定"
+    ],
+    "keywordTermsZh": [
+      "中美競爭",
+      "一帶一路",
+      "地緣戰略",
+      "能源依賴",
+      "內部穩定"
+    ],
+    "keywordTermsEn": [
+      "中美競爭",
+      "一帶一路",
+      "地緣戰略",
+      "能源依賴",
+      "內部穩定"
+    ]
   },
   {
     "articleId": "article-2e8fe828c491dd28fe201c47",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "中國接任聯合國安理會輪值主席　五月聚焦中東、烏克蘭、非洲與波黑議題",
+    "titleEn": "China Takes UN Security Council Chair in May, with Debates on the Middle East, Ukraine, Africa and Bosnia",
     "canonicalUrl": "https://www.novosti.rs/planeta/svet/1602923/kina-preuzima-glavnu-rec-najavljene-debate-bliskom-istoku-ukrajini-africi-bih",
     "publishedAt": "2026-05-01T19:27:00+00:00",
     "capturedAt": "2026-05-10T08:29:40+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "vecernje_novosti",
     "sourceName": "Večernje novosti",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "China will chair the UN Security Council in May and lead several debates on global security, including the Middle East, Ukraine, Africa, Bosnia and Herzegovina, and North Korea. The agenda also includes meetings on civilian protection, sanctions, Libya, Syria, Lebanon, and other crises.",
+    "summaryZh": "中國將在五月擔任聯合國安理會輪值主席，主導多場涉及全球安全的辯論，議題涵蓋中東、烏克蘭、非洲、波黑與北韓等。會期內也將討論平民保護、利比亞制裁、敘利亞、人道議題與黎巴嫩情勢。",
+    "summaryEn": "China will chair the UN Security Council in May and oversee multiple debates on global security, covering the Middle East, Ukraine, Africa, Bosnia and Herzegovina, and North Korea. The month also includes sessions on civilian protection, Libya sanctions, Syria, Lebanon, and humanitarian issues.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "DIPLOMACY",
+        "zh": "外交",
+        "en": "Diplomacy",
+        "confidence": 0.98
+      },
+      {
+        "code": "SECURITY_DEFENSE",
+        "zh": "安全防務",
+        "en": "Security & Defense",
+        "confidence": 0.9
+      }
+    ],
+    "keywordTerms": [
+      "UN Security Council",
+      "Wang Yi",
+      "May chairmanship",
+      "global security debates",
+      "UN Charter"
+    ],
+    "keywordTermsZh": [
+      "UN Security Council",
+      "Wang Yi",
+      "May chairmanship",
+      "global security debates",
+      "UN Charter"
+    ],
+    "keywordTermsEn": [
+      "UN Security Council",
+      "Wang Yi",
+      "May chairmanship",
+      "global security debates",
+      "UN Charter"
+    ]
   },
   {
     "articleId": "article-ef431ae08795aafc10251a8b",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "特朗普：我相信這次訪華會很成功",
+    "titleEn": "Trump says he believes his upcoming China visit will be excellent",
     "canonicalUrl": "https://www.novosti.rs/planeta/svet/1602913/tramp-siguran-verujem-moja-poseta-kini-biti-odlicna",
     "publishedAt": "2026-05-01T18:45:00+00:00",
     "capturedAt": "2026-05-10T08:29:15+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "vecernje_novosti",
     "sourceName": "Večernje novosti",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "特朗普表示，他即將對中國進行的訪問將會「很棒」，並稱屆時可能會與中國國家主席習近平會面。報導稱，此行定於5月14日至15日，這將是他自2025年1月重返白宮以來首次訪華。他還說自己可能出席6月在法國舉行的G7峰會。",
+    "summaryZh": "特朗普表示，他即將對中國的訪問將會「很棒」，並稱可能會與習近平會面。這將是他自2025年1月重返白宮後首次訪華，行程訂於5月14日至15日。",
+    "summaryEn": "Trump said his upcoming trip to China will be excellent and that he may meet Xi Jinping. The visit is scheduled for May 14-15 and would be his first trip to China since returning to the White House in January 2025.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "DIPLOMACY",
+        "zh": "外交",
+        "en": "Diplomacy",
+        "confidence": 0.97
+      }
+    ],
+    "keywordTerms": [
+      "Trump",
+      "Xi Jinping",
+      "China visit",
+      "G7 summit"
+    ],
+    "keywordTermsZh": [
+      "Trump",
+      "Xi Jinping",
+      "China visit",
+      "G7 summit"
+    ],
+    "keywordTermsEn": [
+      "Trump",
+      "Xi Jinping",
+      "China visit",
+      "G7 summit"
+    ]
   },
   {
     "articleId": "article-adec182beff9805581ccc0f5",
@@ -1398,24 +2297,71 @@
   {
     "articleId": "article-c61fa99523a37b49758b76a6",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "聯合國安理會聚焦北韓導彈與制裁，南韓、日本與中國交鋒",
+    "titleEn": "UN Security Council Focuses on North Korea Missiles and Sanctions as South Korea, Japan and China Clash",
     "canonicalUrl": "https://www.novosti.rs/planeta/svet/1602703/ambasador-severne-koreje-svet-vraca-eru-zakona-dzungle-vojne-vezbe-sad-juzne-koreje-los-potez",
     "publishedAt": "2026-05-01T07:00:00+00:00",
     "capturedAt": "2026-05-10T08:28:31+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "vecernje_novosti",
     "sourceName": "Večernje novosti",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "Na sednici Saveta bezbednosti UN više država je raspravljalo o severnokorejskim raketnim testovima, sankcijama i saradnji Pjongjanga sa Moskvom. Južna Koreja i Japan su osudili pretnje i kršenja rezolucija, Kina je pozvala SAD na deeskalaciju, a Severna Koreja je ponovo odbacila sankcije i vojne vežbe SAD i Južne Koreje.",
+    "summaryZh": "聯合國安理會就北韓飛彈試射、核計畫與制裁問題展開討論。南韓、日本與美國批評平壤及其與莫斯科的軍事合作；中國則呼籲美國停止挑釁性軍演並承認歷史責任。北韓則稱制裁非法，指責美韓軍演是錯誤之舉。",
+    "summaryEn": "The UN Security Council discussed North Korea’s missile tests, nuclear program, and sanctions. South Korea, Japan, and the US criticized Pyongyang and its military cooperation with Moscow, while China urged Washington to stop provocative exercises and accept historical responsibility. North Korea rejected sanctions as illegal and condemned US-South Korea drills.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "REGIONAL",
+      "zh": "區域",
+      "en": "Regional"
+    },
+    "issueLabels": [
+      {
+        "code": "SECURITY_DEFENSE",
+        "zh": "安全防務",
+        "en": "Security & Defense",
+        "confidence": 0.99
+      },
+      {
+        "code": "DIPLOMACY",
+        "zh": "外交",
+        "en": "Diplomacy",
+        "confidence": 0.86
+      },
+      {
+        "code": "LAW_GOVERNANCE",
+        "zh": "法治治理",
+        "en": "Law & Governance",
+        "confidence": 0.81
+      }
+    ],
+    "keywordTerms": [
+      "North Korea",
+      "UN Security Council",
+      "sanctions",
+      "ballistic missiles",
+      "military exercises",
+      "cyber activities",
+      "denuclearization"
+    ],
+    "keywordTermsZh": [
+      "North Korea",
+      "UN Security Council",
+      "sanctions",
+      "ballistic missiles",
+      "military exercises",
+      "cyber activities",
+      "denuclearization"
+    ],
+    "keywordTermsEn": [
+      "North Korea",
+      "UN Security Council",
+      "sanctions",
+      "ballistic missiles",
+      "military exercises",
+      "cyber activities",
+      "denuclearization"
+    ]
   },
   {
     "articleId": "article-d9adb6ae36494948af0b25ad",
@@ -1534,67 +2480,190 @@
   {
     "articleId": "article-fd584ff78c0a3aae8a6881d3",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "日本要求霍爾木茲海峽自由通行　高市呼籲德黑蘭提供安全保證",
+    "titleEn": "Japan Seeks Free Passage Through the Strait of Hormuz; Takaichi Urges Tehran to Ensure Safety",
     "canonicalUrl": "https://www.novosti.rs/planeta/svet/1602555/japan-trazi-slobodan-prolaz-kroz-ormuski-moreuz-takaici-pozvala-teheran-garancije-bezbednosti",
     "publishedAt": "2026-04-30T16:15:00+00:00",
     "capturedAt": "2026-05-10T08:27:32+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "vecernje_novosti",
     "sourceName": "Večernje novosti",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "Japanska premijerka Sanae Takaiči razgovarala je s iranskim predsednikom i zatražila bezbedan prolaz brodova kroz Ormuski moreuz. Japan podržava brzi nastavak pregovora SAD i Irana i ističe važnost energetskih tokova kroz moreuz.",
+    "summaryZh": "日本首相高市早苗與伊朗總統通話，要求伊朗盡快確保各國船舶可安全通過霍爾木茲海峽。日方也希望美伊恢復談判，以緩和中東局勢並保障日本能源運輸。",
+    "summaryEn": "Japanese Prime Minister Sanae Takaichi spoke with Iran's president and urged Tehran to ensure safe passage for ships of all countries through the Strait of Hormuz. Japan also called for renewed U.S.-Iran talks to ease tensions and protect energy shipments.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "JAPAN",
+      "zh": "日本",
+      "en": "Japan"
+    },
+    "issueLabels": [
+      {
+        "code": "DIPLOMACY",
+        "zh": "外交",
+        "en": "Diplomacy",
+        "confidence": 0.96
+      },
+      {
+        "code": "ENERGY_RESOURCES",
+        "zh": "能源資源",
+        "en": "Energy & Resources",
+        "confidence": 0.9
+      },
+      {
+        "code": "SECURITY_DEFENSE",
+        "zh": "安全防務",
+        "en": "Security & Defense",
+        "confidence": 0.84
+      }
+    ],
+    "keywordTerms": [
+      "Sanae Takaiči",
+      "Ormuski moreuz",
+      "Iran",
+      "siguran prolaz",
+      "sirova nafta",
+      "diplomatski razgovor"
+    ],
+    "keywordTermsZh": [
+      "Sanae Takaiči",
+      "Ormuski moreuz",
+      "Iran",
+      "siguran prolaz",
+      "sirova nafta",
+      "diplomatski razgovor"
+    ],
+    "keywordTermsEn": [
+      "Sanae Takaiči",
+      "Ormuski moreuz",
+      "Iran",
+      "siguran prolaz",
+      "sirova nafta",
+      "diplomatski razgovor"
+    ]
   },
   {
     "articleId": "article-551cbc831315165050576353",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "美國高超音速飛彈「Dark Eagle」曝光：被視為對中國與俄羅斯的反制武器",
+    "titleEn": "U.S. hypersonic missile Dark Eagle spotlighted as a counter to China and Russia",
     "canonicalUrl": "https://www.novosti.rs/planeta/svet/1602535/dark-eagle-americka-hipersonicna-raketa-odgovor-kina-rusija",
     "publishedAt": "2026-04-30T15:11:00+00:00",
     "capturedAt": "2026-05-10T08:27:10+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "vecernje_novosti",
     "sourceName": "Večernje novosti",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "文章介紹美國高超音速飛彈「Dark Eagle」的能力、研發背景與可能部署考量，重點在以遠程精準打擊對抗中國與俄羅斯推動的反制能力，並延伸到對伊朗的實戰運用設想。",
+    "summaryZh": "文章分析美國高超音速飛彈「Dark Eagle」的研發與作戰用途，指出其設計初衷是回應中國與俄羅斯的先進武器發展，並可能被部署到中東，用於對高價值目標的深度打擊。",
+    "summaryEn": "The article examines the U.S. hypersonic missile Dark Eagle, its development path, and its intended role as a response to China and Russia’s advances. It also says the system could be deployed in the Middle East for deep strikes against high-value targets.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "SECURITY_DEFENSE",
+        "zh": "安全防務",
+        "en": "Security & Defense",
+        "confidence": 0.98
+      },
+      {
+        "code": "TECHNOLOGY",
+        "zh": "科技",
+        "en": "Technology",
+        "confidence": 0.84
+      }
+    ],
+    "keywordTerms": [
+      "Dark Eagle",
+      "hipersonična raketa",
+      "odvraćanje",
+      "A2/AD",
+      "China"
+    ],
+    "keywordTermsZh": [
+      "Dark Eagle",
+      "hipersonična raketa",
+      "odvraćanje",
+      "A2/AD",
+      "China"
+    ],
+    "keywordTermsEn": [
+      "Dark Eagle",
+      "hipersonična raketa",
+      "odvraćanje",
+      "A2/AD",
+      "China"
+    ]
   },
   {
     "articleId": "article-890fc77d535dfa1070a163ac",
     "title": "",
-    "titleZh": null,
-    "titleEn": null,
+    "titleZh": "台灣再成緊張焦點：北京指責東京煽動印太陣營對抗",
+    "titleEn": "Taiwan Again at the Center of Tensions as Beijing Accuses Tokyo of Fueling Bloc Confrontation in the Indo-Pacific",
     "canonicalUrl": "https://www.novosti.rs/planeta/svet/1602284/tajvan-ponovo-sredistu-tenzija-peking-optuzio-tokio-podstice-blokovsku-konfrontaciju-indo-pacifiku",
     "publishedAt": "2026-04-29T16:46:00+00:00",
     "capturedAt": "2026-05-10T08:26:50+00:00",
-    "status": "quarantined",
+    "status": "analyzed",
     "sourceCode": "vecernje_novosti",
     "sourceName": "Večernje novosti",
     "hasRawContent": false,
-    "summary": null,
-    "summaryZh": null,
-    "summaryEn": null,
+    "summary": "Kina je optužila Japan da pod izgovorom slobodnog i otvorenog Indo-Pacifika gradi zatvorene bezbednosne i političke blokove. Peking je reagovao na planove premijerke Sanae Takaiči da u Vijetnamu i Australiji promoviše obnovljeni indo-pacifički pristup, dok su napetosti između Kine i Japana dodatno pojačane zbog Tajvana.",
+    "summaryZh": "中國指責日本以「自由開放的印太」為名，實際上推動排他性的政治與安全陣營。這場爭端與日本首相高市早苗的印太新構想有關，且中日關係近月又因台灣問題進一步惡化。",
+    "summaryEn": "China accused Japan of using the “free and open Indo-Pacific” concept to promote exclusive political and security blocs. The dispute comes as Prime Minister Sanae Takaichi prepares to promote Japan’s updated regional approach, while tensions over Taiwan continue to strain China-Japan ties.",
     "description": null,
-    "countryLabel": null,
-    "issueLabels": [],
-    "keywordTerms": [],
-    "keywordTermsZh": [],
-    "keywordTermsEn": []
+    "countryLabel": {
+      "code": "CHINA_JAPAN",
+      "zh": "中日",
+      "en": "China-Japan"
+    },
+    "issueLabels": [
+      {
+        "code": "DIPLOMACY",
+        "zh": "外交",
+        "en": "Diplomacy",
+        "confidence": 0.96
+      },
+      {
+        "code": "SECURITY_DEFENSE",
+        "zh": "安全防務",
+        "en": "Security & Defense",
+        "confidence": 0.93
+      },
+      {
+        "code": "ECONOMY_TRADE",
+        "zh": "經濟貿易",
+        "en": "Economy & Trade",
+        "confidence": 0.72
+      }
+    ],
+    "keywordTerms": [
+      "Tajvan",
+      "Japan",
+      "China",
+      "Indo-Pacifik",
+      "Sanae Takaiči",
+      "bezbednost Tajvanskog moreuza"
+    ],
+    "keywordTermsZh": [
+      "Tajvan",
+      "Japan",
+      "China",
+      "Indo-Pacifik",
+      "Sanae Takaiči",
+      "bezbednost Tajvanskog moreuza"
+    ],
+    "keywordTermsEn": [
+      "Tajvan",
+      "Japan",
+      "China",
+      "Indo-Pacifik",
+      "Sanae Takaiči",
+      "bezbednost Tajvanskog moreuza"
+    ]
   }
 ]
