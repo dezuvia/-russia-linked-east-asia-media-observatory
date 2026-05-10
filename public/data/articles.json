@@ -1,19 +1,19 @@
 [
   {
-    "articleId": "article-e1404c7b1c6f010957cf5bec",
+    "articleId": "article-c75789032728289d23ce05fe",
     "title": "",
-    "titleZh": "中國科技與安全控管分析",
-    "titleEn": "How China Protects National Security Facilities",
-    "canonicalUrl": "https://chinatechnosphere.substack.com/p/how-china-protects-national-security",
-    "publishedAt": "2026-04-29T05:04:44+00:00",
-    "capturedAt": "2026-05-09T10:46:00+00:00",
+    "titleZh": "中國重慶的世界最深天坑：小寨天坑之謎",
+    "titleEn": "China’s Chongqing Tiankeng: The Secrets of the World’s Deepest Sinkhole",
+    "canonicalUrl": "https://dziennik-polityczny.com/2026/05/09/niewiarygodny-swiat-xiaozhai-tiankeng-tajemnice-najglebszego-leja-krasowego/",
+    "publishedAt": "2026-05-09T09:01:09+00:00",
+    "capturedAt": "2026-05-10T02:19:44+00:00",
     "status": "analyzed",
-    "sourceCode": "china_technosphere",
-    "sourceName": "China Technosphere",
+    "sourceCode": "dziennik_polityczny",
+    "sourceName": "Niezależny Dziennik Polityczny",
     "hasRawContent": false,
-    "summary": "The captured article discusses Chinese technology, security controls, or state-linked systems within the fixed East Asia scope.",
-    "summaryZh": "本文討論中國科技、安全控管或國家相關系統，符合東亞固定主題範圍。",
-    "summaryEn": "The article discusses Chinese technology, security controls, or state-linked systems within the fixed East Asia scope.",
+    "summary": "Artykuł opisuje Xiaozhai Tiankeng w chińskim Chongqingu, najgłębszy i największy lej krasowy na świecie. Tekst omawia jego powstanie, rozmiary, odizolowany las na dnie oraz unikalny mikroklimat i ekosystem, które czynią to miejsce ważnym obiektem badań geologicznych.",
+    "summaryZh": "文章介紹中國重慶的小寨天坑，這座被稱為「天坑」的巨型喀斯特洼地是世界最深、最大的同類地形之一。內容聚焦其形成過程、深度與寬度、底部的亞熱帶森林，以及獨特的微氣候與生態系統。",
+    "summaryEn": "The article presents Xiaozhai Tiankeng in Chongqing, China, as the world’s deepest and largest sinkhole. It highlights how the karst formation developed, its scale, and the isolated subtropical forest and unique microclimate at the bottom.",
     "description": null,
     "countryLabel": {
       "code": "CHINA",
@@ -22,10 +22,136 @@
     },
     "issueLabels": [
       {
-        "code": "TECHNOLOGY",
-        "zh": "科技",
-        "en": "Technology",
+        "code": "ENVIRONMENT_DISASTER",
+        "zh": "環境災害",
+        "en": "Environment & Disaster",
         "confidence": 0.84
+      }
+    ],
+    "keywordTerms": [
+      "Xiaozhai Tiankeng",
+      "Chongqing",
+      "tiankeng",
+      "krasowy lej",
+      "subtropikalny las"
+    ]
+  },
+  {
+    "articleId": "article-18badae92b860165eadf0bf3",
+    "title": "",
+    "titleZh": "伊朗外長訪問北京",
+    "titleEn": "Iranian Foreign Minister Visits Beijing",
+    "canonicalUrl": "https://www.ritmeurasia.ru/news--2026-05-09--glava-mid-irana-sovershil-vizit-v-pekin-87625",
+    "publishedAt": "2026-05-09T00:00:00+00:00",
+    "capturedAt": "2026-05-10T02:19:47+00:00",
+    "status": "analyzed",
+    "sourceCode": "rhythm_of_eurasia",
+    "sourceName": "Rhythm of Eurasia",
+    "hasRawContent": false,
+    "summary": "这篇文章仅明确提到伊朗外长访问北京，属于发生在中国的外交行程，但正文未提供更多关于会谈内容或东亚其他国家的实质信息。",
+    "summaryZh": "這篇文章僅明確提到伊朗外長訪問北京，屬於發生在中國的外交行程，但正文未提供更多會談內容或東亞其他國家的實質資訊。",
+    "summaryEn": "The article only states that Iran’s foreign minister visited Beijing, indicating a China-based diplomatic trip, with no substantive details on talks or any broader East Asian implications.",
+    "description": null,
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "DIPLOMACY",
+        "zh": "外交",
+        "en": "Diplomacy",
+        "confidence": 0.99
+      }
+    ],
+    "keywordTerms": [
+      "北京",
+      "伊朗外长",
+      "访问"
+    ]
+  },
+  {
+    "articleId": "article-e4cf608aa8a75227229d6e0f",
+    "title": "",
+    "titleZh": "中國與烏茲別克斯坦擬深化能源與資源合作",
+    "titleEn": "China and Uzbekistan Plan to Deepen Cooperation on Energy and Resources",
+    "canonicalUrl": "https://www.ritmeurasia.ru/news--2026-05-09--kitaj-i-uzbekistan-namereny-uglubljat-sotrudnichestvo-v-sferah-energetiki-i-resursov-87627",
+    "publishedAt": "2026-05-09T00:00:00+00:00",
+    "capturedAt": "2026-05-09T15:07:49+00:00",
+    "status": "analyzed",
+    "sourceCode": "rhythm_of_eurasia",
+    "sourceName": "Rhythm of Eurasia",
+    "hasRawContent": false,
+    "summary": "文章指出中國與烏茲別克斯坦有意深化在能源與資源領域的合作，核心內容是雙邊經貿與資源合作意向，未涉及其他東亞國家議題。",
+    "summaryZh": "文章指出中國與烏茲別克斯坦有意深化在能源與資源領域的合作，重點在雙邊經貿與資源開發合作。內容不涉及台灣、日本或南韓。",
+    "summaryEn": "The article says China and Uzbekistan intend to deepen cooperation in energy and resources, focusing on bilateral trade and resource collaboration. It does not discuss Taiwan, Japan, or South Korea.",
+    "description": null,
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "ENERGY_RESOURCES",
+        "zh": "能源資源",
+        "en": "Energy & Resources",
+        "confidence": 0.99
+      },
+      {
+        "code": "ECONOMY_TRADE",
+        "zh": "經濟貿易",
+        "en": "Economy & Trade",
+        "confidence": 0.84
+      },
+      {
+        "code": "DIPLOMACY",
+        "zh": "外交",
+        "en": "Diplomacy",
+        "confidence": 0.72
+      }
+    ],
+    "keywordTerms": [
+      "中國-烏茲別克",
+      "能源合作",
+      "資源",
+      "合作深化"
+    ]
+  },
+  {
+    "articleId": "article-a61f11c3d8caf897213e95e7",
+    "title": "",
+    "titleZh": "中國「命運共同體」在東南亞的推進與矛盾",
+    "titleEn": "China’s “Community of Shared Future” in Southeast Asia and Its Contradictions",
+    "canonicalUrl": "https://uwidata.com/44562-chinas-community-of-shared-future-with-southeast-asia/",
+    "publishedAt": "2026-05-08T14:03:43+00:00",
+    "capturedAt": "2026-05-09T15:06:45+00:00",
+    "status": "analyzed",
+    "sourceCode": "uwidata",
+    "sourceName": "United World International",
+    "hasRawContent": false,
+    "summary": "The article examines China’s “Community of Shared Future” rhetoric in Southeast Asia, arguing it blends soft-power diplomacy with economic and strategic aims. It notes both Beijing’s push through BRI, digitalization, and public health cooperation, and the region’s concerns over sovereignty, debt dependence, South China Sea disputes, and ASEAN centrality.",
+    "summaryZh": "文章分析中國在東南亞推動「命運共同體」敘事，結合一帶一路、數位合作與公共衛生等議題，但也面臨南海爭端、債務依賴、主權疑慮與東協中心性等限制。",
+    "summaryEn": "The article analyzes China’s push for a “Community of Shared Future” in Southeast Asia, combining Belt and Road, digital cooperation, and public health themes, but running into sovereignty concerns, debt dependence, South China Sea tensions, and ASEAN centrality.",
+    "description": null,
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "DIPLOMACY",
+        "zh": "外交",
+        "en": "Diplomacy",
+        "confidence": 0.98
+      },
+      {
+        "code": "ECONOMY_TRADE",
+        "zh": "經濟貿易",
+        "en": "Economy & Trade",
+        "confidence": 0.93
       },
       {
         "code": "SECURITY_DEFENSE",
@@ -35,8 +161,60 @@
       }
     ],
     "keywordTerms": [
-      "China",
-      "security technology"
+      "Community of Shared Future",
+      "ASEAN",
+      "Belt and Road Initiative",
+      "South China Sea",
+      "regional multilateralism"
+    ]
+  },
+  {
+    "articleId": "article-c41ad20e56e7f484b9ccec8a",
+    "title": "",
+    "titleZh": "南韓啟動KF-21戰機量產，國產防務工業邁入新階段",
+    "titleEn": "South Korea Begins Serial Production of the KF-21 Fighter Jet",
+    "canonicalUrl": "https://www.armadnymagazin.sk/2026/05/05/juzna-korea-zacina-seriovu-vyrobu-domaceho-lietadla-kf-21/",
+    "publishedAt": "2026-05-05T16:00:20+00:00",
+    "capturedAt": "2026-05-10T02:19:41+00:00",
+    "status": "analyzed",
+    "sourceCode": "armadny_magazin",
+    "sourceName": "Armádny magazín",
+    "hasRawContent": false,
+    "summary": "The article reports that South Korea has begun serial production of the KF-21 Boramae fighter, marking a major milestone for its defense industry. It reviews the program’s development history, costs, domestic parts content, test progress, weapons fit, export prospects, and future upgrades toward a Block 3 stealth-capable variant.",
+    "summaryZh": "文章指出，南韓已於2026年展開KF-21 Boramae戰機量產，象徵其國防工業從研發走向實戰部署。內文回顧了開發歷程、測試成果、成本、國產化比例、武裝配置與出口前景，並提到未來將升級至更接近第五代戰機的Block 3版本。",
+    "summaryEn": "The article says South Korea has started serial production of the KF-21 Boramae in 2026, signaling a shift from development to deployment. It reviews the program history, testing, costs, domestic content, weapons fit, export prospects, and the planned evolution toward a Block 3 stealth-capable version.",
+    "description": null,
+    "countryLabel": {
+      "code": "SOUTH_KOREA",
+      "zh": "南韓",
+      "en": "South Korea"
+    },
+    "issueLabels": [
+      {
+        "code": "SECURITY_DEFENSE",
+        "zh": "安全防務",
+        "en": "Security & Defense",
+        "confidence": 0.99
+      },
+      {
+        "code": "ECONOMY_TRADE",
+        "zh": "經濟貿易",
+        "en": "Economy & Trade",
+        "confidence": 0.74
+      },
+      {
+        "code": "TECHNOLOGY",
+        "zh": "科技",
+        "en": "Technology",
+        "confidence": 0.81
+      }
+    ],
+    "keywordTerms": [
+      "KF-21 Boramae",
+      "serial production",
+      "AESA radar",
+      "Block 1",
+      "export potential"
     ]
   }
 ]

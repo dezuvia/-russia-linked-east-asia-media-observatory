@@ -147,7 +147,7 @@
       "homepageUrl": "https://www.armadnymagazin.sk/",
       "feedUrl": null,
       "isMonitored": true,
-      "articleCount": 0
+      "articleCount": 1
     },
     {
       "sourceCode": "baltnews",
@@ -158,16 +158,6 @@
       "feedUrl": null,
       "isMonitored": true,
       "articleCount": 0
-    },
-    {
-      "sourceCode": "china_technosphere",
-      "displayName": "China Technosphere",
-      "country": "CN",
-      "language": "en",
-      "homepageUrl": "https://chinatechnosphere.substack.com",
-      "feedUrl": "https://chinatechnosphere.substack.com/feed",
-      "isMonitored": true,
-      "articleCount": 1
     },
     {
       "sourceCode": "eadaily",
@@ -327,7 +317,7 @@
       "homepageUrl": "https://dziennik-polityczny.com/",
       "feedUrl": null,
       "isMonitored": true,
-      "articleCount": 0
+      "articleCount": 1
     },
     {
       "sourceCode": "novarepublika",
@@ -367,7 +357,7 @@
       "homepageUrl": "https://www.ritmeurasia.ru/",
       "feedUrl": null,
       "isMonitored": true,
-      "articleCount": 0
+      "articleCount": 2
     },
     {
       "sourceCode": "ria_novosti",
@@ -420,26 +410,6 @@
       "articleCount": 0
     },
     {
-      "sourceCode": "tech_policy_press",
-      "displayName": "Tech Policy Press",
-      "country": "US",
-      "language": "en",
-      "homepageUrl": "https://www.techpolicy.press",
-      "feedUrl": "https://techpolicy.press/rss/feed.xml",
-      "isMonitored": true,
-      "articleCount": 0
-    },
-    {
-      "sourceCode": "citizen_lab_dtr",
-      "displayName": "The Citizen Lab Digital Transnational Repression",
-      "country": "CA",
-      "language": "en",
-      "homepageUrl": "https://citizenlab.ca/focus-area/digital-transnational-repression",
-      "feedUrl": "https://citizenlab.ca/focus-area/digital-transnational-repression/feed",
-      "isMonitored": true,
-      "articleCount": 0
-    },
-    {
       "sourceCode": "uwidata",
       "displayName": "United World International",
       "country": "TR",
@@ -447,7 +417,7 @@
       "homepageUrl": "https://uwidata.com/",
       "feedUrl": "https://uwidata.com/feed/",
       "isMonitored": true,
-      "articleCount": 0
+      "articleCount": 1
     },
     {
       "sourceCode": "voice_of_europe",
