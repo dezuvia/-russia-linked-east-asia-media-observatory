@@ -72,9 +72,11 @@ const db = new DatabaseSync(DB_PATH, { readOnly: true });
 try {
   const articles = loadArticles(db);
   const sources = loadSources(db, articles);
+  const scannedArticleCount = loadScannedArticleCount(db);
   writeJson(`${OUT_DIR}/manifest.json`, {
     generatedAt: new Date().toISOString(),
     source: "sqlite-public-export-v1",
+    scannedArticleCount,
     articleCount: articles.length,
     maxPublishedDate: articles.map((article) => publishedDatePart(article)).filter(Boolean).sort().at(-1) ?? null
   });
@@ -159,6 +161,15 @@ function loadSources(db: DatabaseSync, articles: ArticleRecord[]) {
       articleCount: articles.filter((article) => article.sourceCode === sourceCode).length
     };
   });
+}
+
+function loadScannedArticleCount(db: DatabaseSync): number {
+  return tableCount(db, "articles") + tableCount(db, "quarantine_entries");
+}
+
+function tableCount(db: DatabaseSync, tableName: "articles" | "quarantine_entries"): number {
+  const row = db.prepare(`SELECT COUNT(*) AS count FROM ${tableName}`).get() as { count?: unknown } | undefined;
+  return Number(row?.count ?? 0);
 }
 
 function parseCountryLabel(row: Record<string, unknown>): Label | null {

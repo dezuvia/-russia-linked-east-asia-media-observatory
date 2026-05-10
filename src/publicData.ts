@@ -11,9 +11,15 @@ import type { ArticleFilters } from "./api";
 const ARTICLE_PAGE_SIZE = 15;
 const UNLABELED: Label = { code: "UNLABELED", zh: "未標記", en: "Unlabeled" };
 
+type PublicManifest = {
+  generatedAt?: string;
+  scannedArticleCount?: number;
+};
+
 let articlesCache: Promise<ArticleRecord[]> | null = null;
 let optionsCache: Promise<OptionsResponse> | null = null;
 let mediaCandidatesCache: Promise<MediaCandidatesResponse> | null = null;
+let manifestCache: Promise<PublicManifest> | null = null;
 
 export async function getPublicOptions(): Promise<OptionsResponse> {
   optionsCache ??= getJson<OptionsResponse>(publicUrl("data/options.json"));
@@ -26,7 +32,11 @@ export async function getPublicMediaCandidates(): Promise<MediaCandidatesRespons
 }
 
 export async function getPublicOverview(range: "month" | "history"): Promise<OverviewData> {
-  const [articles, options] = await Promise.all([getPublicArticlesData(), getPublicOptions()]);
+  const [articles, options, manifest] = await Promise.all([
+    getPublicArticlesData(),
+    getPublicOptions(),
+    getPublicManifest()
+  ]);
   const now = new Date();
   const monthStart = `${now.getFullYear()}-${`${now.getMonth() + 1}`.padStart(2, "0")}-01`;
   const scopedArticles = range === "month"
@@ -38,8 +48,9 @@ export async function getPublicOverview(range: "month" | "history"): Promise<Ove
 
   return {
     range,
-    generatedAt: now.toISOString(),
+    generatedAt: manifest.generatedAt ?? now.toISOString(),
     totals: {
+      scannedArticles: manifest.scannedArticleCount ?? articles.length,
       articles: scopedArticles.length,
       stableLabels: countIssueLabels(scopedArticles, options.stableLabels),
       countryLabels: countCountryLabels(scopedArticles, options.countryLabels)
@@ -124,6 +135,11 @@ export async function getPublicArticles(filters: ArticleFilters): Promise<Articl
 async function getPublicArticlesData(): Promise<ArticleRecord[]> {
   articlesCache ??= getJson<ArticleRecord[]>(publicUrl("data/articles.json"));
   return articlesCache;
+}
+
+async function getPublicManifest(): Promise<PublicManifest> {
+  manifestCache ??= getJson<PublicManifest>(publicUrl("data/manifest.json"));
+  return manifestCache;
 }
 
 function publicUrl(path: string) {

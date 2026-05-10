@@ -12,6 +12,7 @@ export type OverviewData = {
   range: "month" | "history";
   generatedAt: string;
   totals: {
+    scannedArticles: number;
     articles: number;
     stableLabels: LabelCount[];
     countryLabels: LabelCount[];

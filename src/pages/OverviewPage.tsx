@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { IconChartBar, IconChartLine, IconTags } from "@tabler/icons-react";
+import { IconChartBar, IconChartLine, IconSearch, IconTags } from "@tabler/icons-react";
 import { getOverview } from "../api";
 import { labelText } from "../format";
 import type { OverviewData } from "../types";
@@ -81,15 +81,23 @@ export default function OverviewPage() {
         {data && (
           <div className="dashboard-stack">
             <div className="row row-cards">
-              <div className="col-sm-6 col-lg-4">
+              <div className="col-sm-6 col-lg-3">
                 <MetricCard
-                  title={t("總文章數", "Total Articles")}
+                  title={t("總掃描文章數", "Total Scanned Articles")}
+                  value={data.totals.scannedArticles}
+                  note={t("含已匹配與隔離候選", "Includes matched and quarantined candidates")}
+                  icon={<IconSearch size={24} />}
+                />
+              </div>
+              <div className="col-sm-6 col-lg-3">
+                <MetricCard
+                  title={t("匹配文章數", "Matched Articles")}
                   value={data.totals.articles}
                   note={range === "month" ? t("本月發布", "Published this month") : t("完整歷史", "Full history")}
                   icon={<IconChartBar size={24} />}
                 />
               </div>
-              <div className="col-sm-6 col-lg-4">
+              <div className="col-sm-6 col-lg-3">
                 <MetricCard
                   title={t("有資料的穩定標籤", "Stable Labels With Data")}
                   value={stableCounts.length}
@@ -97,7 +105,7 @@ export default function OverviewPage() {
                   icon={<IconTags size={24} />}
                 />
               </div>
-              <div className="col-sm-6 col-lg-4">
+              <div className="col-sm-6 col-lg-3">
                 <MetricCard
                   title={t("有資料的國家標籤", "Country Labels With Data")}
                   value={countryCounts.length}

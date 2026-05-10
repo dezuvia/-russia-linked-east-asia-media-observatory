@@ -112,6 +112,7 @@ app.get("/api/overview", (req, res) => {
       range,
       generatedAt: now.toISOString(),
       totals: {
+        scannedArticles: loadScannedArticleCount(),
         articles: scopedArticles.length,
         stableLabels: countIssueLabels(scopedArticles),
         countryLabels: countCountryLabels(scopedArticles)
@@ -352,6 +353,20 @@ function loadSources(): Array<{
   } finally {
     db.close();
   }
+}
+
+function loadScannedArticleCount(): number {
+  const db = openDb();
+  try {
+    return tableCount(db, "articles") + tableCount(db, "quarantine_entries");
+  } finally {
+    db.close();
+  }
+}
+
+function tableCount(db: DatabaseSync, tableName: "articles" | "quarantine_entries"): number {
+  const row = db.prepare(`SELECT COUNT(*) AS count FROM ${tableName}`).get() as { count?: unknown } | undefined;
+  return Number(row?.count ?? 0);
 }
 
 function parseCountryLabel(row: Record<string, unknown>): Label | null {
