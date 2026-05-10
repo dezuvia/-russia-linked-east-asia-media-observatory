@@ -85,7 +85,7 @@ export default function OverviewPage() {
                 <MetricCard
                   title={t("總掃描文章數", "Total Scanned Articles")}
                   value={data.totals.scannedArticles}
-                  note={t("含已匹配與隔離候選", "Includes matched and quarantined candidates")}
+                  note={t("去重後有效掃描候選", "Deduplicated active scanned candidates")}
                   icon={<IconSearch size={24} />}
                 />
               </div>

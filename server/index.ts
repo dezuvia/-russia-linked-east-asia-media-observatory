@@ -358,15 +358,15 @@ function loadSources(): Array<{
 function loadScannedArticleCount(): number {
   const db = openDb();
   try {
-    return tableCount(db, "articles") + tableCount(db, "quarantine_entries");
+    const row = db.prepare(`
+      SELECT COUNT(DISTINCT COALESCE(NULLIF(canonical_url, ''), candidate_id)) AS count
+      FROM source_candidates
+      WHERE superseded_by_candidate_id IS NULL
+    `).get() as { count?: unknown } | undefined;
+    return Number(row?.count ?? 0);
   } finally {
     db.close();
   }
-}
-
-function tableCount(db: DatabaseSync, tableName: "articles" | "quarantine_entries"): number {
-  const row = db.prepare(`SELECT COUNT(*) AS count FROM ${tableName}`).get() as { count?: unknown } | undefined;
-  return Number(row?.count ?? 0);
 }
 
 function parseCountryLabel(row: Record<string, unknown>): Label | null {

@@ -164,11 +164,11 @@ function loadSources(db: DatabaseSync, articles: ArticleRecord[]) {
 }
 
 function loadScannedArticleCount(db: DatabaseSync): number {
-  return tableCount(db, "articles") + tableCount(db, "quarantine_entries");
-}
-
-function tableCount(db: DatabaseSync, tableName: "articles" | "quarantine_entries"): number {
-  const row = db.prepare(`SELECT COUNT(*) AS count FROM ${tableName}`).get() as { count?: unknown } | undefined;
+  const row = db.prepare(`
+    SELECT COUNT(DISTINCT COALESCE(NULLIF(canonical_url, ''), candidate_id)) AS count
+    FROM source_candidates
+    WHERE superseded_by_candidate_id IS NULL
+  `).get() as { count?: unknown } | undefined;
   return Number(row?.count ?? 0);
 }
 
