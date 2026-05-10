@@ -1,5 +1,5 @@
-import { useEffect, useMemo, useState } from "react";
-import { IconChartBar, IconChartLine, IconSearch, IconTags } from "@tabler/icons-react";
+import { useEffect, useState } from "react";
+import { IconChartBar, IconSearch } from "@tabler/icons-react";
 import { getOverview } from "../api";
 import { labelText } from "../format";
 import type { OverviewData } from "../types";
@@ -31,15 +31,6 @@ export default function OverviewPage() {
       })
       .catch((err: Error) => setError(err.message));
   }, [range]);
-
-  const stableCounts = useMemo(
-    () => data?.totals.stableLabels.filter((label) => label.count > 0) ?? [],
-    [data]
-  );
-  const countryCounts = useMemo(
-    () => data?.totals.countryLabels.filter((label) => label.count > 0) ?? [],
-    [data]
-  );
 
   return (
     <main className="page-body">
@@ -81,7 +72,7 @@ export default function OverviewPage() {
         {data && (
           <div className="dashboard-stack">
             <div className="row row-cards">
-              <div className="col-sm-6 col-lg-3">
+              <div className="col-sm-6 col-lg-4">
                 <MetricCard
                   title={t("總掃描文章數", "Total Scanned Articles")}
                   value={data.totals.scannedArticles}
@@ -89,28 +80,12 @@ export default function OverviewPage() {
                   icon={<IconSearch size={24} />}
                 />
               </div>
-              <div className="col-sm-6 col-lg-3">
+              <div className="col-sm-6 col-lg-4">
                 <MetricCard
                   title={t("匹配文章數", "Matched Articles")}
                   value={data.totals.articles}
                   note={range === "month" ? t("本月發布", "Published this month") : t("完整歷史", "Full history")}
                   icon={<IconChartBar size={24} />}
-                />
-              </div>
-              <div className="col-sm-6 col-lg-3">
-                <MetricCard
-                  title={t("有資料的穩定標籤", "Stable Labels With Data")}
-                  value={stableCounts.length}
-                  note={t("不含零筆標籤", "Excludes zero-count labels")}
-                  icon={<IconTags size={24} />}
-                />
-              </div>
-              <div className="col-sm-6 col-lg-3">
-                <MetricCard
-                  title={t("有資料的國家標籤", "Country Labels With Data")}
-                  value={countryCounts.length}
-                  note={t("不含零筆標籤", "Excludes zero-count labels")}
-                  icon={<IconChartLine size={24} />}
                 />
               </div>
             </div>
