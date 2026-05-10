@@ -107,11 +107,11 @@ export default function OverviewPage() {
               </div>
             </div>
 
-            <ChartCard title={t("每週總文章數（依發布日期）", "Weekly Total Articles by Published Date")}>
-              <TotalLineChart data={data.weekly.totalArticles} />
+            <ChartCard title={t("每日總文章數（依發布日期）", "Daily Total Articles by Published Date")}>
+              <TotalLineChart data={data.daily.totalArticles} />
             </ChartCard>
 
-            <ChartCard title={t("每週各穩定標籤文章數（依發布日期）", "Weekly Articles by Stable Label by Published Date")}>
+            <ChartCard title={t("每日各穩定標籤文章數（依發布日期）", "Daily Articles by Stable Label by Published Date")}>
               <LabelSelector
                 labels={data.options.stableLabels}
                 selected={stableSelected}
@@ -119,13 +119,13 @@ export default function OverviewPage() {
                 compact
               />
               <MultiLabelLineChart
-                data={data.weekly.stableLabels}
+                data={data.daily.stableLabels}
                 labels={data.options.stableLabels}
                 selected={stableSelected}
               />
             </ChartCard>
 
-            <ChartCard title={t("每週各國家標籤文章數（依發布日期）", "Weekly Articles by Country Label by Published Date")}>
+            <ChartCard title={t("每日各國家標籤文章數（依發布日期）", "Daily Articles by Country Label by Published Date")}>
               <LabelSelector
                 labels={data.options.countryLabels}
                 selected={countrySelected}
@@ -133,7 +133,7 @@ export default function OverviewPage() {
                 compact
               />
               <MultiLabelLineChart
-                data={data.weekly.countryLabels}
+                data={data.daily.countryLabels}
                 labels={data.options.countryLabels}
                 selected={countrySelected}
               />

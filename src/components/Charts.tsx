@@ -15,7 +15,7 @@ import { useI18n } from "../i18n";
 export function TotalLineChart({
   data
 }: {
-  data: Array<{ weekStart: string; count: number }>;
+  data: Array<{ date: string; count: number }>;
 }) {
   const { language, t } = useI18n();
   return (
@@ -23,12 +23,12 @@ export function TotalLineChart({
       <ResponsiveContainer width="100%" height={320} minWidth={0}>
         <LineChart data={data} margin={{ top: 8, right: 20, left: -18, bottom: 0 }}>
           <CartesianGrid strokeDasharray="3 3" stroke="#243244" />
-          <XAxis dataKey="weekStart" tickFormatter={(value) => compactDate(String(value), language)} tickLine={false} axisLine={false} stroke="#94a3b8" />
+          <XAxis dataKey="date" tickFormatter={(value) => compactDate(String(value), language)} tickLine={false} axisLine={false} stroke="#94a3b8" />
           <YAxis allowDecimals={false} tickLine={false} axisLine={false} stroke="#94a3b8" />
           <Tooltip
             contentStyle={{ background: "#101826", border: "1px solid #2f4058", borderRadius: 8, color: "#e5edf6" }}
             labelStyle={{ color: "#cbd5e1" }}
-            labelFormatter={(value) => `${t("週起始", "Week of")} ${value}`}
+            labelFormatter={(value) => `${t("日期", "Date")} ${value}`}
           />
           <Line
             type="monotone"
@@ -50,13 +50,13 @@ export function MultiLabelLineChart({
   labels,
   selected
 }: {
-  data: Array<{ weekStart: string; counts: Record<string, number> }>;
+  data: Array<{ date: string; counts: Record<string, number> }>;
   labels: Label[];
   selected: string[];
 }) {
   const { language, t } = useI18n();
   const chartData = data.map((item) => ({
-    weekStart: item.weekStart,
+    date: item.date,
     ...item.counts
   }));
 
@@ -65,12 +65,12 @@ export function MultiLabelLineChart({
       <ResponsiveContainer width="100%" height={320} minWidth={0}>
         <LineChart data={chartData} margin={{ top: 8, right: 20, left: -18, bottom: 0 }}>
           <CartesianGrid strokeDasharray="3 3" stroke="#243244" />
-          <XAxis dataKey="weekStart" tickFormatter={(value) => compactDate(String(value), language)} tickLine={false} axisLine={false} stroke="#94a3b8" />
+          <XAxis dataKey="date" tickFormatter={(value) => compactDate(String(value), language)} tickLine={false} axisLine={false} stroke="#94a3b8" />
           <YAxis allowDecimals={false} tickLine={false} axisLine={false} stroke="#94a3b8" />
           <Tooltip
             contentStyle={{ background: "#101826", border: "1px solid #2f4058", borderRadius: 8, color: "#e5edf6" }}
             labelStyle={{ color: "#cbd5e1" }}
-            labelFormatter={(value) => `${t("週起始", "Week of")} ${value}`}
+            labelFormatter={(value) => `${t("日期", "Date")} ${value}`}
           />
           <Legend />
           {labels

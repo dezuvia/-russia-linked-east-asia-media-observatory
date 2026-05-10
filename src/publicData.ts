@@ -55,7 +55,7 @@ export async function getPublicOverview(range: "month" | "history"): Promise<Ove
       stableLabels: countIssueLabels(scopedArticles, options.stableLabels),
       countryLabels: countCountryLabels(scopedArticles, options.countryLabels)
     },
-    weekly: buildWeeklySeries(
+    daily: buildDailySeries(
       scopedArticles,
       range === "month" ? dateFromPart(monthStart) ?? undefined : undefined,
       options.stableLabels,
@@ -183,7 +183,7 @@ function countCountryLabels(articles: ArticleRecord[], labels: Label[]) {
   return labels.map((label) => ({ ...label, count: counts.get(label.code) ?? 0 }));
 }
 
-function buildWeeklySeries(
+function buildDailySeries(
   articles: ArticleRecord[],
   preferredStart: Date | undefined,
   stableLabels: Label[],
@@ -199,16 +199,16 @@ function buildWeeklySeries(
     }
     return candidate;
   }, null) ?? now;
-  const weekStarts = weekRange(startOfWeek(earliest), startOfWeek(now));
-  const totalCounts = new Map(weekStarts.map((week) => [week, 0]));
-  const issueCounts = new Map(weekStarts.map((week) => [week, zeroCounts(stableLabels)]));
-  const countryCounts = new Map(weekStarts.map((week) => [week, zeroCounts(countryLabels)]));
+  const dates = dateRange(startOfDay(earliest), startOfDay(now));
+  const totalCounts = new Map(dates.map((date) => [date, 0]));
+  const issueCounts = new Map(dates.map((date) => [date, zeroCounts(stableLabels)]));
+  const countryCounts = new Map(dates.map((date) => [date, zeroCounts(countryLabels)]));
 
   for (const { article, date } of datedArticles) {
-    const week = formatDate(startOfWeek(date));
-    totalCounts.set(week, (totalCounts.get(week) ?? 0) + 1);
+    const day = formatDate(date);
+    totalCounts.set(day, (totalCounts.get(day) ?? 0) + 1);
 
-    const issueBucket = issueCounts.get(week) ?? {};
+    const issueBucket = issueCounts.get(day) ?? {};
     if (article.issueLabels.length === 0) {
       issueBucket[UNLABELED.code] = (issueBucket[UNLABELED.code] ?? 0) + 1;
     } else {
@@ -216,18 +216,18 @@ function buildWeeklySeries(
         issueBucket[code] = (issueBucket[code] ?? 0) + 1;
       }
     }
-    issueCounts.set(week, issueBucket);
+    issueCounts.set(day, issueBucket);
 
-    const countryBucket = countryCounts.get(week) ?? {};
+    const countryBucket = countryCounts.get(day) ?? {};
     const countryCode = article.countryLabel?.code ?? UNLABELED.code;
     countryBucket[countryCode] = (countryBucket[countryCode] ?? 0) + 1;
-    countryCounts.set(week, countryBucket);
+    countryCounts.set(day, countryBucket);
   }
 
   return {
-    totalArticles: weekStarts.map((week) => ({ weekStart: week, count: totalCounts.get(week) ?? 0 })),
-    stableLabels: weekStarts.map((week) => ({ weekStart: week, counts: issueCounts.get(week) ?? {} })),
-    countryLabels: weekStarts.map((week) => ({ weekStart: week, counts: countryCounts.get(week) ?? {} }))
+    totalArticles: dates.map((date) => ({ date, count: totalCounts.get(date) ?? 0 })),
+    stableLabels: dates.map((date) => ({ date, counts: issueCounts.get(date) ?? {} })),
+    countryLabels: dates.map((date) => ({ date, counts: countryCounts.get(date) ?? {} }))
   };
 }
 
@@ -265,12 +265,18 @@ function startOfWeek(date: Date): Date {
   return result;
 }
 
-function weekRange(start: Date, end: Date): string[] {
+function startOfDay(date: Date): Date {
+  const result = new Date(date);
+  result.setHours(0, 0, 0, 0);
+  return result;
+}
+
+function dateRange(start: Date, end: Date): string[] {
   const result: string[] = [];
   const cursor = new Date(start);
   while (cursor <= end) {
     result.push(formatDate(cursor));
-    cursor.setDate(cursor.getDate() + 7);
+    cursor.setDate(cursor.getDate() + 1);
   }
   return result;
 }

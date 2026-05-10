@@ -17,10 +17,10 @@ export type OverviewData = {
     stableLabels: LabelCount[];
     countryLabels: LabelCount[];
   };
-  weekly: {
-    totalArticles: Array<{ weekStart: string; count: number }>;
-    stableLabels: Array<{ weekStart: string; counts: Record<string, number> }>;
-    countryLabels: Array<{ weekStart: string; counts: Record<string, number> }>;
+  daily: {
+    totalArticles: Array<{ date: string; count: number }>;
+    stableLabels: Array<{ date: string; counts: Record<string, number> }>;
+    countryLabels: Array<{ date: string; counts: Record<string, number> }>;
   };
   options: {
     stableLabels: Label[];
