@@ -1,5 +1,167 @@
 [
   {
+    "articleId": "article-541fb7eee1bc210c22b52314",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://vz.ru/news/2026/5/10/1417750.html",
+    "publishedAt": "2026-05-10T01:56:26+00:00",
+    "capturedAt": "2026-05-10T08:24:14+00:00",
+    "status": "quarantined",
+    "sourceCode": "vzglyad",
+    "sourceName": "Vzglyad",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-e64f2ba31a9d836cbcc2532c",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://vz.ru/news/2026/5/10/1417739.html",
+    "publishedAt": "2026-05-09T22:57:30+00:00",
+    "capturedAt": "2026-05-10T08:24:02+00:00",
+    "status": "quarantined",
+    "sourceCode": "vzglyad",
+    "sourceName": "Vzglyad",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-5c92c297b53b26f168a9871e",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://www.origo.hu/nagyvilag/2026/05/china-eastern-repulogep-szerencsetlenseg-nyomozas",
+    "publishedAt": "2026-05-09T14:17:49+00:00",
+    "capturedAt": "2026-05-10T08:48:50+00:00",
+    "status": "quarantined",
+    "sourceCode": "origo_hu",
+    "sourceName": "Origo",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-ab408b64042e26f5c06c8554",
+    "title": "",
+    "titleZh": "中歐貨運列車班次突破13萬列",
+    "titleEn": "China-Europe Freight Train Trips Exceed 130,000",
+    "canonicalUrl": "https://magyarnemzet.hu/gazdasag/2026/05/atlepte-a-130-ezret-a-kina-es-europa-kozott-kozlekedo-tehervonat-szerelvenyek-szama",
+    "publishedAt": "2026-05-09T11:22:29+00:00",
+    "capturedAt": "2026-05-10T08:26:06+00:00",
+    "status": "analyzed",
+    "sourceCode": "magyar_nemzet",
+    "sourceName": "Magyar Nemzet",
+    "hasRawContent": false,
+    "summary": "標題指出中國與歐洲之間行駛的貨運列車班次已突破13萬列，顯示中歐鐵路貨運持續擴張；正文幾乎全為媒體站內宣傳文字，未提供更多細節。",
+    "summaryZh": "標題指出中國與歐洲之間行駛的貨運列車班次已突破13萬列，顯示中歐鐵路貨運持續擴張；正文幾乎全為媒體站內宣傳文字，未提供更多細節。",
+    "summaryEn": "The headline says the number of freight train services operating between China and Europe has exceeded 130,000, pointing to continued growth in China-Europe rail logistics. The body is mostly site promotion text and adds no further details.",
+    "description": null,
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "ECONOMY_TRADE",
+        "zh": "經濟貿易",
+        "en": "Economy & Trade",
+        "confidence": 0.96
+      }
+    ],
+    "keywordTerms": [
+      "China-Europe rail freight",
+      "130,000 trains",
+      "cargo rail"
+    ],
+    "keywordTermsZh": [
+      "China-Europe rail freight",
+      "130,000 trains",
+      "cargo rail"
+    ],
+    "keywordTermsEn": [
+      "China-Europe rail freight",
+      "130,000 trains",
+      "cargo rail"
+    ]
+  },
+  {
+    "articleId": "article-ceb0b18d9647297937abc2db",
+    "title": "",
+    "titleZh": "烏克蘭冰球隊19年後重返頂級組，澤倫斯基讚揚振奮人心",
+    "titleEn": "Ukraine hockey team returns to the top division after 19 years, praised by Zelenskyy",
+    "canonicalUrl": "https://magyarnemzet.hu/sport/2026/05/ukrajna-jegkorong-vilagbajnoksag-feljutas-zelenszkij",
+    "publishedAt": "2026-05-09T11:13:21+00:00",
+    "capturedAt": "2026-05-10T08:26:25+00:00",
+    "status": "analyzed",
+    "sourceCode": "magyar_nemzet",
+    "sourceName": "Magyar Nemzet",
+    "hasRawContent": false,
+    "summary": "The article covers Ukraine's men's ice hockey team's return to the world elite after 19 years, highlighting its strong 2026 Division I/A campaign, past decline, and symbolic importance during wartime. It also notes President Zelenskyy's congratulations and a 2024 win over China as part of the team's rise.",
+    "summaryZh": "文章報導烏克蘭男子冰球隊在2026年世界錦標賽分級賽奪得第二名，睽違19年重返世界頂級組。內容回顧球隊長期低潮與近年崛起，並提到澤倫斯基對球隊的祝賀，認為這象徵戰時烏克蘭的韌性與士氣。",
+    "summaryEn": "The article reports that Ukraine's men's ice hockey team finished second in the 2026 Division I/A world championship to return to the top tier after 19 years. It reviews the team's long decline and recent rise, and notes Zelenskyy's congratulations as a symbol of wartime resilience.",
+    "description": null,
+    "countryLabel": {
+      "code": "REGIONAL",
+      "zh": "區域",
+      "en": "Regional"
+    },
+    "issueLabels": [
+      {
+        "code": "SOCIETY_CULTURE",
+        "zh": "社會文化",
+        "en": "Society & Culture",
+        "confidence": 0.91
+      }
+    ],
+    "keywordTerms": [
+      "ice hockey",
+      "Ukraine",
+      "promotion",
+      "China",
+      "Zelenskyy"
+    ],
+    "keywordTermsZh": [
+      "ice hockey",
+      "Ukraine",
+      "promotion",
+      "China",
+      "Zelenskyy"
+    ],
+    "keywordTermsEn": [
+      "ice hockey",
+      "Ukraine",
+      "promotion",
+      "China",
+      "Zelenskyy"
+    ]
+  },
+  {
     "articleId": "article-c75789032728289d23ce05fe",
     "title": "",
     "titleZh": "中國重慶的世界最深天坑：小寨天坑之謎",
@@ -219,6 +381,579 @@
     ]
   },
   {
+    "articleId": "article-7b95b8d054814376fc97f1a5",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://belta.by/sport/view/belorusskie-gandbolisty-sygrajut-na-turnire-v-kitae-779521-2026/",
+    "publishedAt": "2026-05-08T11:55:50+00:00",
+    "capturedAt": "2026-05-10T08:25:20+00:00",
+    "status": "quarantined",
+    "sourceCode": "belta",
+    "sourceName": "BelTA",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-fd7e68e81405add1bc0aef56",
+    "title": "",
+    "titleZh": "歐寶將與中國製造商合作打造新車",
+    "titleEn": "Opel to Build a Car Together With a Chinese Manufacturer",
+    "canonicalUrl": "https://magyarnemzet.hu/auto-motor-2/2026/05/ezt-is-megertuk-kinai-gyartoval-kozos-autot-keszit-az-opel-foto",
+    "publishedAt": "2026-05-08T10:18:10+00:00",
+    "capturedAt": "2026-05-10T08:25:50+00:00",
+    "status": "analyzed",
+    "sourceCode": "magyar_nemzet",
+    "sourceName": "Magyar Nemzet",
+    "hasRawContent": false,
+    "summary": "文章標題提到 Opel 將與中國製造商共同打造汽車，重點在跨國汽車合作與中國供應鏈／製造參與。正文內容未提供更多實質新聞細節。",
+    "summaryZh": "文章標題提到 Opel 將與中國製造商共同打造汽車，重點在跨國汽車合作與中國製造參與。正文未提供更多實質細節。",
+    "summaryEn": "The headline says Opel will make a car together with a Chinese manufacturer, pointing to cross-border automotive cooperation and Chinese industrial involvement. The body contains no additional substantive reporting.",
+    "description": null,
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "ECONOMY_TRADE",
+        "zh": "經濟貿易",
+        "en": "Economy & Trade",
+        "confidence": 0.91
+      },
+      {
+        "code": "TECHNOLOGY",
+        "zh": "科技",
+        "en": "Technology",
+        "confidence": 0.62
+      }
+    ],
+    "keywordTerms": [
+      "Opel",
+      "Chinese manufacturer",
+      "joint car project"
+    ],
+    "keywordTermsZh": [
+      "Opel",
+      "Chinese manufacturer",
+      "joint car project"
+    ],
+    "keywordTermsEn": [
+      "Opel",
+      "Chinese manufacturer",
+      "joint car project"
+    ]
+  },
+  {
+    "articleId": "article-2354dc3c2888dd565a0f11ec",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://belta.by/world/view/chislo-pogibshih-v-rezultate-vzryva-na-zavode-fejerverkov-v-kitae-vozroslo-do-37-779482-2026/",
+    "publishedAt": "2026-05-08T09:18:30+00:00",
+    "capturedAt": "2026-05-10T08:25:25+00:00",
+    "status": "quarantined",
+    "sourceCode": "belta",
+    "sourceName": "BelTA",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-9334dfb1274fb9df43946709",
+    "title": "",
+    "titleZh": "中國J-35出口型亮相　傳已簽首筆外銷合約",
+    "titleEn": "China’s J-35 Export Variant Appears, Hinting at First Foreign Sale",
+    "canonicalUrl": "https://www.novosti.rs/planeta/svet/1604996/35-kineski-stelt-lovac-potencijalni-kupci-35",
+    "publishedAt": "2026-05-07T20:33:00+00:00",
+    "capturedAt": "2026-05-10T08:34:35+00:00",
+    "status": "analyzed",
+    "sourceCode": "vecernje_novosti",
+    "sourceName": "Večernje novosti",
+    "hasRawContent": false,
+    "summary": "Chinese state media showcased the export-configured J-35AE stealth fighter, prompting analysts to suspect a first foreign sales deal may already be in place. The report frames the aircraft as a new Chinese attempt to compete in the global fighter market and challenge the F-35.",
+    "summaryZh": "中國官媒公開首架出口配置的第五代戰機J-35AE影像，分析人士據此推測首筆外銷合約可能已經簽署。報導指這顯示中國正加速將該型戰機推向海外市場，並與F-35展開競爭。",
+    "summaryEn": "Chinese state media aired footage of the first export-configured J-35AE stealth fighter, leading analysts to suspect a first sales deal may already be signed. The report suggests China is pushing the aircraft into overseas markets to compete with the F-35.",
+    "description": null,
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "SECURITY_DEFENSE",
+        "zh": "安全防務",
+        "en": "Security & Defense",
+        "confidence": 0.98
+      },
+      {
+        "code": "ECONOMY_TRADE",
+        "zh": "經濟貿易",
+        "en": "Economy & Trade",
+        "confidence": 0.84
+      },
+      {
+        "code": "TECHNOLOGY",
+        "zh": "科技",
+        "en": "Technology",
+        "confidence": 0.72
+      }
+    ],
+    "keywordTerms": [
+      "J-35AE",
+      "fighter jet export",
+      "fifth-generation fighter",
+      "China"
+    ],
+    "keywordTermsZh": [
+      "J-35AE",
+      "fighter jet export",
+      "fifth-generation fighter",
+      "China"
+    ],
+    "keywordTermsEn": [
+      "J-35AE",
+      "fighter jet export",
+      "fifth-generation fighter",
+      "China"
+    ]
+  },
+  {
+    "articleId": "article-d51419c1fcc6c6c7c7316526",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://www.novosti.rs/planeta/svet/1604999/kina-amerika-donald-tramp-rat-iranu-djinping-izrael",
+    "publishedAt": "2026-05-07T19:45:00+00:00",
+    "capturedAt": "2026-05-10T08:35:40+00:00",
+    "status": "quarantined",
+    "sourceCode": "vecernje_novosti",
+    "sourceName": "Večernje novosti",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-6fc41ee608ac673c2b6d9983",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://belta.by/society/view/objjavleny-konkursy-belorussko-kitajskih-flagmanskih-i-nauchno-tehnicheskih-proektov-779399-2026/",
+    "publishedAt": "2026-05-07T17:28:17+00:00",
+    "capturedAt": "2026-05-10T08:25:17+00:00",
+    "status": "quarantined",
+    "sourceCode": "belta",
+    "sourceName": "BelTA",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-047929fc9f57a3a7c791e420",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://www.novosti.rs/planeta/svet/1604950/smrtna-kazna-funkcionere-kina-osudila-bivse-ministre-odbrane-zbog-korupcije",
+    "publishedAt": "2026-05-07T16:28:00+00:00",
+    "capturedAt": "2026-05-10T08:34:15+00:00",
+    "status": "quarantined",
+    "sourceCode": "vecernje_novosti",
+    "sourceName": "Večernje novosti",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-c1ece4eb8a1845d7ef542cd3",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://www.novosti.rs/planeta/svet/1604726/teheran-odbacuje-optuzbe-iran-negira-umesanost-incident-juznokorejskim-brodom-ormuskom-moreuzu",
+    "publishedAt": "2026-05-07T09:16:00+00:00",
+    "capturedAt": "2026-05-10T08:33:39+00:00",
+    "status": "quarantined",
+    "sourceCode": "vecernje_novosti",
+    "sourceName": "Večernje novosti",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-e4fcc3533b224a878895a755",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://belta.by/economics/view/nan-belarusi-i-kitajskie-kompanii-opredelili-perspektivy-sotrudnichestva-v-sfere-innovatsij-779141-2026/",
+    "publishedAt": "2026-05-06T16:53:48+00:00",
+    "capturedAt": "2026-05-10T08:24:32+00:00",
+    "status": "quarantined",
+    "sourceCode": "belta",
+    "sourceName": "BelTA",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-efead773a015f83a6823812e",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://belta.by/kaleidoscope/view/v-respublike-koreja-robota-posvjatili-779138-2026/",
+    "publishedAt": "2026-05-06T16:48:02+00:00",
+    "capturedAt": "2026-05-10T08:24:38+00:00",
+    "status": "quarantined",
+    "sourceCode": "belta",
+    "sourceName": "BelTA",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-2d7f711081746c5646545dbe",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://www.novosti.rs/planeta/svet/1604475/kina-nudi-posredovanje-peking-spreman-pomogne-mirovne-pregovore-irana-sad",
+    "publishedAt": "2026-05-06T14:18:00+00:00",
+    "capturedAt": "2026-05-10T08:33:21+00:00",
+    "status": "quarantined",
+    "sourceCode": "vecernje_novosti",
+    "sourceName": "Večernje novosti",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-00c5cfb47d95c6a448cb3e15",
+    "title": "",
+    "titleZh": "白俄國營企業擴大對華出口物流能力",
+    "titleEn": "Belarus State Enterprise Expands Logistics Capacity for Exports to China",
+    "canonicalUrl": "https://belta.by/society/view/gosudarstvennoe-predprijatie-belintertrans-rasshirjaet-logisticheskie-vozmozhnosti-belorusskogo-779022-2026/",
+    "publishedAt": "2026-05-06T11:00:00+00:00",
+    "capturedAt": "2026-05-10T08:25:01+00:00",
+    "status": "analyzed",
+    "sourceCode": "belta",
+    "sourceName": "BelTA",
+    "hasRawContent": false,
+    "summary": "白俄罗斯国营企业“БЕЛИНТЕРТРАНС”正在扩展面向中国的物流能力，以支持白俄罗斯出口。文章内容主要围绕对华运输与出口通道优化，属于经贸与物流主题。",
+    "summaryZh": "白俄國營企業“БЕЛИНТЕРТРАНС”正擴大面向中國的物流能力，以提升白俄出口效率。文章重點在對華運輸與貿易通道的優化。",
+    "summaryEn": "Belarusian state enterprise BELINTERTRANS is expanding logistics capacity for exports to China. The article focuses on transport and trade channel improvements to support Belarusian outbound shipments.",
+    "description": null,
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "ECONOMY_TRADE",
+        "zh": "經濟貿易",
+        "en": "Economy & Trade",
+        "confidence": 0.99
+      }
+    ],
+    "keywordTerms": [
+      "对华出口",
+      "物流能力",
+      "白俄罗斯",
+      "中白贸易"
+    ],
+    "keywordTermsZh": [
+      "对华出口",
+      "物流能力",
+      "白俄罗斯",
+      "中白贸易"
+    ],
+    "keywordTermsEn": [
+      "对华出口",
+      "物流能力",
+      "白俄罗斯",
+      "中白贸易"
+    ]
+  },
+  {
+    "articleId": "article-65d3bfaab5db1f1d01b6788a",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://belta.by/world/view/glavy-mid-knr-i-irana-proveli-peregovory-v-pekine-779029-2026/",
+    "publishedAt": "2026-05-06T10:55:47+00:00",
+    "capturedAt": "2026-05-10T08:25:28+00:00",
+    "status": "quarantined",
+    "sourceCode": "belta",
+    "sourceName": "BelTA",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-aece33e9811e74a7efbc4e4a",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://belta.by/kaleidoscope/view/v-shanhae-postrojat-samoe-bolshoe-v-779020-2026/",
+    "publishedAt": "2026-05-06T10:35:31+00:00",
+    "capturedAt": "2026-05-10T08:24:40+00:00",
+    "status": "quarantined",
+    "sourceCode": "belta",
+    "sourceName": "BelTA",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-e06cd07c71c182b756b46f07",
+    "title": "",
+    "titleZh": "日本校車發生交通事故，造成一人死亡",
+    "titleEn": "School bus crash in Japan leaves one dead",
+    "canonicalUrl": "https://belta.by/world/view/v-japonii-shkolnyj-avtobus-popal-v-dtp-est-pogibshij-779000-2026/",
+    "publishedAt": "2026-05-06T08:55:22+00:00",
+    "capturedAt": "2026-05-10T08:25:48+00:00",
+    "status": "analyzed",
+    "sourceCode": "belta",
+    "sourceName": "BelTA",
+    "hasRawContent": false,
+    "summary": "文章報導日本發生一起校車交通事故，事件造成至少一人死亡。內文未提供更多細節，主要是一則簡短事故快訊。",
+    "summaryZh": "文章報導日本發生一起校車交通事故，事件造成至少一人死亡。內文未提供更多細節，主要是一則簡短事故快訊。",
+    "summaryEn": "The article reports a traffic accident involving a school bus in Japan that left at least one person dead. It is a brief news update with no further details.",
+    "description": null,
+    "countryLabel": {
+      "code": "JAPAN",
+      "zh": "日本",
+      "en": "Japan"
+    },
+    "issueLabels": [
+      {
+        "code": "SOCIETY_CULTURE",
+        "zh": "社會文化",
+        "en": "Society & Culture",
+        "confidence": 0.56
+      }
+    ],
+    "keywordTerms": [
+      "school bus",
+      "traffic accident",
+      "fatality",
+      "Japan"
+    ],
+    "keywordTermsZh": [
+      "school bus",
+      "traffic accident",
+      "fatality",
+      "Japan"
+    ],
+    "keywordTermsEn": [
+      "school bus",
+      "traffic accident",
+      "fatality",
+      "Japan"
+    ]
+  },
+  {
+    "articleId": "article-9dde9d74910aeae616b73d6d",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://belta.by/regions/view/japonskaja-vesna-v-minske-v-botanicheskom-sadu-zatsvela-sakura-778967-2026/",
+    "publishedAt": "2026-05-05T19:28:37+00:00",
+    "capturedAt": "2026-05-10T08:24:58+00:00",
+    "status": "quarantined",
+    "sourceCode": "belta",
+    "sourceName": "BelTA",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-4f0237509ef0943dd1bb92b0",
+    "title": "",
+    "titleZh": "中國研發新型隱形巡航飛彈　射程逾1300公里引發美航母威脅疑慮",
+    "titleEn": "China Develops New Stealth Cruise Missile, Raising Concerns for U.S. Carrier Fleets",
+    "canonicalUrl": "https://www.novosti.rs/planeta/svet/1604190/kina-razvija-novu-stelt-krstarecu-raketu-americka-flota-pacifiku-problemu",
+    "publishedAt": "2026-05-05T18:00:00+00:00",
+    "capturedAt": "2026-05-10T08:32:55+00:00",
+    "status": "analyzed",
+    "sourceCode": "vecernje_novosti",
+    "sourceName": "Večernje novosti",
+    "hasRawContent": false,
+    "summary": "文章稱中國正研發一款可裝入 J-20 與 J-35 機內彈艙的新型隱形巡航飛彈，具備低可偵測外形、紅外抑制設計，巡航速度約 0.71 馬赫，射程約 1,330 公里，意圖提升對西太平洋美軍航母打擊群的威脅。",
+    "summaryZh": "文章稱中國正研發一款可裝入 J-20 與 J-35 機內彈艙的新型隱形巡航飛彈，具備低可偵測外形、紅外抑制設計，巡航速度約 0.71 馬赫，射程約 1,330 公里，意圖提升對西太平洋美軍航母打擊群的威脅。",
+    "summaryEn": "The article says China is developing a new stealth cruise missile that fits inside J-20 and J-35 weapon bays. It emphasizes low-observable design, infrared suppression, a cruise speed of about Mach 0.71, and a range of roughly 1,330 km, aimed at challenging U.S. carrier strike groups in the western Pacific.",
+    "description": null,
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "SECURITY_DEFENSE",
+        "zh": "安全防務",
+        "en": "Security & Defense",
+        "confidence": 0.99
+      },
+      {
+        "code": "TECHNOLOGY",
+        "zh": "科技",
+        "en": "Technology",
+        "confidence": 0.74
+      }
+    ],
+    "keywordTerms": [
+      "隱形巡航飛彈",
+      "J-20",
+      "J-35",
+      "反艦打擊",
+      "1,330公里射程"
+    ],
+    "keywordTermsZh": [
+      "隱形巡航飛彈",
+      "J-20",
+      "J-35",
+      "反艦打擊",
+      "1,330公里射程"
+    ],
+    "keywordTermsEn": [
+      "隱形巡航飛彈",
+      "J-20",
+      "J-35",
+      "反艦打擊",
+      "1,330公里射程"
+    ]
+  },
+  {
+    "articleId": "article-82f2d2e98ad9461735071fff",
+    "title": "",
+    "titleZh": "盧卡申科就湖南工廠悲劇向習近平致哀",
+    "titleEn": "Lukashenko Sends Condolences to Xi Over Tragic Incident at Hunan Factory",
+    "canonicalUrl": "https://belta.by/president/view/lukashenko-napravil-soboleznovanie-si-tszinpinu-v-svjazi-s-tragicheskim-intsidentom-na-zavode-v-778927-2026/",
+    "publishedAt": "2026-05-05T16:39:38+00:00",
+    "capturedAt": "2026-05-10T08:24:43+00:00",
+    "status": "analyzed",
+    "sourceCode": "belta",
+    "sourceName": "BelTA",
+    "hasRawContent": false,
+    "summary": "白俄羅斯總統盧卡申科就中國湖南省一座工廠發生的悲劇性事件，向中國國家主席習近平致唁電表示哀悼。",
+    "summaryZh": "白俄羅斯總統盧卡申科就中國湖南省一家工廠發生的悲劇性事件，向中國國家主席習近平表示哀悼。",
+    "summaryEn": "Belarusian President Lukashenko sent condolences to Chinese President Xi Jinping over a tragic incident at a factory in Hunan Province.",
+    "description": null,
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "DIPLOMACY",
+        "zh": "外交",
+        "en": "Diplomacy",
+        "confidence": 0.89
+      }
+    ],
+    "keywordTerms": [
+      "習近平",
+      "湖南省",
+      "哀悼"
+    ],
+    "keywordTermsZh": [
+      "習近平",
+      "湖南省",
+      "哀悼"
+    ],
+    "keywordTermsEn": [
+      "習近平",
+      "湖南省",
+      "哀悼"
+    ]
+  },
+  {
     "articleId": "article-c41ad20e56e7f484b9ccec8a",
     "title": "",
     "titleZh": "南韓啟動KF-21戰機量產，國產防務工業邁入新階段",
@@ -280,5 +1015,586 @@
       "Block 1",
       "export potential"
     ]
+  },
+  {
+    "articleId": "article-829da156f4eec53f13b7f2f4",
+    "title": "",
+    "titleZh": "習近平呼籲全力投入煙火工廠爆炸救援",
+    "titleEn": "Xi Jinping Calls for Full Rescue Efforts After Fireworks Factory Explosion",
+    "canonicalUrl": "https://belta.by/world/view/si-tszinpin-prizval-zadejstvovat-vse-sily-dlja-spasatelnyh-rabot-posle-vzryva-na-zavode-fejerverkov-778812-2026/",
+    "publishedAt": "2026-05-05T10:00:08+00:00",
+    "capturedAt": "2026-05-10T08:25:31+00:00",
+    "status": "analyzed",
+    "sourceCode": "belta",
+    "sourceName": "BelTA",
+    "hasRawContent": false,
+    "summary": "中國一座煙火工廠發生爆炸後，習近平呼籲動員一切力量展開救援工作。本文重點在於事故發生後的應急處置與救援動員。",
+    "summaryZh": "中國煙火工廠發生爆炸後，習近平呼籲動員一切力量展開救援工作，重點在事故後的應急處置與搜救行動。",
+    "summaryEn": "After an explosion at a fireworks factory in China, Xi Jinping called for mobilizing all available resources for rescue work, focusing on emergency response and search operations.",
+    "description": null,
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "ENVIRONMENT_DISASTER",
+        "zh": "環境災害",
+        "en": "Environment & Disaster",
+        "confidence": 0.93
+      }
+    ],
+    "keywordTerms": [
+      "習近平",
+      "煙火工廠爆炸",
+      "救援工作"
+    ],
+    "keywordTermsZh": [
+      "習近平",
+      "煙火工廠爆炸",
+      "救援工作"
+    ],
+    "keywordTermsEn": [
+      "習近平",
+      "煙火工廠爆炸",
+      "救援工作"
+    ]
+  },
+  {
+    "articleId": "article-5c9a9df4dabf272fa3d62c05",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://belta.by/world/view/bolee-20-chelovek-pogibli-pri-vzryve-na-zavode-fejerverkov-v-kitae-778794-2026/",
+    "publishedAt": "2026-05-05T08:37:36+00:00",
+    "capturedAt": "2026-05-10T08:25:23+00:00",
+    "status": "quarantined",
+    "sourceCode": "belta",
+    "sourceName": "BelTA",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-edcce732740a7b23517e7255",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://www.novosti.rs/planeta/svet/1603889/stravicna-eksplozija-kini-poginulo-vise-20-osoba-broje-povredjeni-foto",
+    "publishedAt": "2026-05-05T07:45:00+00:00",
+    "capturedAt": "2026-05-10T08:31:57+00:00",
+    "status": "quarantined",
+    "sourceCode": "vecernje_novosti",
+    "sourceName": "Večernje novosti",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-fecd54d765fd620d43d0e787",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://www.novosti.rs/planeta/svet/1603788/francuski-opozicionar-objasnio-tramp-mislio-blokirajuci-ormuski-moreuz-preseci-naftu-koja-ide-kini-propalo",
+    "publishedAt": "2026-05-04T15:45:00+00:00",
+    "capturedAt": "2026-05-10T08:31:34+00:00",
+    "status": "quarantined",
+    "sourceCode": "vecernje_novosti",
+    "sourceName": "Večernje novosti",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-f6c27ef45f00db7a7e94309f",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://belta.by/economics/view/novyj-rezident-velikogo-kamnja-sozdast-tsentr-lechenija-hronicheskih-zabolevanij-778626-2026/",
+    "publishedAt": "2026-05-04T10:58:35+00:00",
+    "capturedAt": "2026-05-10T08:24:35+00:00",
+    "status": "quarantined",
+    "sourceCode": "belta",
+    "sourceName": "BelTA",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-73c96362409eebe33f19294a",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://www.novosti.rs/planeta/svet/1603357/kineska-strategija-ormuski-moreuz-nosaci-aviona-podmornice",
+    "publishedAt": "2026-05-03T15:22:00+00:00",
+    "capturedAt": "2026-05-10T08:31:16+00:00",
+    "status": "quarantined",
+    "sourceCode": "vecernje_novosti",
+    "sourceName": "Večernje novosti",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-30a7689262afd267f9b4b066",
+    "title": "",
+    "titleZh": "中國正在複製美國？從門羅主義看北京如何在亞洲建立區域控制",
+    "titleEn": "Is China Copying America? A Monroe Doctrine in Mandarin and Beijing’s Push for Asian Control",
+    "canonicalUrl": "https://www.novosti.rs/planeta/svet/1603196/kineska-vojna-strategija-monroova-doktrina-mandarinski-azija",
+    "publishedAt": "2026-05-03T05:30:00+00:00",
+    "capturedAt": "2026-05-10T08:30:54+00:00",
+    "status": "analyzed",
+    "sourceCode": "vecernje_novosti",
+    "sourceName": "Večernje novosti",
+    "hasRawContent": false,
+    "summary": "文章主張，中國軍力不是為了全球投射，而是為了在亞洲建立區域拒止優勢，重點涵蓋台灣、南海與第一、第二島鏈。作者認為北京以 A2/AD、反艦飛彈與海上拒止能力，讓周邊戰區對美國與區域經濟體變得過於昂貴。",
+    "summaryZh": "文章認為中國軍力設計的重點不是全球霸權，而是以台灣與南海為核心，透過 A2/AD、反艦飛彈與海上拒止能力，讓亞洲關鍵戰區對對手變得昂貴且難以介入。",
+    "summaryEn": "The article argues that China is not building a global power-projection force but a regional denial strategy centered on Taiwan and the South China Sea. It says A2/AD, anti-ship missiles, and naval denial are meant to make Asia's key theaters too costly for rivals to contest.",
+    "description": null,
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "SECURITY_DEFENSE",
+        "zh": "安全防務",
+        "en": "Security & Defense",
+        "confidence": 0.99
+      },
+      {
+        "code": "ECONOMY_TRADE",
+        "zh": "經濟貿易",
+        "en": "Economy & Trade",
+        "confidence": 0.77
+      },
+      {
+        "code": "DIPLOMACY",
+        "zh": "外交",
+        "en": "Diplomacy",
+        "confidence": 0.68
+      }
+    ],
+    "keywordTerms": [
+      "A2/AD",
+      "Taiwan",
+      "South China Sea",
+      "DF-21D",
+      "航空母艦",
+      "第一島鏈"
+    ],
+    "keywordTermsZh": [
+      "A2/AD",
+      "Taiwan",
+      "南海",
+      "DF-21D",
+      "航空母艦",
+      "第一島鏈"
+    ],
+    "keywordTermsEn": [
+      "A2/AD",
+      "Taiwan",
+      "South China Sea",
+      "DF-21D",
+      "航空母艦",
+      "第一島鏈"
+    ]
+  },
+  {
+    "articleId": "article-797533c618de97d56dba1e05",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://www.novosti.rs/planeta/svet/1603158/kineski-sud-radnici-mogu-budu-otpusteni-zbog-uvodjenja",
+    "publishedAt": "2026-05-02T20:22:00+00:00",
+    "capturedAt": "2026-05-10T08:30:34+00:00",
+    "status": "quarantined",
+    "sourceCode": "vecernje_novosti",
+    "sourceName": "Večernje novosti",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-4c092973563b9232ede32db6",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://www.novosti.rs/planeta/svet/1603117/tajvanski-lider-putuje-esvatini-kina-besna-skandalozno-usunjao-avion",
+    "publishedAt": "2026-05-02T16:57:00+00:00",
+    "capturedAt": "2026-05-10T08:30:15+00:00",
+    "status": "quarantined",
+    "sourceCode": "vecernje_novosti",
+    "sourceName": "Večernje novosti",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-d5a561d5d2ca6beaefb3d16f",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://www.novosti.rs/planeta/svet/1602970/kina-sad-sukob-nece-borba-moguca-cena",
+    "publishedAt": "2026-05-02T05:33:00+00:00",
+    "capturedAt": "2026-05-10T08:30:01+00:00",
+    "status": "quarantined",
+    "sourceCode": "vecernje_novosti",
+    "sourceName": "Večernje novosti",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-2e8fe828c491dd28fe201c47",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://www.novosti.rs/planeta/svet/1602923/kina-preuzima-glavnu-rec-najavljene-debate-bliskom-istoku-ukrajini-africi-bih",
+    "publishedAt": "2026-05-01T19:27:00+00:00",
+    "capturedAt": "2026-05-10T08:29:40+00:00",
+    "status": "quarantined",
+    "sourceCode": "vecernje_novosti",
+    "sourceName": "Večernje novosti",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-ef431ae08795aafc10251a8b",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://www.novosti.rs/planeta/svet/1602913/tramp-siguran-verujem-moja-poseta-kini-biti-odlicna",
+    "publishedAt": "2026-05-01T18:45:00+00:00",
+    "capturedAt": "2026-05-10T08:29:15+00:00",
+    "status": "quarantined",
+    "sourceCode": "vecernje_novosti",
+    "sourceName": "Večernje novosti",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-adec182beff9805581ccc0f5",
+    "title": "",
+    "titleZh": "台灣發生5.8級地震　台北與基隆附近無災損通報",
+    "titleEn": "Magnitude 5.8 Earthquake Strikes Taiwan Near Taipei and Keelung",
+    "canonicalUrl": "https://www.novosti.rs/planeta/svet/1602850/zemljotres-pogodio-tajvan-potres-jacine-5-8-rihtera",
+    "publishedAt": "2026-05-01T14:39:00+00:00",
+    "capturedAt": "2026-05-10T08:28:53+00:00",
+    "status": "analyzed",
+    "sourceCode": "vecernje_novosti",
+    "sourceName": "Večernje novosti",
+    "hasRawContent": false,
+    "summary": "A magnitude 5.8 earthquake struck Taiwan, with the epicenter reported 97 kilometers deep, 53 kilometers from Taipei and 40 kilometers from Keelung. No damage was reported.",
+    "summaryZh": "台灣發生規模5.8地震，震源深度約97公里，震央位於台北以東53公里、基隆以南40公里。目前未有財損或人員傷亡通報。",
+    "summaryEn": "Taiwan was hit by a magnitude 5.8 earthquake with a focal depth of 97 km. The epicenter was reported 53 km from Taipei and 40 km from Keelung, and no damage has been reported.",
+    "description": null,
+    "countryLabel": {
+      "code": "TAIWAN",
+      "zh": "台灣",
+      "en": "Taiwan"
+    },
+    "issueLabels": [
+      {
+        "code": "ENVIRONMENT_DISASTER",
+        "zh": "環境災害",
+        "en": "Environment & Disaster",
+        "confidence": 0.99
+      }
+    ],
+    "keywordTerms": [
+      "Taiwan earthquake",
+      "magnitude 5.8",
+      "Taipei",
+      "Keelung"
+    ],
+    "keywordTermsZh": [
+      "Taiwan earthquake",
+      "magnitude 5.8",
+      "Taipei",
+      "Keelung"
+    ],
+    "keywordTermsEn": [
+      "Taiwan earthquake",
+      "magnitude 5.8",
+      "Taipei",
+      "Keelung"
+    ]
+  },
+  {
+    "articleId": "article-c61fa99523a37b49758b76a6",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://www.novosti.rs/planeta/svet/1602703/ambasador-severne-koreje-svet-vraca-eru-zakona-dzungle-vojne-vezbe-sad-juzne-koreje-los-potez",
+    "publishedAt": "2026-05-01T07:00:00+00:00",
+    "capturedAt": "2026-05-10T08:28:31+00:00",
+    "status": "quarantined",
+    "sourceCode": "vecernje_novosti",
+    "sourceName": "Večernje novosti",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-d9adb6ae36494948af0b25ad",
+    "title": "",
+    "titleZh": "分析稱美軍 F-22 對華威懾效果受限，南海與呂宋海峽部署引關注",
+    "titleEn": "Analysis: U.S. F-22 Effectiveness Against China Questioned as South China Sea Patrols Draw Attention",
+    "canonicalUrl": "https://www.novosti.rs/planeta/svet/1602581/americki-f22-stelt-problemi-kina-analiza",
+    "publishedAt": "2026-04-30T20:33:00+00:00",
+    "capturedAt": "2026-05-10T08:27:52+00:00",
+    "status": "analyzed",
+    "sourceCode": "vecernje_novosti",
+    "sourceName": "Večernje novosti",
+    "hasRawContent": false,
+    "summary": "文章分析美军F-22在菲律宾巴萨基地周边与南海、吕宋海峡的行动，指出这类部署延伸了对中国的军事施压。文中也提到“Cope Thunder 26-1”演习展示了美菲联合作战与前沿基地起降能力，但对轻型战机在高强度冲突中的适用性提出质疑。",
+    "summaryZh": "文章指出，美軍F-22自菲律賓巴薩基地出動，靠近南海與呂宋海峽，藉此把軍事壓力延伸到第一島鏈。文中援引“Cope Thunder 26-1”演習，稱美菲可提升聯合作戰與前沿部署能力，但也質疑相關戰機在高強度衝突中的效能。",
+    "summaryEn": "The article says U.S. F-22s operating from Basa Air Base in the Philippines flew near the South China Sea and Luzon Strait, extending military pressure across the first island chain. It cites Cope Thunder 26-1 as proof of U.S.-Philippine integration, while questioning whether such fighters are effective in a high-intensity conflict with China.",
+    "description": null,
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "SECURITY_DEFENSE",
+        "zh": "安全防務",
+        "en": "Security & Defense",
+        "confidence": 0.99
+      },
+      {
+        "code": "DIPLOMACY",
+        "zh": "外交",
+        "en": "Diplomacy",
+        "confidence": 0.55
+      }
+    ],
+    "keywordTerms": [
+      "F-22",
+      "South China Sea",
+      "Luzon Strait",
+      "Cope Thunder 26-1",
+      "first island chain"
+    ],
+    "keywordTermsZh": [
+      "F-22",
+      "南海",
+      "Luzon Strait",
+      "Cope Thunder 26-1",
+      "first island chain"
+    ],
+    "keywordTermsEn": [
+      "F-22",
+      "South China Sea",
+      "Luzon Strait",
+      "Cope Thunder 26-1",
+      "first island chain"
+    ]
+  },
+  {
+    "articleId": "article-a773ca296bbe8349ebbc3027",
+    "title": "",
+    "titleZh": "王毅：在習近平與川普領導下 中美關係總體穩定",
+    "titleEn": "Wang Yi: Under Xi and Trump, China-U.S. ties remain generally stable",
+    "canonicalUrl": "https://www.novosti.rs/planeta/svet/1602642/vang-pod-vodjstvom-sija-trampa-odnosi-kine-sad-ostali-stabilni",
+    "publishedAt": "2026-04-30T20:11:00+00:00",
+    "capturedAt": "2026-05-10T08:28:09+00:00",
+    "status": "analyzed",
+    "sourceCode": "vecernje_novosti",
+    "sourceName": "Večernje novosti",
+    "hasRawContent": false,
+    "summary": "王毅與美國副總統魯比奧通話，稱在習近平與川普的領導下，中美關係總體保持穩定。雙方同意維持溝通、尊重彼此、妥善處理分歧，並推動戰略穩定；王毅同時強調台灣問題是中美關係最敏感、最具風險的議題之一。",
+    "summaryZh": "王毅與魯比奧通話時表示，在習近平與川普的領導下，中美關係整體保持穩定，雙方應加強溝通、擴大合作並妥善處理分歧。王毅並稱台灣問題是中美關係中最敏感且最具風險的議題。",
+    "summaryEn": "Wang Yi said in a call with Vice President Marco Rubio that China-U.S. relations have remained generally stable under the leadership of Xi Jinping and Donald Trump. He urged both sides to maintain communication, expand cooperation, and handle differences properly, while stressing that Taiwan is the most sensitive risk point in bilateral ties.",
+    "description": null,
+    "countryLabel": {
+      "code": "CHINA",
+      "zh": "中國",
+      "en": "China"
+    },
+    "issueLabels": [
+      {
+        "code": "DIPLOMACY",
+        "zh": "外交",
+        "en": "Diplomacy",
+        "confidence": 0.99
+      },
+      {
+        "code": "SECURITY_DEFENSE",
+        "zh": "安全防務",
+        "en": "Security & Defense",
+        "confidence": 0.62
+      }
+    ],
+    "keywordTerms": [
+      "中美關係",
+      "王毅",
+      "魯比奧",
+      "台灣問題",
+      "戰略穩定"
+    ],
+    "keywordTermsZh": [
+      "中美關係",
+      "王毅",
+      "魯比奧",
+      "台灣問題",
+      "戰略穩定"
+    ],
+    "keywordTermsEn": [
+      "中美關係",
+      "王毅",
+      "魯比奧",
+      "台灣問題",
+      "戰略穩定"
+    ]
+  },
+  {
+    "articleId": "article-fd584ff78c0a3aae8a6881d3",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://www.novosti.rs/planeta/svet/1602555/japan-trazi-slobodan-prolaz-kroz-ormuski-moreuz-takaici-pozvala-teheran-garancije-bezbednosti",
+    "publishedAt": "2026-04-30T16:15:00+00:00",
+    "capturedAt": "2026-05-10T08:27:32+00:00",
+    "status": "quarantined",
+    "sourceCode": "vecernje_novosti",
+    "sourceName": "Večernje novosti",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-551cbc831315165050576353",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://www.novosti.rs/planeta/svet/1602535/dark-eagle-americka-hipersonicna-raketa-odgovor-kina-rusija",
+    "publishedAt": "2026-04-30T15:11:00+00:00",
+    "capturedAt": "2026-05-10T08:27:10+00:00",
+    "status": "quarantined",
+    "sourceCode": "vecernje_novosti",
+    "sourceName": "Večernje novosti",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
+  },
+  {
+    "articleId": "article-890fc77d535dfa1070a163ac",
+    "title": "",
+    "titleZh": null,
+    "titleEn": null,
+    "canonicalUrl": "https://www.novosti.rs/planeta/svet/1602284/tajvan-ponovo-sredistu-tenzija-peking-optuzio-tokio-podstice-blokovsku-konfrontaciju-indo-pacifiku",
+    "publishedAt": "2026-04-29T16:46:00+00:00",
+    "capturedAt": "2026-05-10T08:26:50+00:00",
+    "status": "quarantined",
+    "sourceCode": "vecernje_novosti",
+    "sourceName": "Večernje novosti",
+    "hasRawContent": false,
+    "summary": null,
+    "summaryZh": null,
+    "summaryEn": null,
+    "description": null,
+    "countryLabel": null,
+    "issueLabels": [],
+    "keywordTerms": [],
+    "keywordTermsZh": [],
+    "keywordTermsEn": []
   }
 ]

@@ -1,5 +1,5 @@
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
-import { dirname } from "node:path";
+import { basename, dirname } from "node:path";
 import { DatabaseSync } from "node:sqlite";
 import { bilingualKeywordTerms, loadKeywordTranslationCache, type KeywordTranslationCache } from "./keyword-translation-cache";
 
@@ -8,7 +8,7 @@ const DB_PATH =
   "/Users/chia-shuotang/Documents/PutinIsland/data/putinisland.sqlite";
 const MEDIA_CANDIDATES_PATH =
   process.env.PUTINISLAND_MEDIA_CANDIDATES_PATH ??
-  "/Users/chia-shuotang/Documents/PutinIsland/sources/media_candidates.md";
+  "/Users/chia-shuotang/Documents/PutinIsland/sources/media_candidates_ru.md";
 const OUT_DIR = process.env.PUTINISLAND_PUBLIC_DATA_DIR ?? "public/data";
 
 type Label = {
@@ -223,6 +223,7 @@ function parseMediaCandidates() {
   const lines = markdown.split(/\r?\n/);
   const checkedDate = lines.find((line) => line.startsWith("查核日期："))?.replace("查核日期：", "").trim() ?? null;
   const tableStart = lines.findIndex((line) => line.startsWith("| 地區/主要目標 |"));
+  const headerCells = tableStart === -1 ? [] : splitMarkdownTableRow(lines[tableStart]);
   const tableRows: string[] = [];
   if (tableStart !== -1) {
     for (const line of lines.slice(tableStart + 2)) {
@@ -235,21 +236,35 @@ function parseMediaCandidates() {
 
   return {
     checkedDate,
-    path: "sources/media_candidates.md",
-    rows: tableRows.map((line) => {
-      const cells = splitMarkdownTableRow(line);
-      return {
-        targetRegion: cells[0] ?? "",
-        name: cells[1] ?? "",
-        englishName: cells[2] ?? "",
-        chineseName: cells[3] ?? "",
-        homepageUrl: cells[4] ?? "",
-        attributionSource: cells[5] ?? "",
-        evidenceSummary: cells[6] ?? "",
-        urlCheck: cells[7] ?? ""
-      };
-    })
+    path: `sources/${basename(MEDIA_CANDIDATES_PATH)}`,
+    rows: tableRows.map((line) => parseMediaCandidateRow(splitMarkdownTableRow(line), headerCells))
   };
+}
+
+function parseMediaCandidateRow(cells: string[], headerCells: string[]) {
+  return {
+    targetRegion: cellByHeader(cells, headerCells, "地區/主要目標"),
+    name: cellByHeader(cells, headerCells, "名稱"),
+    englishName: cellByHeader(cells, headerCells, "常見英文翻譯"),
+    chineseName: cellByHeader(cells, headerCells, "中文翻譯"),
+    homepageUrl: cellByHeader(cells, headerCells, "主站 URL"),
+    originOrControl: optionalCellByHeader(cells, headerCells, "來源國家/控制地"),
+    attributionSource: cellByHeader(cells, headerCells, "指認來源"),
+    evidenceSummary: cellByHeader(cells, headerCells, "指認摘要與 evidence URL"),
+    scaleDescription: optionalCellByHeader(cells, headerCells, "規模/影響力描述"),
+    standardCategory: optionalCellByHeader(cells, headerCells, "標準分類"),
+    urlCheck: cellByHeader(cells, headerCells, "URL 檢查")
+  };
+}
+
+function optionalCellByHeader(cells: string[], headerCells: string[], header: string): string | null {
+  const value = cellByHeader(cells, headerCells, header);
+  return value === "" ? null : value;
+}
+
+function cellByHeader(cells: string[], headerCells: string[], header: string): string {
+  const index = headerCells.indexOf(header);
+  return index === -1 ? "" : cells[index] ?? "";
 }
 
 function splitMarkdownTableRow(line: string): string[] {

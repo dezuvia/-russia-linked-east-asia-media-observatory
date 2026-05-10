@@ -95,8 +95,11 @@ export type MediaCandidate = {
   englishName: string;
   chineseName: string;
   homepageUrl: string;
+  originOrControl: string | null;
   attributionSource: string;
   evidenceSummary: string;
+  scaleDescription: string | null;
+  standardCategory: string | null;
   urlCheck: string;
 };
 

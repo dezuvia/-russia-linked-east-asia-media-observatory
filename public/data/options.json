@@ -160,6 +160,46 @@
       "articleCount": 0
     },
     {
+      "sourceCode": "sb_by",
+      "displayName": "Belarus Segodnya",
+      "country": "BY",
+      "language": "ru",
+      "homepageUrl": "https://www.sb.by/",
+      "feedUrl": null,
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "belta",
+      "displayName": "BelTA",
+      "country": "BY",
+      "language": "ru",
+      "homepageUrl": "https://belta.by/",
+      "feedUrl": "https://belta.by/rss",
+      "isMonitored": true,
+      "articleCount": 14
+    },
+    {
+      "sourceCode": "blitz_bg",
+      "displayName": "Blitz.bg",
+      "country": "BG",
+      "language": "bg",
+      "homepageUrl": "https://blitz.bg/",
+      "feedUrl": "https://blitz.bg/rss.xml",
+      "isMonitored": false,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "cz24",
+      "displayName": "CZ24.news",
+      "country": "CZ",
+      "language": "cs",
+      "homepageUrl": "https://cz24.news/",
+      "feedUrl": "https://cz24.news/feed/",
+      "isMonitored": false,
+      "articleCount": 0
+    },
+    {
       "sourceCode": "eadaily",
       "displayName": "EADaily",
       "country": "RU",
@@ -177,6 +217,16 @@
       "homepageUrl": "https://fondsk.ru/",
       "feedUrl": "https://fondsk.ru/rss.xml",
       "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "gazeta_ru",
+      "displayName": "Gazeta.ru",
+      "country": "RU",
+      "language": "ru",
+      "homepageUrl": "https://www.gazeta.ru/",
+      "feedUrl": "https://www.gazeta.ru/export/rss/first.xml",
+      "isMonitored": false,
       "articleCount": 0
     },
     {
@@ -280,6 +330,16 @@
       "articleCount": 0
     },
     {
+      "sourceCode": "magyar_nemzet",
+      "displayName": "Magyar Nemzet",
+      "country": "HU",
+      "language": "hu",
+      "homepageUrl": "https://magyarnemzet.hu/",
+      "feedUrl": "https://magyarnemzet.hu/feed",
+      "isMonitored": true,
+      "articleCount": 3
+    },
+    {
       "sourceCode": "journal_neo",
       "displayName": "New Eastern Outlook",
       "country": "RU",
@@ -336,6 +396,46 @@
       "language": "en",
       "homepageUrl": "https://orientalreview.su/",
       "feedUrl": "https://orientalreview.su/feed/",
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "origo_hu",
+      "displayName": "Origo",
+      "country": "HU",
+      "language": "hu",
+      "homepageUrl": "https://www.origo.hu/",
+      "feedUrl": null,
+      "isMonitored": true,
+      "articleCount": 1
+    },
+    {
+      "sourceCode": "parlamentni_listy",
+      "displayName": "Parlamentní listy",
+      "country": "CZ",
+      "language": "cs",
+      "homepageUrl": "https://www.parlamentnilisty.cz/",
+      "feedUrl": null,
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "pogled_info",
+      "displayName": "Pogled.info",
+      "country": "BG",
+      "language": "bg",
+      "homepageUrl": "https://pogled.info/",
+      "feedUrl": null,
+      "isMonitored": false,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "regnum",
+      "displayName": "REGNUM",
+      "country": "RU",
+      "language": "ru",
+      "homepageUrl": "https://regnum.ru/",
+      "feedUrl": "https://regnum.ru/rss",
       "isMonitored": true,
       "articleCount": 0
     },
@@ -410,6 +510,16 @@
       "articleCount": 0
     },
     {
+      "sourceCode": "tass",
+      "displayName": "TASS",
+      "country": "RU",
+      "language": "ru",
+      "homepageUrl": "https://tass.ru/",
+      "feedUrl": "https://tass.ru/rss/v2.xml",
+      "isMonitored": true,
+      "articleCount": 0
+    },
+    {
       "sourceCode": "uwidata",
       "displayName": "United World International",
       "country": "TR",
@@ -420,6 +530,16 @@
       "articleCount": 1
     },
     {
+      "sourceCode": "vecernje_novosti",
+      "displayName": "Večernje novosti",
+      "country": "RS",
+      "language": "sr",
+      "homepageUrl": "https://www.novosti.rs/",
+      "feedUrl": null,
+      "isMonitored": true,
+      "articleCount": 22
+    },
+    {
       "sourceCode": "voice_of_europe",
       "displayName": "Voice of Europe",
       "country": "CZ",
@@ -428,6 +548,16 @@
       "feedUrl": null,
       "isMonitored": false,
       "articleCount": 0
+    },
+    {
+      "sourceCode": "vzglyad",
+      "displayName": "Vzglyad",
+      "country": "RU",
+      "language": "ru",
+      "homepageUrl": "https://vz.ru/",
+      "feedUrl": "https://vz.ru/rss.xml",
+      "isMonitored": true,
+      "articleCount": 2
     }
   ]
 }

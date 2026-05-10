@@ -22,7 +22,7 @@ export default function SourcesPage() {
             <div className="col">
               <h1 className="page-title">{t("來源", "Source")}</h1>
               <div className="text-secondary">
-                {t("呈現 media_candidates.md 的候選媒體清單", "Displays the candidate media list from media_candidates.md")}
+                {t("呈現候選媒體清單與查核欄位", "Displays the candidate media list and verification fields")}
               </div>
             </div>
           </div>
@@ -56,8 +56,11 @@ export default function SourcesPage() {
                     <th>{t("地區/主要目標", "Target Region")}</th>
                     <th>{t("名稱", "Name")}</th>
                     <th>{t("主站 URL", "Homepage URL")}</th>
+                    {hasOriginOrControl(data) && <th>{t("來源國家/控制地", "Origin / Control")}</th>}
                     <th>{t("指認來源", "Attribution Source")}</th>
                     <th>{t("指認摘要與 Evidence URL", "Evidence Summary & URL")}</th>
+                    {hasScaleDescription(data) && <th>{t("規模/影響力描述", "Scale / Influence")}</th>}
+                    {hasStandardCategory(data) && <th>{t("標準分類", "Category")}</th>}
                     <th>{t("URL 檢查", "URL Check")}</th>
                   </tr>
                 </thead>
@@ -71,13 +74,26 @@ export default function SourcesPage() {
                         <div className="text-secondary small">{row.chineseName}</div>
                       </td>
                       <td>
-                        <a href={row.homepageUrl} target="_blank" rel="noreferrer" className="source-link">
-                          <span>{row.homepageUrl}</span>
-                          <IconExternalLink size={15} />
-                        </a>
+                        {isHttpUrl(row.homepageUrl) ? (
+                          <a href={row.homepageUrl} target="_blank" rel="noreferrer" className="source-link">
+                            <span>{row.homepageUrl}</span>
+                            <IconExternalLink size={15} />
+                          </a>
+                        ) : (
+                          <span className="text-secondary">{row.homepageUrl}</span>
+                        )}
                       </td>
+                      {hasOriginOrControl(data) && <td>{row.originOrControl}</td>}
                       <td>{row.attributionSource}</td>
                       <td className="evidence-cell">{linkify(row.evidenceSummary, language)}</td>
+                      {hasScaleDescription(data) && <td className="scale-cell">{row.scaleDescription}</td>}
+                      {hasStandardCategory(data) && (
+                        <td>
+                          {row.standardCategory && (
+                            <span className="badge bg-cyan-lt category-badge">{row.standardCategory}</span>
+                          )}
+                        </td>
+                      )}
                       <td>
                         <span className={statusBadgeClass(row.urlCheck)}>{row.urlCheck}</span>
                       </td>
@@ -93,13 +109,31 @@ export default function SourcesPage() {
   );
 }
 
+function hasOriginOrControl(data: MediaCandidatesResponse) {
+  return data.rows.some((row) => Boolean(row.originOrControl));
+}
+
+function hasScaleDescription(data: MediaCandidatesResponse) {
+  return data.rows.some((row) => Boolean(row.scaleDescription));
+}
+
+function hasStandardCategory(data: MediaCandidatesResponse) {
+  return data.rows.some((row) => Boolean(row.standardCategory));
+}
+
+function isHttpUrl(value: string) {
+  return /^https?:\/\//.test(value);
+}
+
 function linkify(text: string, language: "zh" | "en") {
   const parts = text.split(/(https?:\/\/[^\s;]+)/g);
+  let evidenceIndex = 0;
   return parts.map((part, index) => {
     if (/^https?:\/\//.test(part)) {
+      evidenceIndex += 1;
       return (
         <a key={`${part}-${index}`} href={part} target="_blank" rel="noreferrer">
-          {language === "zh" ? `證據 ${index + 1}` : `Evidence ${index + 1}`}
+          {language === "zh" ? `證據 ${evidenceIndex}` : `Evidence ${evidenceIndex}`}
         </a>
       );
     }
