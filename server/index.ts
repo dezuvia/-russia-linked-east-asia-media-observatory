@@ -121,7 +121,10 @@ app.get("/api/overview", (req, res) => {
         stableLabels: countIssueLabels(scopedArticles),
         countryLabels: countCountryLabels(scopedArticles)
       },
-      daily: buildDailySeries(scopedArticles, range === "month" ? dateFromPart(monthStart) ?? undefined : undefined),
+      daily: buildDailySeries(
+        scopedArticles,
+        range === "month" ? dateFromPart(monthStart) ?? undefined : dateFromPart(loadHistoryStartDate(articles)) ?? undefined
+      ),
       options: {
         stableLabels: [UNLABELED, ...ISSUE_LABELS],
         countryLabels: [UNLABELED, ...COUNTRY_LABELS]
@@ -380,6 +383,22 @@ function loadScannedArticleCount(): number {
       WHERE superseded_by_candidate_id IS NULL
     `).get() as { count?: unknown } | undefined;
     return Number(row?.count ?? 0);
+  } finally {
+    db.close();
+  }
+}
+
+function loadHistoryStartDate(articles: ArticleRecord[]): string | null {
+  const db = openDb();
+  try {
+    const row = db.prepare(`
+      SELECT MIN(json_extract(metadata_json, '$.backfill_cutoff')) AS backfillCutoff
+      FROM source_backfill_state
+      WHERE json_extract(metadata_json, '$.backfill_cutoff') IS NOT NULL
+    `).get() as { backfillCutoff?: unknown } | undefined;
+    return nullable(row?.backfillCutoff)
+      ?? articles.map((article) => publishedDatePart(article)).filter(Boolean).sort().at(0)
+      ?? null;
   } finally {
     db.close();
   }

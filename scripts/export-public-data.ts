@@ -77,11 +77,13 @@ try {
   const articles = loadArticles(db, keywordTranslationCache);
   const sources = loadSources(db, articles);
   const scannedArticleCount = loadScannedArticleCount(db);
+  const historyStartDate = loadHistoryStartDate(db, articles);
   writeJson(`${OUT_DIR}/manifest.json`, {
     generatedAt: new Date().toISOString(),
     source: "sqlite-public-export-v1",
     scannedArticleCount,
     articleCount: articles.length,
+    historyStartDate,
     maxPublishedDate: articles.map((article) => publishedDatePart(article)).filter(Boolean).sort().at(-1) ?? null
   });
   writeJson(`${OUT_DIR}/options.json`, {
@@ -178,6 +180,17 @@ function loadScannedArticleCount(db: DatabaseSync): number {
     WHERE superseded_by_candidate_id IS NULL
   `).get() as { count?: unknown } | undefined;
   return Number(row?.count ?? 0);
+}
+
+function loadHistoryStartDate(db: DatabaseSync, articles: ArticleRecord[]): string | null {
+  const row = db.prepare(`
+    SELECT MIN(json_extract(metadata_json, '$.backfill_cutoff')) AS backfillCutoff
+    FROM source_backfill_state
+    WHERE json_extract(metadata_json, '$.backfill_cutoff') IS NOT NULL
+  `).get() as { backfillCutoff?: unknown } | undefined;
+  return nullable(row?.backfillCutoff)
+    ?? articles.map((article) => publishedDatePart(article)).filter(Boolean).sort().at(0)
+    ?? null;
 }
 
 function parseCountryLabel(row: Record<string, unknown>): Label | null {

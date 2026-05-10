@@ -14,6 +14,7 @@ const UNLABELED: Label = { code: "UNLABELED", zh: "未標記", en: "Unlabeled" }
 type PublicManifest = {
   generatedAt?: string;
   scannedArticleCount?: number;
+  historyStartDate?: string | null;
 };
 
 let articlesCache: Promise<ArticleRecord[]> | null = null;
@@ -57,7 +58,7 @@ export async function getPublicOverview(range: "month" | "history"): Promise<Ove
     },
     daily: buildDailySeries(
       scopedArticles,
-      range === "month" ? dateFromPart(monthStart) ?? undefined : undefined,
+      range === "month" ? dateFromPart(monthStart) ?? undefined : dateFromPart(manifest.historyStartDate ?? null) ?? undefined,
       options.stableLabels,
       options.countryLabels
     ),
