@@ -1,6 +1,6 @@
 {
   "schemaVersion": "keyword-translations-v1",
-  "updatedAt": "2026-05-10T11:36:35.414Z",
+  "updatedAt": "2026-05-10T11:45:18.627Z",
   "entries": {
     "1,330公里射程": {
       "termZh": "1,330公里射程",
@@ -20,6 +20,12 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:35:52.231Z"
     },
+    "2億人民幣": {
+      "termZh": "2億人民幣",
+      "termEn": "200 million yuan",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
     "A2/AD": {
       "termZh": "A2/AD",
       "termEn": "A2/AD",
@@ -38,11 +44,29 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:35:52.231Z"
     },
+    "AI裁員": {
+      "termZh": "AI裁員",
+      "termEn": "AI layoffs",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
+    "ambassador summon": {
+      "termZh": "召見大使",
+      "termEn": "summon ambassador",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
     "ASEAN": {
       "termZh": "東協",
       "termEn": "ASEAN",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "ASEAN Outlook on the Indo-Pacific": {
+      "termZh": "《東協印太展望》",
+      "termEn": "ASEAN Outlook on the Indo-Pacific",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
     },
     "automation": {
       "termZh": "自動化",
@@ -56,6 +80,12 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:35:52.231Z"
     },
+    "Belarus": {
+      "termZh": "白俄羅斯",
+      "termEn": "Belarus",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
     "Belarus national team": {
       "termZh": "白俄羅斯國家隊",
       "termEn": "Belarus national team",
@@ -67,6 +97,18 @@
       "termEn": "Belt and Road Initiative",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "bezbedan prolaz brodova": {
+      "termZh": "船隻安全通行",
+      "termEn": "safe passage for ships",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
+    "bezbednost": {
+      "termZh": "安全",
+      "termEn": "security",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
     },
     "bezbednost Tajvanskog moreuza": {
       "termZh": "台灣海峽安全",
@@ -85,6 +127,24 @@
       "termEn": "Boeing 737",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:35:52.231Z"
+    },
+    "botanical garden": {
+      "termZh": "植物園",
+      "termEn": "botanical garden",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
+    "brodski incident": {
+      "termZh": "船舶事故",
+      "termEn": "ship incident",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
+    "Buddhism": {
+      "termZh": "佛教",
+      "termEn": "Buddhism",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
     },
     "Buddhist ceremony": {
       "termZh": "佛教儀式",
@@ -116,11 +176,23 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:35:52.231Z"
     },
+    "China national team": {
+      "termZh": "中國國家隊",
+      "termEn": "China national team",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
     "China visit": {
       "termZh": "訪華",
       "termEn": "China visit",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:35:52.231Z"
+    },
+    "China-Europe freight trains": {
+      "termZh": "中歐貨運列車",
+      "termEn": "China-Europe freight trains",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
     },
     "China-Europe rail freight": {
       "termZh": "中歐鐵路貨運",
@@ -152,6 +224,12 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:35:52.231Z"
     },
+    "crash investigation": {
+      "termZh": "空難調查",
+      "termEn": "crash investigation",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
     "cyber activities": {
       "termZh": "網路活動",
       "termEn": "cyber activities",
@@ -170,6 +248,12 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:35:52.231Z"
     },
+    "deterrence": {
+      "termZh": "嚇阻",
+      "termEn": "deterrence",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
     "DF-21D": {
       "termZh": "DF-21D",
       "termEn": "DF-21D",
@@ -181,6 +265,30 @@
       "termEn": "diplomatic talks",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:35:52.231Z"
+    },
+    "DPP": {
+      "termZh": "民進黨",
+      "termEn": "DPP",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
+    "eksplozija": {
+      "termZh": "爆炸",
+      "termEn": "explosion",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
+    "espionage case": {
+      "termZh": "間諜案",
+      "termEn": "espionage case",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
+    "Eswatini": {
+      "termZh": "史瓦帝尼",
+      "termEn": "Eswatini",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
     },
     "explosion": {
       "termZh": "爆炸",
@@ -200,17 +308,41 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:35:52.231Z"
     },
+    "F-35": {
+      "termZh": "F-35",
+      "termEn": "F-35",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
+    "fabrika vatrometa": {
+      "termZh": "煙花廠",
+      "termEn": "fireworks factory",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
     "fatality": {
       "termZh": "死亡人數",
       "termEn": "fatality",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:35:52.231Z"
     },
+    "feljutás": {
+      "termZh": "升級",
+      "termEn": "promotion",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
     "fifth-generation fighter": {
       "termZh": "第五代戰鬥機",
       "termEn": "fifth-generation fighter",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:35:52.231Z"
+    },
+    "fighter export": {
+      "termZh": "戰機出口",
+      "termEn": "fighter export",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
     },
     "fighter jet export": {
       "termZh": "戰鬥機出口",
@@ -242,11 +374,29 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:35:52.231Z"
     },
+    "G7峰会": {
+      "termZh": "G7峰會",
+      "termEn": "G7 summit",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
+    "Ganzhou": {
+      "termZh": "贛州",
+      "termEn": "Ganzhou",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
     "global security debates": {
       "termZh": "全球安全辯論",
       "termEn": "global security debates",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:35:52.231Z"
+    },
+    "Great Stone": {
+      "termZh": "偉大石頭",
+      "termEn": "Great Stone",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
     },
     "Guangzhou": {
       "termZh": "廣州",
@@ -272,6 +422,18 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:35:52.231Z"
     },
+    "HMM": {
+      "termZh": "HMM",
+      "termEn": "HMM",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
+    "Hong Kong": {
+      "termZh": "香港",
+      "termEn": "Hong Kong",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
     "Hormuz Strait": {
       "termZh": "荷姆茲海峽",
       "termEn": "Hormuz Strait",
@@ -290,11 +452,23 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:03.086Z"
     },
+    "hypersonic missile": {
+      "termZh": "高超音速飛彈",
+      "termEn": "hypersonic missile",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
     "ice hockey": {
       "termZh": "冰球",
       "termEn": "ice hockey",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:03.086Z"
+    },
+    "ICT": {
+      "termZh": "資訊與通訊技術",
+      "termEn": "ICT",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
     },
     "Indo-Pacifik": {
       "termZh": "印太地區",
@@ -314,6 +488,12 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:03.086Z"
     },
+    "Iran conflict": {
+      "termZh": "伊朗衝突",
+      "termEn": "Iran conflict",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
     "Iran denial": {
       "termZh": "伊朗否認",
       "termEn": "Iran denial",
@@ -325,6 +505,18 @@
       "termEn": "Iran oil",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:03.086Z"
+    },
+    "Iran-SAD pregovori": {
+      "termZh": "伊朗與美國談判",
+      "termEn": "Iran-U.S. talks",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
+    "istraga": {
+      "termZh": "調查",
+      "termEn": "investigation",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
     },
     "J-20": {
       "termZh": "殲-20",
@@ -350,6 +542,12 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:03.086Z"
     },
+    "Japanese culture": {
+      "termZh": "日本文化",
+      "termEn": "Japanese culture",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
     "Jogye Order": {
       "termZh": "曹溪宗",
       "termEn": "Jogye Order",
@@ -361,6 +559,18 @@
       "termEn": "joint car project",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:03.086Z"
+    },
+    "Južna Koreja": {
+      "termZh": "南韓",
+      "termEn": "South Korea",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
+    "karst sinkhole": {
+      "termZh": "喀斯特天坑",
+      "termEn": "karst sinkhole",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
     },
     "Keelung": {
       "termZh": "基隆",
@@ -374,6 +584,24 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T03:54:40.363Z"
     },
+    "Kina": {
+      "termZh": "中國",
+      "termEn": "China",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
+    "kinesko-japanski odnosi": {
+      "termZh": "中日關係",
+      "termEn": "China-Japan relations",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
+    "Korean Peninsula": {
+      "termZh": "朝鮮半島",
+      "termEn": "Korean Peninsula",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
     "krasowy lej": {
       "termZh": "喀斯特天坑",
       "termEn": "karst sinkhole",
@@ -385,6 +613,24 @@
       "termEn": "labor dispute",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:03.086Z"
+    },
+    "Lai Ching-te": {
+      "termZh": "賴清德",
+      "termEn": "Lai Ching-te",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
+    "limestone caves": {
+      "termZh": "石灰岩洞穴",
+      "termEn": "limestone caves",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:44:57.301Z"
+    },
+    "LRASM": {
+      "termZh": "LRASM",
+      "termEn": "LRASM",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
     },
     "Luzon Strait": {
       "termZh": "呂宋海峽",
@@ -404,6 +650,18 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:03.086Z"
     },
+    "medical center": {
+      "termZh": "醫療中心",
+      "termEn": "medical center",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
+    "medijacija": {
+      "termZh": "調解",
+      "termEn": "mediation",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
     "military exercises": {
       "termZh": "軍事演習",
       "termEn": "military exercises",
@@ -422,11 +680,23 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:03.086Z"
     },
+    "nonproliferation": {
+      "termZh": "核不擴散",
+      "termEn": "nonproliferation",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
     "North Korea": {
       "termZh": "北韓",
       "termEn": "North Korea",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:03.086Z"
+    },
+    "North Korea missiles": {
+      "termZh": "北韓飛彈",
+      "termEn": "North Korea missiles",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
     },
     "NTSB": {
       "termZh": "NTSB",
@@ -439,6 +709,18 @@
       "termEn": "deterrence",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:03.086Z"
+    },
+    "oil supply to China": {
+      "termZh": "對中國的石油供應",
+      "termEn": "oil supply to China",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
+    "one China": {
+      "termZh": "一中原則",
+      "termEn": "One China principle",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
     },
     "Opel": {
       "termZh": "歐寶",
@@ -458,11 +740,35 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:03.086Z"
     },
+    "Peking": {
+      "termZh": "北京",
+      "termEn": "Beijing",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
     "PLA Navy": {
       "termZh": "中國人民解放軍海軍",
       "termEn": "PLA Navy",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:03.086Z"
+    },
+    "poginuli": {
+      "termZh": "死者",
+      "termEn": "dead",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
+    "Pojas i put": {
+      "termZh": "一帶一路",
+      "termEn": "Belt and Road",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
+    "pregovori SAD-Iran": {
+      "termZh": "美伊談判",
+      "termEn": "U.S.-Iran talks",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
     },
     "promotion": {
       "termZh": "晉級",
@@ -475,6 +781,12 @@
       "termEn": "propaganda",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:03.086Z"
+    },
+    "rail freight": {
+      "termZh": "鐵路貨運",
+      "termEn": "rail freight",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
     },
     "regional multilateralism": {
       "termZh": "區域多邊主義",
@@ -493,6 +805,36 @@
       "termEn": "retraining",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:03.086Z"
+    },
+    "Richter 5.8": {
+      "termZh": "芮氏規模5.8",
+      "termEn": "Richter 5.8",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
+    "robot": {
+      "termZh": "機器人",
+      "termEn": "robot",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
+    "Russia": {
+      "termZh": "俄羅斯",
+      "termEn": "Russia",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
+    "Russia-North Korea cooperation": {
+      "termZh": "俄朝合作",
+      "termEn": "Russia-North Korea cooperation",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
+    "sakura": {
+      "termZh": "櫻花",
+      "termEn": "sakura",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
     },
     "Sanae Takaiči": {
       "termZh": "高市早苗",
@@ -530,6 +872,12 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T03:54:40.363Z"
     },
+    "Shenzhen": {
+      "termZh": "深圳",
+      "termEn": "Shenzhen",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
     "siguran prolaz": {
       "termZh": "安全通行",
       "termEn": "safe passage",
@@ -541,6 +889,12 @@
       "termEn": "crude oil",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:03.086Z"
+    },
+    "Sjedinjene Države": {
+      "termZh": "美國",
+      "termEn": "United States",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
     },
     "South China Sea": {
       "termZh": "南海",
@@ -560,6 +914,36 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:14.718Z"
     },
+    "spasavanje": {
+      "termZh": "救援",
+      "termEn": "rescue",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
+    "stealth cruise missile": {
+      "termZh": "隱身巡航飛彈",
+      "termEn": "stealth cruise missile",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
+    "strategic agreements": {
+      "termZh": "戰略協議",
+      "termEn": "strategic agreements",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
+    "strateško uzdržavanje": {
+      "termZh": "戰略克制",
+      "termEn": "strategic restraint",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
+    "subtropical forest": {
+      "termZh": "亞熱帶森林",
+      "termEn": "subtropical forest",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
     "subtropikalny las": {
       "termZh": "亞熱帶森林",
       "termEn": "subtropical forest",
@@ -578,11 +962,23 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:14.718Z"
     },
+    "Taiwan diplomacy": {
+      "termZh": "台灣外交",
+      "termEn": "Taiwan diplomacy",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
     "Taiwan earthquake": {
       "termZh": "台灣地震",
       "termEn": "Taiwan earthquake",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:14.718Z"
+    },
+    "Tajpej": {
+      "termZh": "台北",
+      "termEn": "Taipei",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
     },
     "Tajvan": {
       "termZh": "台灣",
@@ -590,11 +986,23 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:14.718Z"
     },
+    "tariff pressure": {
+      "termZh": "關稅壓力",
+      "termEn": "tariff pressure",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
     "tiankeng": {
       "termZh": "天坑",
       "termEn": "tiankeng",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "trade logistics": {
+      "termZh": "貿易物流",
+      "termEn": "trade logistics",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
     },
     "traffic accident": {
       "termZh": "交通事故",
@@ -608,11 +1016,23 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:14.718Z"
     },
+    "UK Foreign Office": {
+      "termZh": "英國外交部",
+      "termEn": "UK Foreign Office",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
     "Ukraine": {
       "termZh": "烏克蘭",
       "termEn": "Ukraine",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:14.718Z"
+    },
+    "ukrán jégkorong": {
+      "termZh": "烏克蘭冰球",
+      "termEn": "Ukrainian ice hockey",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
     },
     "UN Charter": {
       "termZh": "聯合國憲章",
@@ -626,17 +1046,35 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:14.718Z"
     },
+    "unutrašnja stabilnost": {
+      "termZh": "內部穩定",
+      "termEn": "internal stability",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
     "US naval blockade": {
       "termZh": "美國海上封鎖",
       "termEn": "US naval blockade",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:14.718Z"
     },
+    "US-South Korea exercises": {
+      "termZh": "美韓軍演",
+      "termEn": "U.S.-South Korea exercises",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
     "Wang Yi": {
       "termZh": "王毅",
       "termEn": "Wang Yi",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:14.718Z"
+    },
+    "western Pacific": {
+      "termZh": "西太平洋",
+      "termEn": "western Pacific",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
     },
     "Xi Jinping": {
       "termZh": "習近平",
@@ -656,6 +1094,18 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:14.718Z"
     },
+    "Zelenszkij": {
+      "termZh": "澤連斯基",
+      "termEn": "Zelensky",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
+    "zemljotres": {
+      "termZh": "地震",
+      "termEn": "earthquake",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
     "Беларусь-Китай": {
       "termZh": "白俄羅斯-中國",
       "termEn": "Belarus-China",
@@ -673,6 +1123,12 @@
       "termEn": "Hong Kong",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:14.718Z"
+    },
+    "ДТП": {
+      "termZh": "交通事故",
+      "termEn": "traffic accident",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
     },
     "ИИ": {
       "termZh": "人工智慧",
@@ -710,11 +1166,23 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:14.718Z"
     },
+    "погибший": {
+      "termZh": "遇難者",
+      "termEn": "dead person",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
     "посол": {
       "termZh": "大使",
       "termEn": "ambassador",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:14.718Z"
+    },
+    "совместные конкурсы": {
+      "termZh": "聯合徵集",
+      "termEn": "joint calls",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
     },
     "совместные предприятия": {
       "termZh": "合資企業",
@@ -728,6 +1196,12 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:14.718Z"
     },
+    "школьный автобус": {
+      "termZh": "校車",
+      "termEn": "school bus",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
+    },
     "шпионаж": {
       "termZh": "間諜活動",
       "termEn": "espionage",
@@ -739,6 +1213,12 @@
       "termEn": "Shenzhen",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:14.718Z"
+    },
+    "Япония": {
+      "termZh": "日本",
+      "termEn": "Japan",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:08.922Z"
     },
     "一中原則": {
       "termZh": "一中原則",
@@ -752,11 +1232,29 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:14.718Z"
     },
+    "上海": {
+      "termZh": "上海",
+      "termEn": "Shanghai",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
+    },
     "上海摩天轮": {
       "termZh": "上海摩天輪",
       "termEn": "Shanghai Ferris wheel",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:14.718Z"
+    },
+    "中伊關係": {
+      "termZh": "中伊關係",
+      "termEn": "China-Iran relations",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
+    },
+    "中國": {
+      "termZh": "中國",
+      "termEn": "China",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
     },
     "中國-烏茲別克": {
       "termZh": "中國-烏茲別克",
@@ -776,6 +1274,12 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:14.718Z"
     },
+    "中國軍事法庭": {
+      "termZh": "中國軍事法庭",
+      "termEn": "Chinese military court",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
+    },
     "中央植物園": {
       "termZh": "中央植物園",
       "termEn": "Central Botanical Garden",
@@ -787,6 +1291,12 @@
       "termEn": "Middle East situation",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:14.718Z"
+    },
+    "中白科技交流": {
+      "termZh": "中白科技交流",
+      "termEn": "China-Belarus technology exchange",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
     },
     "中白科研合作": {
       "termZh": "中白科研合作",
@@ -805,6 +1315,12 @@
       "termEn": "China-U.S.-Iran mediation",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:14.718Z"
+    },
+    "中美关系": {
+      "termZh": "中美關係",
+      "termEn": "China-U.S. relations",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
     },
     "中美競爭": {
       "termZh": "中美競爭",
@@ -836,6 +1352,12 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:27.412Z"
     },
+    "伊朗原油": {
+      "termZh": "伊朗原油",
+      "termEn": "Iranian crude oil",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
+    },
     "伊朗外长": {
       "termZh": "伊朗外長",
       "termEn": "Iranian Foreign Minister",
@@ -860,11 +1382,35 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:27.412Z"
     },
+    "共享未來共同體": {
+      "termZh": "共享未來共同體",
+      "termEn": "Community of Shared Future",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
+    },
+    "出口": {
+      "termZh": "出口",
+      "termEn": "exports",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
+    },
     "創新": {
       "termZh": "創新",
       "termEn": "Innovation",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:27.412Z"
+    },
+    "創新合作": {
+      "termZh": "創新合作",
+      "termEn": "innovation cooperation",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
+    },
+    "勞動法": {
+      "termZh": "勞動法",
+      "termEn": "labor law",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
     },
     "北京": {
       "termZh": "北京",
@@ -877,6 +1423,12 @@
       "termEn": "Beijing Talks",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:27.412Z"
+    },
+    "南海爭議": {
+      "termZh": "南海爭議",
+      "termEn": "South China Sea dispute",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
     },
     "反腐": {
       "termZh": "反腐",
@@ -944,11 +1496,23 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:27.412Z"
     },
+    "安全生產": {
+      "termZh": "安全生產",
+      "termEn": "industrial safety",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
+    },
     "宝山区": {
       "termZh": "寶山區",
       "termEn": "Baoshan District",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:27.412Z"
+    },
+    "寶山區": {
+      "termZh": "寶山區",
+      "termEn": "Baoshan District",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
     },
     "对华出口": {
       "termZh": "對華出口",
@@ -956,17 +1520,41 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:27.412Z"
     },
+    "工廠事故": {
+      "termZh": "工廠事故",
+      "termEn": "factory incident",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
+    },
+    "慰問": {
+      "termZh": "慰問",
+      "termEn": "condolences",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
+    },
     "戰略穩定": {
       "termZh": "戰略穩定",
       "termEn": "Strategic Stability",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:27.412Z"
     },
+    "摩天輪": {
+      "termZh": "摩天輪",
+      "termEn": "Ferris wheel",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
+    },
     "救援工作": {
       "termZh": "救援工作",
       "termEn": "Rescue Operations",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:27.412Z"
+    },
+    "救援行動": {
+      "termZh": "救援行動",
+      "termEn": "rescue operation",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
     },
     "文旅建设": {
       "termZh": "文旅建設",
@@ -998,6 +1586,18 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:27.412Z"
     },
+    "杭州法院": {
+      "termZh": "杭州法院",
+      "termEn": "Hangzhou court",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
+    },
+    "東協": {
+      "termZh": "東協",
+      "termEn": "ASEAN",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
+    },
     "機器人系統": {
       "termZh": "機器人系統",
       "termEn": "Robotic Systems",
@@ -1010,11 +1610,23 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:27.412Z"
     },
+    "死傷人數": {
+      "termZh": "死傷人數",
+      "termEn": "casualty toll",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
+    },
     "死緩": {
       "termZh": "死緩",
       "termEn": "Death Sentence with Reprieve",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:27.412Z"
+    },
+    "海軍部署": {
+      "termZh": "海軍部署",
+      "termEn": "naval deployment",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
     },
     "湖南浏阳": {
       "termZh": "湖南瀏陽",
@@ -1027,6 +1639,24 @@
       "termEn": "Hunan Province",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:27.412Z"
+    },
+    "湖南省瀏陽": {
+      "termZh": "湖南省瀏陽",
+      "termEn": "Liuyang, Hunan Province",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
+    },
+    "瀏陽": {
+      "termZh": "瀏陽",
+      "termEn": "Liuyang",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
+    },
+    "烏茲別克斯坦": {
+      "termZh": "烏茲別克斯坦",
+      "termEn": "Uzbekistan",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
     },
     "烟花厂爆炸": {
       "termZh": "煙花廠爆炸",
@@ -1046,6 +1676,18 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:27.412Z"
     },
+    "煙火廠爆炸": {
+      "termZh": "煙火廠爆炸",
+      "termEn": "fireworks factory explosion",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
+    },
+    "物流": {
+      "termZh": "物流",
+      "termEn": "logistics",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
+    },
     "物流能力": {
       "termZh": "物流能力",
       "termEn": "Logistics Capacity",
@@ -1063,6 +1705,12 @@
       "termEn": "Trump's Visit to China",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:27.412Z"
+    },
+    "特朗普访华": {
+      "termZh": "特朗普訪華",
+      "termEn": "Trump's visit to China",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
     },
     "王毅": {
       "termZh": "王毅",
@@ -1094,6 +1742,12 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:35.414Z"
     },
+    "職位替代": {
+      "termZh": "職位替代",
+      "termEn": "job replacement",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
+    },
     "能源依賴": {
       "termZh": "能源依賴",
       "termEn": "Energy dependence",
@@ -1106,11 +1760,23 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T03:54:40.363Z"
     },
+    "能源通道": {
+      "termZh": "能源通道",
+      "termEn": "energy corridor",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
+    },
     "航空母艦": {
       "termZh": "航空母艦",
       "termEn": "Aircraft carrier",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:35.414Z"
+    },
+    "薪資下調": {
+      "termZh": "薪資下調",
+      "termEn": "pay cut",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
     },
     "访问": {
       "termZh": "訪問",
@@ -1118,11 +1784,23 @@
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T03:54:40.363Z"
     },
+    "貪腐": {
+      "termZh": "貪腐",
+      "termEn": "corruption",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
+    },
     "資源": {
       "termZh": "資源",
       "termEn": "resources",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T03:54:40.363Z"
+    },
+    "資源合作": {
+      "termZh": "資源合作",
+      "termEn": "resource cooperation",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
     },
     "賴清德": {
       "termZh": "賴清德",
@@ -1165,6 +1843,12 @@
       "termEn": "Strait of Hormuz",
       "source": "codex-gpt-5.4-mini-low-v1",
       "updatedAt": "2026-05-10T11:36:35.414Z"
+    },
+    "高層通話": {
+      "termZh": "高層通話",
+      "termEn": "high-level call",
+      "source": "codex-gpt-5.4-mini-low-v1",
+      "updatedAt": "2026-05-10T11:45:18.627Z"
     },
     "高科技研發": {
       "termZh": "高科技研發",

@@ -28,6 +28,10 @@ Public mode exports a safe JSON snapshot under `public/data/` and builds a
 static site for GitHub Pages. It does not publish SQLite, raw captured article
 text, or local `content_path` values.
 
+The public export first runs keyword translation enrichment against the local
+SQLite database, so new DB keywords are added to `scripts/keyword-translations.json`
+before `public/data/articles.json` is regenerated.
+
 ```bash
 npm run build:public
 ```
