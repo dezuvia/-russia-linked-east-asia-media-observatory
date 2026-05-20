@@ -1,5 +1,5 @@
 {
-  "checkedDate": "2026-05-10",
+  "checkedDate": null,
   "path": "sources/media_candidates_ru.md",
   "rows": [
     {
@@ -163,13 +163,26 @@
       "name": "Sputnik / Спутник",
       "englishName": "Sputnik",
       "chineseName": "衛星通訊社",
-      "homepageUrl": "https://sputniknews.ru/",
+      "homepageUrl": "https://sputnikglobe.com/",
       "originOrControl": null,
       "attributionSource": "ANCOM；Moldova SIS；Latvia VDD",
       "evidenceSummary": "ANCOM 依 EU Annex XV 列名 Sputnik and subsidiaries；Moldova SIS 將多個 Sputnik 網域列入發布影響國家安全之虛假資訊來源；Latvia VDD 稱 Sputnik/Baltnews 為俄國國有 Rossiya Segodnya 的資訊資源。Evidence: https://www.ancom.ro/en/about-us/media-en/press-releases/the-broadcasting-of-content-produced-by-certain-media-channels-is-prohibited-in-the-european-union/ ; https://sis.md/ro/content/5-site-uri-care-public%C4%83-informa%C5%A3ii-false-%C3%AEn-domeniul-ce-afecteaz%C4%83-securitatea-na%C8%9Bional%C4%83 ; https://vdd.gov.lv/en/news/press-releases/vdd-detains-latvian-citizen-for-cooperation-with-kremlin-propaganda-resource-subjected-to-sanctions",
       "scaleDescription": "Rossiya Segodnya 自述 Sputnik 網站/頻道有 34 種語言並在多國設辦公室；國務院 GEC 將 RT/Sputnik 定位為俄國 state-funded global messaging 核心節點。規模資料來源：Rossiya Segodnya；U.S. State Department GEC。",
       "standardCategory": "large_pro_russian_media",
-      "urlCheck": "HTTP 200；KZ/KG/TJ/UZ 等地區版未另列"
+      "urlCheck": "HTTP 200；runtime source uses main international Asia section `https://sputnikglobe.com/asia/`；KZ/KG/TJ/UZ 等地區版未另列"
+    },
+    {
+      "targetRegion": "俄國/國際",
+      "name": "RT Russian / RT на русском",
+      "englishName": "RT Russian / Russia Today",
+      "chineseName": "今日俄羅斯俄文版",
+      "homepageUrl": "https://russian.rt.com/",
+      "originOrControl": null,
+      "attributionSource": "ANCOM，依 EU Council Regulation 833/2014 Annex XV",
+      "evidenceSummary": "ANCOM 依 EU Annex XV 列名 RT/Russia Today 相關媒體；本列只保留 russian.rt.com 的文字新聞站作為候選來源，不涵蓋電視頻道或影音入口。Evidence: https://www.ancom.ro/en/about-us/media-en/press-releases/the-broadcasting-of-content-produced-by-certain-media-channels-is-prohibited-in-the-european-union/",
+      "scaleDescription": "國務院 GEC 將 RT/Sputnik 定位為俄國 state-funded global messaging 核心節點；本專案 runtime 僅使用 RT Russian `/world` 文字文章流。規模資料來源：U.S. State Department GEC；RT Russian runtime audit。",
+      "standardCategory": "large_pro_russian_media",
+      "urlCheck": "HTTP 200 through runtime curl fallback；historical backfill uses `https://russian.rt.com/world` article listing API, not full-site or short-news stream"
     },
     {
       "targetRegion": "俄國",

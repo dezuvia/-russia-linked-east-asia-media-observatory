@@ -105,6 +105,7 @@ export async function getPublicArticles(filters: ArticleFilters): Promise<Articl
         ...article.keywordTerms,
         ...(article.keywordTermsZh ?? []),
         ...(article.keywordTermsEn ?? []),
+        article.title,
         article.titleZh,
         article.titleEn
       ]

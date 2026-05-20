@@ -127,7 +127,7 @@
       "homepageUrl": "https://www.ac24.cz/",
       "feedUrl": "https://www.ac24.cz/feed/",
       "isMonitored": true,
-      "articleCount": 0
+      "articleCount": 15
     },
     {
       "sourceCode": "aeronet",
@@ -147,7 +147,7 @@
       "homepageUrl": "https://www.armadnymagazin.sk/",
       "feedUrl": null,
       "isMonitored": true,
-      "articleCount": 1
+      "articleCount": 0
     },
     {
       "sourceCode": "baltnews",
@@ -177,7 +177,7 @@
       "homepageUrl": "https://belta.by/",
       "feedUrl": "https://belta.by/rss",
       "isMonitored": true,
-      "articleCount": 14
+      "articleCount": 0
     },
     {
       "sourceCode": "blitz_bg",
@@ -186,6 +186,26 @@
       "language": "bg",
       "homepageUrl": "https://blitz.bg/",
       "feedUrl": "https://blitz.bg/rss.xml",
+      "isMonitored": false,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "china_central_television",
+      "displayName": "China Central Television",
+      "country": "CN",
+      "language": "zh",
+      "homepageUrl": "https://www.cctv.com/",
+      "feedUrl": null,
+      "isMonitored": false,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "cnn",
+      "displayName": "CNN",
+      "country": "US",
+      "language": "en",
+      "homepageUrl": "https://www.cnn.com/",
+      "feedUrl": null,
       "isMonitored": false,
       "articleCount": 0
     },
@@ -207,6 +227,16 @@
       "homepageUrl": "https://eadaily.com/",
       "feedUrl": "https://eadaily.com/ru/rss/index.xml",
       "isMonitored": true,
+      "articleCount": 248
+    },
+    {
+      "sourceCode": "financial_times",
+      "displayName": "Financial Times",
+      "country": "GB",
+      "language": "en",
+      "homepageUrl": "https://www.ft.com/",
+      "feedUrl": null,
+      "isMonitored": false,
       "articleCount": 0
     },
     {
@@ -310,6 +340,16 @@
       "articleCount": 0
     },
     {
+      "sourceCode": "kcna",
+      "displayName": "KCNA",
+      "country": "KP",
+      "language": "ko",
+      "homepageUrl": "http://www.kcna.kp/en",
+      "feedUrl": null,
+      "isMonitored": false,
+      "articleCount": 0
+    },
+    {
       "sourceCode": "komsomolskaya_pravda",
       "displayName": "Komsomolskaya Pravda",
       "country": "RU",
@@ -327,7 +367,7 @@
       "homepageUrl": "https://lenta.ru/",
       "feedUrl": "https://lenta.ru/rss",
       "isMonitored": true,
-      "articleCount": 0
+      "articleCount": 25
     },
     {
       "sourceCode": "magyar_nemzet",
@@ -337,17 +377,17 @@
       "homepageUrl": "https://magyarnemzet.hu/",
       "feedUrl": "https://magyarnemzet.hu/feed",
       "isMonitored": true,
-      "articleCount": 3
+      "articleCount": 0
     },
     {
       "sourceCode": "journal_neo",
       "displayName": "New Eastern Outlook",
       "country": "RU",
-      "language": "en",
+      "language": "ru",
       "homepageUrl": "https://journal-neo.su/",
-      "feedUrl": "https://journal-neo.su/feed/",
+      "feedUrl": "https://journal-neo.su/ru/feed/",
       "isMonitored": true,
-      "articleCount": 0
+      "articleCount": 29
     },
     {
       "sourceCode": "news_pravda",
@@ -367,7 +407,7 @@
       "homepageUrl": "https://news-front.su/",
       "feedUrl": "https://news-front.su/feed/",
       "isMonitored": true,
-      "articleCount": 0
+      "articleCount": 119
     },
     {
       "sourceCode": "dziennik_polityczny",
@@ -377,7 +417,7 @@
       "homepageUrl": "https://dziennik-polityczny.com/",
       "feedUrl": null,
       "isMonitored": true,
-      "articleCount": 1
+      "articleCount": 90
     },
     {
       "sourceCode": "novarepublika",
@@ -397,7 +437,7 @@
       "homepageUrl": "https://orientalreview.su/",
       "feedUrl": "https://orientalreview.su/feed/",
       "isMonitored": true,
-      "articleCount": 0
+      "articleCount": 8
     },
     {
       "sourceCode": "origo_hu",
@@ -407,7 +447,7 @@
       "homepageUrl": "https://www.origo.hu/",
       "feedUrl": null,
       "isMonitored": true,
-      "articleCount": 1
+      "articleCount": 0
     },
     {
       "sourceCode": "parlamentni_listy",
@@ -436,7 +476,7 @@
       "language": "ru",
       "homepageUrl": "https://regnum.ru/",
       "feedUrl": "https://regnum.ru/rss",
-      "isMonitored": true,
+      "isMonitored": false,
       "articleCount": 0
     },
     {
@@ -457,7 +497,7 @@
       "homepageUrl": "https://www.ritmeurasia.ru/",
       "feedUrl": null,
       "isMonitored": true,
-      "articleCount": 2
+      "articleCount": 0
     },
     {
       "sourceCode": "ria_novosti",
@@ -467,7 +507,7 @@
       "homepageUrl": "https://ria.ru/",
       "feedUrl": null,
       "isMonitored": true,
-      "articleCount": 0
+      "articleCount": 1
     },
     {
       "sourceCode": "rossiyskaya_gazeta",
@@ -476,8 +516,18 @@
       "language": "ru",
       "homepageUrl": "https://rg.ru/",
       "feedUrl": "https://rg.ru/xml/index.xml",
-      "isMonitored": true,
+      "isMonitored": false,
       "articleCount": 0
+    },
+    {
+      "sourceCode": "rt_russian",
+      "displayName": "RT Russian",
+      "country": "RU",
+      "language": "ru",
+      "homepageUrl": "https://russian.rt.com/",
+      "feedUrl": "https://russian.rt.com/rss",
+      "isMonitored": true,
+      "articleCount": 331
     },
     {
       "sourceCode": "rubaltic",
@@ -487,6 +537,26 @@
       "homepageUrl": "https://www.rubaltic.ru/",
       "feedUrl": null,
       "isMonitored": true,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "securities_times",
+      "displayName": "Securities Times",
+      "country": "CN",
+      "language": "zh",
+      "homepageUrl": "https://www.stcn.com/",
+      "feedUrl": null,
+      "isMonitored": false,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "south_china_morning_post",
+      "displayName": "South China Morning Post",
+      "country": "HK",
+      "language": "en",
+      "homepageUrl": "https://www.scmp.com/",
+      "feedUrl": null,
+      "isMonitored": false,
       "articleCount": 0
     },
     {
@@ -501,13 +571,13 @@
     },
     {
       "sourceCode": "sputnik",
-      "displayName": "Sputnik",
+      "displayName": "Sputnik International",
       "country": "RU",
-      "language": "ru",
-      "homepageUrl": "https://sputniknews.ru/",
-      "feedUrl": null,
+      "language": "en",
+      "homepageUrl": "https://sputnikglobe.com/",
+      "feedUrl": "https://sputnikglobe.com/export/rss2/archive/index.xml",
       "isMonitored": true,
-      "articleCount": 0
+      "articleCount": 92
     },
     {
       "sourceCode": "tass",
@@ -516,7 +586,17 @@
       "language": "ru",
       "homepageUrl": "https://tass.ru/",
       "feedUrl": "https://tass.ru/rss/v2.xml",
-      "isMonitored": true,
+      "isMonitored": false,
+      "articleCount": 0
+    },
+    {
+      "sourceCode": "new_york_times",
+      "displayName": "The New York Times",
+      "country": "US",
+      "language": "en",
+      "homepageUrl": "https://www.nytimes.com/",
+      "feedUrl": null,
+      "isMonitored": false,
       "articleCount": 0
     },
     {
@@ -527,7 +607,7 @@
       "homepageUrl": "https://uwidata.com/",
       "feedUrl": "https://uwidata.com/feed/",
       "isMonitored": true,
-      "articleCount": 1
+      "articleCount": 21
     },
     {
       "sourceCode": "vecernje_novosti",
@@ -537,7 +617,7 @@
       "homepageUrl": "https://www.novosti.rs/",
       "feedUrl": null,
       "isMonitored": true,
-      "articleCount": 22
+      "articleCount": 0
     },
     {
       "sourceCode": "voice_of_europe",
@@ -557,7 +637,17 @@
       "homepageUrl": "https://vz.ru/",
       "feedUrl": "https://vz.ru/rss.xml",
       "isMonitored": true,
-      "articleCount": 2
+      "articleCount": 444
+    },
+    {
+      "sourceCode": "xinhua",
+      "displayName": "Xinhua News Agency",
+      "country": "CN",
+      "language": "zh",
+      "homepageUrl": "https://www.xinhuanet.com/",
+      "feedUrl": null,
+      "isMonitored": false,
+      "articleCount": 0
     }
   ]
 }

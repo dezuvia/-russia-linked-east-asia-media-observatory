@@ -57,9 +57,9 @@ export function articleTitle(article: {
   titleEn: string | null;
 }, language: Language) {
   if (language === "zh") {
-    return article.titleZh ?? "尚未產生中文標題";
+    return article.titleZh || article.title || "尚未產生中文標題";
   }
-  return article.titleEn ?? "English title not generated yet";
+  return article.titleEn || article.title || "English title not generated yet";
 }
 
 export function articleSummary(article: {

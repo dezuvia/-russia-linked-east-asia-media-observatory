@@ -102,6 +102,7 @@ function loadArticles(db: DatabaseSync, keywordTranslationCache: KeywordTranslat
   const rows = db.prepare(`
     SELECT
       a.article_id AS articleId,
+      a.title,
       a.canonical_url AS canonicalUrl,
       a.published_at AS publishedAt,
       a.created_at AS capturedAt,
@@ -128,7 +129,7 @@ function loadArticles(db: DatabaseSync, keywordTranslationCache: KeywordTranslat
     const keywordTerms = parseKeywordTerms(nullable(row.keywordsJson));
     return {
       articleId: value(row.articleId),
-      title: "",
+      title: value(row.title),
       titleZh: nullable(row.titleZh),
       titleEn: nullable(row.titleEn),
       canonicalUrl: value(row.canonicalUrl),
