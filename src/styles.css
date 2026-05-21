@@ -22,7 +22,7 @@
 body {
   background:
     linear-gradient(rgba(7, 16, 31, 0.58), rgba(7, 16, 31, 0.86)),
-    url("/assets/backgrounds/page-data-field.svg") center top / cover fixed no-repeat,
+    url("backgrounds/page-data-field.svg") center top / cover fixed no-repeat,
     linear-gradient(180deg, rgba(15, 23, 42, 0.28), transparent 20rem),
     var(--app-bg);
   color: var(--app-ink);
@@ -75,7 +75,7 @@ body {
 .empty {
   background:
     linear-gradient(rgba(18, 30, 49, 0.88), rgba(13, 23, 39, 0.93)),
-    url("/assets/backgrounds/module-grid.svg") right top / 70% 100% no-repeat;
+    url("backgrounds/module-grid.svg") right top / 70% 100% no-repeat;
   border: 1px solid var(--app-border);
   border-radius: var(--app-radius);
   box-shadow: var(--app-shadow);
@@ -386,7 +386,7 @@ body {
 .chart-card {
   background:
     linear-gradient(rgba(16, 26, 43, 0.86), rgba(10, 18, 32, 0.94)),
-    url("/assets/backgrounds/module-grid.svg") center top / cover no-repeat,
+    url("backgrounds/module-grid.svg") center top / cover no-repeat,
     linear-gradient(180deg, rgba(16, 26, 43, 0.98), rgba(10, 18, 32, 0.98));
 }
 
@@ -651,7 +651,7 @@ body {
 .article-card {
   background:
     linear-gradient(rgba(18, 30, 49, 0.9), rgba(13, 23, 39, 0.95)),
-    url("/assets/backgrounds/card-signal.svg") right top / 38% 100% no-repeat;
+    url("backgrounds/card-signal.svg") right top / 38% 100% no-repeat;
   border-radius: var(--app-radius);
   transition: border-color 0.16s ease, transform 0.16s ease, background 0.16s ease;
 }

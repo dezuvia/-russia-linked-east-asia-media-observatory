@@ -3,6 +3,7 @@ import { IconChartLine, IconFileText, IconRefresh, IconTable } from "@tabler/ico
 import OverviewPage from "./pages/OverviewPage";
 import ArticlesPage from "./pages/ArticlesPage";
 import SourcesPage from "./pages/SourcesPage";
+import { assetUrl } from "./assets";
 import { useI18n } from "./i18n";
 
 type PageKey = "overview" | "articles" | "sources";
@@ -40,7 +41,7 @@ export default function App() {
           <div className="navbar-brand navbar-brand-autodark pe-0 pe-md-3">
             <img
               className="brand-visual"
-              src="/assets/brand/observatory-masthead-flat.png"
+              src={assetUrl("assets/brand/observatory-masthead-flat.png")}
               alt={t("俄羅斯關聯東亞媒體觀測站", "Russia-Linked East Asia Media Observatory")}
             />
           </div>

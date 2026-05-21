@@ -7,6 +7,7 @@ import { ErrorBlock, LoadingBlock } from "../components/StateBlocks";
 import { MetricCard } from "../components/MetricCard";
 import LabelSelector from "../components/LabelSelector";
 import { MultiLabelLineChart, TotalLineChart, type LabelPointClick } from "../components/Charts";
+import { assetUrl } from "../assets";
 import { useI18n } from "../i18n";
 
 const UNLABELED_CODE = "UNLABELED";
@@ -951,7 +952,7 @@ function fieldBackgroundStyle(code: string | undefined) {
     return undefined;
   }
   return {
-    "--field-bg": `url("/assets/field-backgrounds/${asset}.png")`
+    "--field-bg": `url("${assetUrl(`assets/field-backgrounds/${asset}.png`)}")`
   } as CSSProperties;
 }
 
