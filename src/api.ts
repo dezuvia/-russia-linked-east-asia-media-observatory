@@ -7,10 +7,12 @@ import type {
 } from "./types";
 import {
   getPublicArticles,
+  getPublicAllArticles,
   getPublicMediaCandidates,
   getPublicOptions,
   getPublicOverview
 } from "./publicData";
+import type { ArticleRecord } from "./types";
 
 export const PUBLIC_MODE = import.meta.env.VITE_PUBLIC_MODE === "true";
 
@@ -24,7 +26,7 @@ export type ArticleFilters = {
   summaryText?: string;
 };
 
-export async function getOverview(range: "month" | "history"): Promise<OverviewData> {
+export async function getOverview(range: "week" | "month" | "history"): Promise<OverviewData> {
   if (PUBLIC_MODE) {
     return getPublicOverview(range);
   }
@@ -55,6 +57,19 @@ export async function getArticles(filters: ArticleFilters): Promise<ArticlesResp
     params.set("summaryText", filters.summaryText.trim());
   }
   return getJson(`/api/articles?${params.toString()}`);
+}
+
+export async function getAllArticles(): Promise<ArticleRecord[]> {
+  if (PUBLIC_MODE) {
+    return getPublicAllArticles();
+  }
+  const firstPage = await getArticles({ period: "history", page: 1 });
+  const rest = await Promise.all(
+    Array.from({ length: firstPage.totalPages - 1 }, (_, index) =>
+      getArticles({ period: "history", page: index + 2 })
+    )
+  );
+  return [firstPage, ...rest].flatMap((page) => page.articles);
 }
 
 export async function getMediaCandidates(): Promise<MediaCandidatesResponse> {

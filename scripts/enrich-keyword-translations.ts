@@ -14,6 +14,7 @@ const DB_PATH =
   process.env.PUTINISLAND_DB_PATH ??
   "/Users/chia-shuotang/Documents/PutinIsland/data/putinisland.sqlite";
 const PROVIDER_ID = "codex-gpt-5.4-mini-low-v1";
+const FALLBACK_PROVIDER_ID = "raw-keyword-fallback-v1";
 const CODEX_BIN = process.env.KEYWORD_ENRICHMENT_CODEX_BIN ?? "codex";
 const MODEL = process.env.KEYWORD_ENRICHMENT_MODEL ?? "gpt-5.4-mini";
 const REASONING_EFFORT = process.env.KEYWORD_ENRICHMENT_REASONING_EFFORT ?? "low";
@@ -51,9 +52,14 @@ if (missing.length === 0) {
 }
 
 console.log(`Found ${missing.length} keyword terms missing bilingual display text.`);
+let processed = 0;
 for (const batch of chunks(missing, BATCH_SIZE)) {
   const entries = runCodexProvider(batch);
   mergeProviderEntries(cache, batch, entries);
+  processed += batch.length;
+  cache.updatedAt = new Date().toISOString();
+  saveKeywordTranslationCache(cache);
+  console.log(`Saved keyword translations for ${processed}/${missing.length} missing terms.`);
 }
 
 cache.updatedAt = new Date().toISOString();
@@ -201,18 +207,15 @@ function mergeProviderEntries(
   const entriesByRaw = new Map(entries.map((entry) => [entry.raw, entry]));
   const missing = requested.filter((context) => !entriesByRaw.has(context.raw)).map((context) => context.raw);
   if (missing.length > 0) {
-    throw new Error(`Codex provider omitted keyword translations: ${missing.join(", ")}`);
+    console.warn(`Codex provider omitted ${missing.length} keyword translations; using raw fallback: ${missing.join(", ")}`);
   }
 
   for (const context of requested) {
     const entry = entriesByRaw.get(context.raw);
-    if (!entry) {
-      continue;
-    }
     cache.entries[context.raw] = {
-      termZh: entry.term_zh,
-      termEn: entry.term_en,
-      source: PROVIDER_ID,
+      termZh: entry?.term_zh ?? context.raw,
+      termEn: entry?.term_en ?? context.raw,
+      source: entry ? PROVIDER_ID : FALLBACK_PROVIDER_ID,
       updatedAt: now
     };
   }

@@ -20,6 +20,9 @@ export function labelText(label: Label | null | undefined, language: Language) {
   if (!label) {
     return language === "zh" ? "未標記" : "Unlabeled";
   }
+  if (label.code === "SECURITY_DEFENSE") {
+    return language === "zh" ? "國防安全" : "Defense & Security";
+  }
   return language === "zh" ? label.zh : label.en;
 }
 

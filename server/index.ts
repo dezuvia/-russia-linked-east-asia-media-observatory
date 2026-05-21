@@ -47,7 +47,7 @@ type ArticleRecord = {
 };
 
 const ISSUE_LABELS: Label[] = [
-  { code: "SECURITY_DEFENSE", zh: "安全防務", en: "Security & Defense" },
+  { code: "SECURITY_DEFENSE", zh: "國防安全", en: "Defense & Security" },
   { code: "DIPLOMACY", zh: "外交", en: "Diplomacy" },
   { code: "ECONOMY_TRADE", zh: "經濟貿易", en: "Economy & Trade" },
   { code: "TECHNOLOGY", zh: "科技", en: "Technology" },
@@ -103,13 +103,15 @@ app.get("/api/options", (_req, res) => {
 
 app.get("/api/overview", (req, res) => {
   try {
-    const range = req.query.range === "history" ? "history" : "month";
+    const range = req.query.range === "week" || req.query.range === "history" ? req.query.range : "month";
     const articles = loadArticles();
     const now = new Date();
+    const weekStart = formatDate(startOfWeek(now));
     const monthStart = `${now.getFullYear()}-${`${now.getMonth() + 1}`.padStart(2, "0")}-01`;
-    const scopedArticles = range === "month" ? articles.filter((article) => {
+    const rangeStart = range === "week" ? weekStart : range === "month" ? monthStart : null;
+    const scopedArticles = rangeStart ? articles.filter((article) => {
       const date = publishedDatePart(article);
-      return date !== null && date >= monthStart;
+      return date !== null && date >= rangeStart;
     }) : articles;
 
     res.json({
@@ -123,7 +125,7 @@ app.get("/api/overview", (req, res) => {
       },
       daily: buildDailySeries(
         scopedArticles,
-        range === "month" ? dateFromPart(monthStart) ?? undefined : undefined
+        rangeStart ? dateFromPart(rangeStart) ?? undefined : undefined
       ),
       options: {
         stableLabels: [UNLABELED, ...ISSUE_LABELS],
@@ -531,8 +533,30 @@ function parseMediaCandidates() {
   return {
     checkedDate,
     path: `sources/${basename(MEDIA_CANDIDATES_PATH)}`,
-    rows: tableRows.map((line) => parseMediaCandidateRow(splitMarkdownTableRow(line), headerCells))
+    rows: tableRows
+      .map((line) => parseMediaCandidateRow(splitMarkdownTableRow(line), headerCells))
+      .filter((row) => loadBackfilledHomepageUrls().has(normalizedUrl(row.homepageUrl)))
   };
+}
+
+function loadBackfilledHomepageUrls(): Set<string> {
+  const db = openDb();
+  try {
+    const rows = db.prepare(`
+      SELECT ms.homepage_url AS homepageUrl
+      FROM source_backfill_state sbs
+      JOIN media_sources ms ON ms.source_code = sbs.source_code
+      WHERE sbs.coverage_status IN ('partial', 'complete')
+        AND EXISTS (
+          SELECT 1
+          FROM articles a
+          WHERE a.source_code = sbs.source_code
+        )
+    `).all() as Record<string, unknown>[];
+    return new Set(rows.map((row) => normalizedUrl(nullable(row.homepageUrl))).filter(Boolean));
+  } finally {
+    db.close();
+  }
 }
 
 function parseMediaCandidateRow(cells: string[], headerCells: string[]) {
@@ -651,6 +675,15 @@ function nullable(value: unknown): string | null {
 
 function value(value: unknown): string {
   return typeof value === "string" ? value : "";
+}
+
+function normalizedUrl(value: string | null): string {
+  return (value ?? "")
+    .trim()
+    .replace(/^https?:\/\//i, "")
+    .replace(/^www\./i, "")
+    .replace(/\/+$/, "")
+    .toLocaleLowerCase();
 }
 
 function isRecord(value: unknown): value is Record<string, unknown> {

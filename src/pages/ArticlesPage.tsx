@@ -1,5 +1,5 @@
 import { FormEvent, useEffect, useState } from "react";
-import { IconAdjustmentsHorizontal, IconExternalLink, IconFileText, IconSearch, IconX } from "@tabler/icons-react";
+import { IconAdjustmentsHorizontal, IconChevronDown, IconExternalLink, IconFileText, IconSearch, IconX } from "@tabler/icons-react";
 import { getArticles, getOptions, getRawArticle, PUBLIC_MODE, type ArticleFilters } from "../api";
 import { articleKeywords, articleSummary, articleTitle, dateTime, hasAnalysisSummary, labelText } from "../format";
 import type { ArticleRecord, ArticlesResponse, OptionsResponse, RawArticleResponse } from "../types";
@@ -8,7 +8,7 @@ import LabelSelector from "../components/LabelSelector";
 import { useI18n } from "../i18n";
 
 const initialFilters: ArticleFilters = {
-  period: "week",
+  period: "history",
   stableLabels: [],
   countryLabels: [],
   sources: [],
@@ -24,7 +24,7 @@ export default function ArticlesPage() {
   const [page, setPage] = useState(1);
   const [data, setData] = useState<ArticlesResponse | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [advancedOpen, setAdvancedOpen] = useState(false);
   const [rawArticle, setRawArticle] = useState<RawArticleResponse | null>(null);
   const [rawError, setRawError] = useState<string | null>(null);
   const [rawLoadingId, setRawLoadingId] = useState<string | null>(null);
@@ -38,23 +38,22 @@ export default function ArticlesPage() {
     getArticles({ ...filters, page }).then(setData).catch((err: Error) => setError(err.message));
   }, [filters, page]);
 
-  function openSearch() {
-    setDraftFilters(filters);
-    setIsModalOpen(true);
-  }
-
   function applySearch(event: FormEvent) {
     event.preventDefault();
     setPage(1);
     setFilters(draftFilters);
-    setIsModalOpen(false);
   }
 
   function resetSearch() {
     setDraftFilters(initialFilters);
     setPage(1);
     setFilters(initialFilters);
-    setIsModalOpen(false);
+  }
+
+  function setPeriod(period: "week" | "history") {
+    setPage(1);
+    setFilters((current) => ({ ...current, period }));
+    setDraftFilters((current) => ({ ...current, period }));
   }
 
   function openRawArticle(article: ArticleRecord) {
@@ -70,22 +69,21 @@ export default function ArticlesPage() {
   return (
     <main className="page-body">
       <div className="container-xl">
-        <div className="page-header d-print-none">
-          <div className="row align-items-center">
-            <div className="col">
-              <h1 className="page-title">{t("文章", "Articles")}</h1>
-              <div className="text-secondary">
-                {t(
-                  "預設依新聞發布日期顯示本週文章，並可用條件搜尋縮小範圍",
-                  "Defaults to articles published this week, with custom search filters"
-                )}
-              </div>
-            </div>
+        <div className="page-toolbar d-print-none">
+          <div className="row align-items-center justify-content-end">
             <div className="col-auto">
-              <button className="btn btn-primary" type="button" onClick={openSearch}>
-                <IconAdjustmentsHorizontal size={18} />
-                {t("條件搜尋", "Advanced Search")}
-              </button>
+              <div className="btn-list">
+                <PeriodButton
+                  active={(filters.period ?? "history") === "week"}
+                  label={t("本週", "This Week")}
+                  onClick={() => setPeriod("week")}
+                />
+                <PeriodButton
+                  active={(filters.period ?? "history") === "history"}
+                  label={t("全部", "All")}
+                  onClick={() => setPeriod("history")}
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -95,25 +93,36 @@ export default function ArticlesPage() {
         {data && options && (
           <>
             <div className="card mb-3">
-              <div className="card-body d-flex flex-wrap align-items-center gap-2">
-                <span className="badge bg-blue-lt">
-                  {t("結果", "Results")}: {data.count}
-                </span>
-                <span className="badge bg-blue-lt">
-                  {t("頁", "Page")}: {data.page} / {data.totalPages}
-                </span>
-                <span className="badge bg-secondary-lt">
-                  {t("顯示", "Showing")}: {visibleRange(data)}
-                </span>
-                <span className="badge bg-azure-lt">
-                  {data.period === "week" ? t("本週", "This Week") : t("歷史", "History")}
-                </span>
-                {hasActiveFilters(filters) && (
-                  <button className="btn btn-sm btn-outline-secondary" type="button" onClick={resetSearch}>
-                    <IconX size={16} />
-                    {t("清除搜尋", "Clear Search")}
-                  </button>
-                )}
+              <div className="card-body">
+                <ArticleSearchPanel
+                  advancedOpen={advancedOpen}
+                  filters={draftFilters}
+                  options={options}
+                  onAdvancedOpenChange={setAdvancedOpen}
+                  onChange={setDraftFilters}
+                  onReset={resetSearch}
+                  onSubmit={applySearch}
+                />
+                <div className="article-result-bar">
+                  <span className="badge bg-blue-lt">
+                    {t("結果", "Results")}: {data.count}
+                  </span>
+                  <span className="badge bg-blue-lt">
+                    {t("頁", "Page")}: {data.page} / {data.totalPages}
+                  </span>
+                  <span className="badge bg-secondary-lt">
+                    {t("顯示", "Showing")}: {visibleRange(data)}
+                  </span>
+                  <span className="badge bg-azure-lt">
+                    {data.period === "week" ? t("本週", "This Week") : t("全部", "All")}
+                  </span>
+                  {hasActiveFilters(filters) && (
+                    <button className="btn btn-sm btn-outline-secondary" type="button" onClick={resetSearch}>
+                      <IconX size={16} />
+                      {t("清除搜尋", "Clear Search")}
+                    </button>
+                  )}
+                </div>
               </div>
             </div>
 
@@ -138,17 +147,6 @@ export default function ArticlesPage() {
         )}
       </div>
 
-      {options && (
-        <SearchModal
-          open={isModalOpen}
-          filters={draftFilters}
-          options={options}
-          onClose={() => setIsModalOpen(false)}
-          onSubmit={applySearch}
-          onReset={resetSearch}
-          onChange={setDraftFilters}
-        />
-      )}
       {(rawArticle || rawError || rawLoadingId) && (
         <RawArticleModal
           article={rawArticle}
@@ -172,7 +170,7 @@ function Pagination({
   data: ArticlesResponse;
   onPageChange: (page: number) => void;
 }) {
-  const { t } = useI18n();
+  const { language, t } = useI18n();
   const pages = pageWindow(data.page, data.totalPages);
   return (
     <div className="card pagination-card">
@@ -317,124 +315,145 @@ function MetaBlock({ label, value }: { label: string; value: string }) {
   );
 }
 
-function SearchModal({
-  open,
+function ArticleSearchPanel({
+  advancedOpen,
   filters,
   options,
-  onClose,
   onSubmit,
   onReset,
-  onChange
+  onChange,
+  onAdvancedOpenChange
 }: {
-  open: boolean;
+  advancedOpen: boolean;
   filters: ArticleFilters;
   options: OptionsResponse;
-  onClose: () => void;
   onSubmit: (event: FormEvent) => void;
   onReset: () => void;
   onChange: (filters: ArticleFilters) => void;
+  onAdvancedOpenChange: (open: boolean) => void;
 }) {
-  const { t } = useI18n();
-  if (!open) {
-    return null;
-  }
+  const { language, t } = useI18n();
+  const quickCountryLabels = countryQuickLabels(options);
+  const advancedCountryLabels = options.countryLabels.filter(
+    (label) => !quickCountryLabels.some((quickLabel) => quickLabel.code === label.code)
+  );
+  const activeCountryCodes = new Set(filters.countryLabels ?? []);
 
   return (
-    <div className="modal modal-blur d-block" role="dialog" aria-modal="true">
-      <div className="modal-dialog modal-lg modal-dialog-centered" role="document">
-        <form className="modal-content" onSubmit={onSubmit}>
-          <div className="modal-header">
-            <h3 className="modal-title">{t("條件搜尋", "Advanced Search")}</h3>
-            <button type="button" className="btn-close" aria-label="Close" onClick={onClose} />
+    <form className="article-search-panel" onSubmit={onSubmit}>
+      <div className="article-search-main">
+        <div>
+          <label className="form-label">{t("國家標籤", "Country Label")}</label>
+          <div className="article-quick-labels">
+            {quickCountryLabels.map((label) => (
+              <button
+                className={`btn btn-sm ${activeCountryCodes.has(label.code) ? "btn-primary" : "btn-outline-secondary"}`}
+                key={label.code}
+                type="button"
+                onClick={() => onChange({
+                  ...filters,
+                  countryLabels: toggleValue(filters.countryLabels ?? [], label.code)
+                })}
+              >
+                {labelText(label, language)}
+              </button>
+            ))}
           </div>
-          <div className="modal-body">
-            <div className="row g-3">
-              <div className="col-md-6">
-                <label className="form-label">{t("搜尋範圍", "Search Period")}</label>
-                <select
-                  className="form-select"
-                  value={filters.period ?? "week"}
-                  onChange={(event) => onChange({ ...filters, period: event.target.value as "week" | "history" })}
-                >
-                  <option value="week">{t("本週", "This Week")}</option>
-                  <option value="history">{t("歷史", "History")}</option>
-                </select>
-              </div>
-              <div className="col-md-6">
-                <label className="form-label">{t("來源媒體", "Source Media")}</label>
-                <select
-                  className="form-select"
-                  value={(filters.sources ?? [])[0] ?? ""}
-                  onChange={(event) =>
-                    onChange({ ...filters, sources: event.target.value ? [event.target.value] : [] })
-                  }
-                >
-                  <option value="">{t("全部來源", "All Sources")}</option>
-                  {options.sources.map((source) => (
-                    <option key={source.sourceCode} value={source.sourceCode}>
-                      {source.displayName} ({source.articleCount})
-                    </option>
-                  ))}
-                </select>
-              </div>
-              <div className="col-12">
-                <label className="form-label">{t("穩定標籤", "Stable Label")}</label>
-                <LabelSelector
-                  labels={options.stableLabels}
-                  selected={filters.stableLabels ?? []}
-                  onChange={(stableLabels) => onChange({ ...filters, stableLabels })}
-                  compact
-                />
-              </div>
-              <div className="col-12">
-                <label className="form-label">{t("國家標籤", "Country Label")}</label>
-                <LabelSelector
-                  labels={options.countryLabels}
-                  selected={filters.countryLabels ?? []}
-                  onChange={(countryLabels) => onChange({ ...filters, countryLabels })}
-                  compact
-                />
-              </div>
-              <div className="col-md-6">
-                <label className="form-label">{t("關鍵字", "Keywords")}</label>
-                <div className="input-icon">
-                  <span className="input-icon-addon">
-                    <IconSearch size={18} />
-                  </span>
-                  <input
-                    className="form-control"
-                    value={filters.keywords ?? ""}
-                    onChange={(event) => onChange({ ...filters, keywords: event.target.value })}
-                    placeholder={t("輸入關鍵字", "Enter keywords")}
-                  />
-                </div>
-              </div>
-              <div className="col-md-6">
-                <label className="form-label">{t("摘要包含文字", "Summary Contains Text")}</label>
+        </div>
+        <div>
+          <label className="form-label">{t("摘要包含文字", "Summary Contains Text")}</label>
+          <div className="input-icon">
+            <span className="input-icon-addon">
+              <IconSearch size={18} />
+            </span>
+            <input
+              className="form-control"
+              value={filters.summaryText ?? ""}
+              onChange={(event) => onChange({ ...filters, summaryText: event.target.value })}
+              placeholder={t("輸入摘要文字", "Enter summary text")}
+            />
+          </div>
+        </div>
+      </div>
+
+      {advancedOpen && (
+        <div className="article-search-advanced">
+          <div>
+            <label className="form-label">{t("穩定標籤", "Stable Label")}</label>
+            <LabelSelector
+              labels={options.stableLabels}
+              selected={filters.stableLabels ?? []}
+              onChange={(stableLabels) => onChange({ ...filters, stableLabels })}
+              compact
+            />
+          </div>
+          {advancedCountryLabels.length > 0 && (
+            <div>
+              <label className="form-label">{t("其他國家標籤", "Other Country Labels")}</label>
+              <LabelSelector
+                labels={advancedCountryLabels}
+                selected={filters.countryLabels ?? []}
+                onChange={(countryLabels) => onChange({ ...filters, countryLabels })}
+                compact
+              />
+            </div>
+          )}
+          <div className="article-search-grid">
+            <div>
+              <label className="form-label">{t("來源媒體", "Source Media")}</label>
+              <select
+                className="form-select"
+                value={(filters.sources ?? [])[0] ?? ""}
+                onChange={(event) =>
+                  onChange({ ...filters, sources: event.target.value ? [event.target.value] : [] })
+                }
+              >
+                <option value="">{t("全部來源", "All Sources")}</option>
+                {options.sources.filter((source) => source.articleCount > 0).map((source) => (
+                  <option key={source.sourceCode} value={source.sourceCode}>
+                    {source.displayName} ({source.articleCount})
+                  </option>
+                ))}
+              </select>
+            </div>
+            <div>
+              <label className="form-label">{t("關鍵字", "Keywords")}</label>
+              <div className="input-icon">
+                <span className="input-icon-addon">
+                  <IconSearch size={18} />
+                </span>
                 <input
                   className="form-control"
-                  value={filters.summaryText ?? ""}
-                  onChange={(event) => onChange({ ...filters, summaryText: event.target.value })}
-                  placeholder={t("輸入摘要文字", "Enter summary text")}
+                  value={filters.keywords ?? ""}
+                  onChange={(event) => onChange({ ...filters, keywords: event.target.value })}
+                  placeholder={t("輸入關鍵字", "Enter keywords")}
                 />
               </div>
             </div>
           </div>
-          <div className="modal-footer">
-            <button type="button" className="btn btn-link link-secondary" onClick={onReset}>
-              {t("重設", "Reset")}
-            </button>
-            <button type="button" className="btn btn-outline-secondary" onClick={onClose}>
-              {t("取消", "Cancel")}
-            </button>
-            <button type="submit" className="btn btn-primary">
-              {t("搜尋", "Search")}
-            </button>
-          </div>
-        </form>
+        </div>
+      )}
+
+      <div className="article-search-actions">
+        <button
+          className="btn btn-outline-secondary"
+          type="button"
+          onClick={() => onAdvancedOpenChange(!advancedOpen)}
+        >
+          <IconAdjustmentsHorizontal size={18} />
+          {advancedOpen ? t("收合進階搜尋", "Hide Advanced Search") : t("進階搜尋", "Advanced Search")}
+          <IconChevronDown className={advancedOpen ? "chevron-open" : ""} size={16} />
+        </button>
+        <div className="btn-list">
+          <button type="button" className="btn btn-outline-secondary" onClick={onReset}>
+            {t("重設", "Reset")}
+          </button>
+          <button type="submit" className="btn btn-primary">
+            {t("搜尋", "Search")}
+          </button>
+        </div>
       </div>
-      <div className="modal-backdrop show" onClick={onClose} />
-    </div>
+    </form>
   );
 }
 
@@ -494,11 +513,42 @@ function RawArticleModal({
 
 function hasActiveFilters(filters: ArticleFilters) {
   return (
-    filters.period !== "week" ||
+    filters.period !== "history" ||
     (filters.stableLabels?.length ?? 0) > 0 ||
     (filters.countryLabels?.length ?? 0) > 0 ||
     (filters.sources?.length ?? 0) > 0 ||
     Boolean(filters.keywords?.trim()) ||
     Boolean(filters.summaryText?.trim())
+  );
+}
+
+function countryQuickLabels(options: OptionsResponse) {
+  const codes = ["TAIWAN", "SOUTH_KOREA", "JAPAN", "CHINA", "REGIONAL"];
+  return codes.flatMap((code) => options.countryLabels.find((label) => label.code === code) ?? []);
+}
+
+function toggleValue(values: string[], value: string) {
+  return values.includes(value)
+    ? values.filter((item) => item !== value)
+    : [...values, value];
+}
+
+function PeriodButton({
+  active,
+  label,
+  onClick
+}: {
+  active: boolean;
+  label: string;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      className={`btn ${active ? "btn-primary" : "btn-outline-primary"}`}
+      type="button"
+      onClick={onClick}
+    >
+      {label}
+    </button>
   );
 }

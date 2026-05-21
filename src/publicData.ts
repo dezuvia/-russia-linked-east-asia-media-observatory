@@ -32,18 +32,20 @@ export async function getPublicMediaCandidates(): Promise<MediaCandidatesRespons
   return mediaCandidatesCache;
 }
 
-export async function getPublicOverview(range: "month" | "history"): Promise<OverviewData> {
+export async function getPublicOverview(range: "week" | "month" | "history"): Promise<OverviewData> {
   const [articles, options, manifest] = await Promise.all([
     getPublicArticlesData(),
     getPublicOptions(),
     getPublicManifest()
   ]);
   const now = new Date();
+  const weekStart = formatDate(startOfWeek(now));
   const monthStart = `${now.getFullYear()}-${`${now.getMonth() + 1}`.padStart(2, "0")}-01`;
-  const scopedArticles = range === "month"
+  const rangeStart = range === "week" ? weekStart : range === "month" ? monthStart : null;
+  const scopedArticles = rangeStart
     ? articles.filter((article) => {
       const date = publishedDatePart(article);
-      return date !== null && date >= monthStart;
+      return date !== null && date >= rangeStart;
     })
     : articles;
 
@@ -58,7 +60,7 @@ export async function getPublicOverview(range: "month" | "history"): Promise<Ove
     },
     daily: buildDailySeries(
       scopedArticles,
-      range === "month" ? dateFromPart(monthStart) ?? undefined : dateFromPart(manifest.historyStartDate ?? null) ?? undefined,
+      rangeStart ? dateFromPart(rangeStart) ?? undefined : dateFromPart(manifest.historyStartDate ?? null) ?? undefined,
       options.stableLabels,
       options.countryLabels
     ),
@@ -138,6 +140,10 @@ export async function getPublicArticles(filters: ArticleFilters): Promise<Articl
     hasNextPage: page < totalPages,
     articles: articles.slice(offset, offset + ARTICLE_PAGE_SIZE)
   };
+}
+
+export async function getPublicAllArticles(): Promise<ArticleRecord[]> {
+  return getPublicArticlesData();
 }
 
 async function getPublicArticlesData(): Promise<ArticleRecord[]> {

@@ -17,17 +17,6 @@ export default function SourcesPage() {
   return (
     <main className="page-body">
       <div className="container-xl">
-        <div className="page-header d-print-none">
-          <div className="row align-items-center">
-            <div className="col">
-              <h1 className="page-title">{t("來源", "Source")}</h1>
-              <div className="text-secondary">
-                {t("呈現候選媒體清單與查核欄位", "Displays the candidate media list and verification fields")}
-              </div>
-            </div>
-          </div>
-        </div>
-
         {error && <ErrorBlock message={error} />}
         {!error && !data && <LoadingBlock />}
         {data && (

@@ -9,7 +9,7 @@ export type LabelCount = Label & {
 };
 
 export type OverviewData = {
-  range: "month" | "history";
+  range: "week" | "month" | "history";
   generatedAt: string;
   totals: {
     scannedArticles: number;

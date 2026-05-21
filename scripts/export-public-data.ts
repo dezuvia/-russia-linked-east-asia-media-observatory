@@ -41,7 +41,7 @@ type ArticleRecord = {
 };
 
 const ISSUE_LABELS: Label[] = [
-  { code: "SECURITY_DEFENSE", zh: "安全防務", en: "Security & Defense" },
+  { code: "SECURITY_DEFENSE", zh: "國防安全", en: "Defense & Security" },
   { code: "DIPLOMACY", zh: "外交", en: "Diplomacy" },
   { code: "ECONOMY_TRADE", zh: "經濟貿易", en: "Economy & Trade" },
   { code: "TECHNOLOGY", zh: "科技", en: "Technology" },
@@ -92,7 +92,7 @@ try {
     sources
   });
   writeJson(`${OUT_DIR}/articles.json`, articles);
-  writeJson(`${OUT_DIR}/media-candidates.json`, parseMediaCandidates());
+  writeJson(`${OUT_DIR}/media-candidates.json`, parseMediaCandidates(loadBackfilledHomepageUrls(db)));
   console.log(`Exported ${articles.length} public article records to ${OUT_DIR}`);
 } finally {
   db.close();
@@ -183,6 +183,21 @@ function loadScannedArticleCount(db: DatabaseSync): number {
   return Number(row?.count ?? 0);
 }
 
+function loadBackfilledHomepageUrls(db: DatabaseSync): Set<string> {
+  const rows = db.prepare(`
+    SELECT ms.homepage_url AS homepageUrl
+    FROM source_backfill_state sbs
+    JOIN media_sources ms ON ms.source_code = sbs.source_code
+    WHERE sbs.coverage_status IN ('partial', 'complete')
+      AND EXISTS (
+        SELECT 1
+        FROM articles a
+        WHERE a.source_code = sbs.source_code
+      )
+  `).all() as Record<string, unknown>[];
+  return new Set(rows.map((row) => normalizedUrl(nullable(row.homepageUrl))).filter(Boolean));
+}
+
 function parseCountryLabel(row: Record<string, unknown>): Label | null {
   const code = nullable(row.countryLabelCode);
   if (!code) {
@@ -221,7 +236,7 @@ function parseKeywordTerms(raw: string | null): string[] {
   });
 }
 
-function parseMediaCandidates() {
+function parseMediaCandidates(backfilledHomepageUrls: Set<string>) {
   const markdown = readFileSync(MEDIA_CANDIDATES_PATH, "utf8");
   const lines = markdown.split(/\r?\n/);
   const checkedDate = lines.find((line) => line.startsWith("查核日期："))?.replace("查核日期：", "").trim() ?? null;
@@ -240,7 +255,9 @@ function parseMediaCandidates() {
   return {
     checkedDate,
     path: `sources/${basename(MEDIA_CANDIDATES_PATH)}`,
-    rows: tableRows.map((line) => parseMediaCandidateRow(splitMarkdownTableRow(line), headerCells))
+    rows: tableRows
+      .map((line) => parseMediaCandidateRow(splitMarkdownTableRow(line), headerCells))
+      .filter((row) => backfilledHomepageUrls.has(normalizedUrl(row.homepageUrl)))
   };
 }
 
@@ -308,6 +325,15 @@ function nullable(value: unknown): string | null {
 
 function value(value: unknown): string {
   return typeof value === "string" ? value : "";
+}
+
+function normalizedUrl(value: string | null): string {
+  return (value ?? "")
+    .trim()
+    .replace(/^https?:\/\//i, "")
+    .replace(/^www\./i, "")
+    .replace(/\/+$/, "")
+    .toLocaleLowerCase();
 }
 
 function isRecord(value: unknown): value is Record<string, unknown> {

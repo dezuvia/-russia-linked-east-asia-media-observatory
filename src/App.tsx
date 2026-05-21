@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { IconChartLine, IconDatabase, IconFileText, IconRefresh, IconTable } from "@tabler/icons-react";
+import { IconChartLine, IconFileText, IconRefresh, IconTable } from "@tabler/icons-react";
 import OverviewPage from "./pages/OverviewPage";
 import ArticlesPage from "./pages/ArticlesPage";
 import SourcesPage from "./pages/SourcesPage";
@@ -14,7 +14,7 @@ const navItems: Array<{
   icon: typeof IconChartLine;
 }> = [
   { key: "overview", zh: "總覽", en: "Overview", icon: IconChartLine },
-  { key: "articles", zh: "文章", en: "Articles", icon: IconFileText },
+  { key: "articles", zh: "新聞索引", en: "News Index", icon: IconFileText },
   { key: "sources", zh: "來源", en: "Source", icon: IconTable }
 ];
 
@@ -38,14 +38,12 @@ export default function App() {
       <header className="navbar navbar-expand-md d-print-none app-navbar">
         <div className="container-xl">
           <div className="navbar-brand navbar-brand-autodark pe-0 pe-md-3">
-            <span className="brand-mark">
-              <IconDatabase size={20} stroke={1.8} />
-            </span>
-              <span>
-                <span className="d-block">{t("俄羅斯關聯東亞媒體觀測站", "Russia-Linked East Asia Media Observatory")}</span>
-              <small className="text-secondary">{t("資料視覺化儀表板", "Data Visualization Dashboard")}</small>
-              </span>
-            </div>
+            <img
+              className="brand-visual"
+              src="/assets/brand/observatory-masthead-flat.png"
+              alt={t("俄羅斯關聯東亞媒體觀測站", "Russia-Linked East Asia Media Observatory")}
+            />
+          </div>
           <div className="navbar-nav flex-row order-md-last">
             <div className="btn-list me-2">
               <button
