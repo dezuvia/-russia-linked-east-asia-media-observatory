@@ -475,20 +475,20 @@ body {
   --field-bg: none;
   background-color: rgba(13, 23, 39, 0.18);
   background-image:
-    linear-gradient(90deg, rgba(13, 23, 39, 0.98) 0%, rgba(13, 23, 39, 0.88) 48%, rgba(13, 23, 39, 0.58) 100%),
+    linear-gradient(90deg, rgba(13, 23, 39, 0.46) 0%, rgba(13, 23, 39, 0.62) 24%, rgba(13, 23, 39, 0.9) 58%, rgba(13, 23, 39, 0.72) 100%),
     var(--field-bg);
   background-position: center, left center;
   background-repeat: no-repeat, no-repeat;
-  background-size: cover, auto 115%;
+  background-size: cover, auto 165%;
   transition: background-color 0.15s ease, border-color 0.15s ease;
 }
 
 .topic-table tbody tr:hover {
   background-color: rgba(14, 165, 233, 0.07);
   background-image:
-    linear-gradient(90deg, rgba(13, 23, 39, 0.96) 0%, rgba(13, 23, 39, 0.82) 48%, rgba(14, 165, 233, 0.1) 100%),
+    linear-gradient(90deg, rgba(13, 23, 39, 0.38) 0%, rgba(13, 23, 39, 0.56) 24%, rgba(13, 23, 39, 0.84) 58%, rgba(14, 165, 233, 0.14) 100%),
     var(--field-bg);
-  background-size: cover, auto 115%;
+  background-size: cover, auto 165%;
 }
 
 .country-subcell {
@@ -499,6 +499,9 @@ body {
   display: grid;
   gap: 0.38rem;
   min-width: 170px;
+  position: relative;
+  text-shadow: 0 1px 4px rgba(2, 8, 23, 0.65);
+  z-index: 1;
 }
 
 .topic-bar {
